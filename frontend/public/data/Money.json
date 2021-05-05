@@ -1,0 +1,17 @@
+{
+    "ID": 3,
+    "name": "Bases Quiz",
+    "description": "Bases",
+    "subject":"Inorganic",
+     "topic":"Bases",
+     "area":"Chemistry",
+    "questions": [
+        {"id":1,"Q":"What is the Currency of Brasil?","A":[{"id_":1,"opt":"The real Brasileño","isAnswer":true},{"id_":2,"opt":"Lima","isAnswer":false},{"id_":3,"opt":"México","isAnswer":false},{"id_":4,"opt":"Carabobo","isAnswer":false}],"Points":8,"E":"This Currency as established in 1876"},
+        {"id":2,"Q":"What is the Currency of Bolivia?","A":[{"id_":1,"opt":"Asunción","isAnswer":false},{"id_":2,"opt":"The boliviano","isAnswer":true},{"id_":3,"opt":"Buenos Aires","isAnswer":false},{"id_":4,"opt":"Pereira","isAnswer":false}],"Points":9,"E":"This Currency as established in 1888"},
+        {"id":3,"Q":"What is the Currency of Chile?","A":[{"id_":1,"opt":"Bosa","isAnswer":false},{"id_":2,"opt":"The Dolar","isAnswer":false},{"id_":3,"opt":"The peso chileno","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"This Currency as established in 1874"},
+        {"id":4,"Q":"What is the Currency of Colombia?","A":[{"id_":1,"opt":"Bosa","isAnswer":false},{"id_":2,"opt":"Caracas","isAnswer":false},{"id_":3,"opt":"Peso Colombiano","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"This Currency as established in 1874"},
+        {"id":5,"Q":"What is the Currency of Venezuela?","A":[{"id_":1,"opt":"Bosa","isAnswer":false},{"id_":2,"opt":"Caracas","isAnswer":false},{"id_":3,"opt":"The Bolivar","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"This Currency as established in 1872"}
+        
+        ]
+    
+} 

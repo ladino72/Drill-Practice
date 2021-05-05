@@ -1,0 +1,17 @@
+{
+    "ID": 9,
+    "name": "Waves Quiz",
+    "description": "Mechanical waves",
+    "subject":"Modern",
+     "topic":"Waves",
+     "area":"Physics",
+    "questions": [
+        {"id":1,"Q":" A sound wave has a frequency of 495 Hz and travels in air at a speed of 343 m/sec. How far apart are any two adjacent wave compressions?","A":[{"id_":1,"opt":"1.44 m","isAnswer":true},{"id_":2,"opt":"1.39 m","isAnswer":false},{"id_":3,"opt":"8.38","isAnswer":false},{"id_":4,"opt":"0.69","isAnswer":false}],"Points":8,"E":"wave length=velocity/frequency"},
+        {"id":2,"Q":"What is the main river of Bolivia?","A":[{"id_":1,"opt":"Chicamocha","isAnswer":false},{"id_":2,"opt":"Acre","isAnswer":true},{"id_":3,"opt":"Nilo","isAnswer":false},{"id_":4,"opt":"Pereira","isAnswer":false}],"Points":9,"E":"This river is very week"},
+        {"id":3,"Q":"What is the main river of Chile?","A":[{"id_":1,"opt":"Baker","isAnswer":false},{"id_":2,"opt":"Biobío","isAnswer":false},{"id_":3,"opt":"Loa","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"River of little flow and short route"},
+        {"id":4,"Q":"What is the main river of Colombia?","A":[{"id_":1,"opt":"Baker","isAnswer":false},{"id_":2,"opt":"Biobío","isAnswer":false},{"id_":3,"opt":"Magdalena","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"River of little flow and short route"},
+        {"id":5,"Q":"What is the capital of Brasil? ","A":[{"id_":1,"opt":"Brasilia","isAnswer":true},{"id_":2,"opt":"Lima","isAnswer":false},{"id_":3,"opt":"México","isAnswer":false},{"id_":4,"opt":"Carabobo","isAnswer":false}],"Points":8,"E":"This capital was established in 1876","LinkQ":"http://localhost:4000/mechanics/logo192.png","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"}
+        
+        ]
+    
+} 

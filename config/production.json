@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://luis:zZXs6KgECHxWMkoZ@cluster0.ywvxp.mongodb.net/physics?retryWrites=true&w=majority",
+    "jwtSecret":"mysecrettoken"
+}

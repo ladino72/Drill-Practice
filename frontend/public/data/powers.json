@@ -1,0 +1,18 @@
+{
+    "ID": 100,
+    "name": "Powers Quiz",
+    "description":"Operation with powers",
+    "subject":"Algebra",
+    "topic":"Powers",
+    "area":"Math",
+    "questions": [
+        {"id":1,"Q":"After simplifying $$x^5x^{-5}$$ we get: ","A":[{"id_":1,"opt":"1","isAnswer":true},{"id_":2,"opt":"$$x^{10}$$","isAnswer":false},{"id_":3,"opt":"$$x$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":8,"E":"We use $$x^{m}x^{n}=x^{m+n}$$, so $$x^{5}x^{-5}=x^{5+(-5)}=x^{0}=1$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":2,"Q":"After simplifying $$x^5x^{5}$$ we get: ","A":[{"id_":1,"opt":"$$x^{10}$$","isAnswer":true},{"id_":2,"opt":"$$x^{5}$$","isAnswer":false},{"id_":3,"opt":"$$x$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":8,"E":"We use $$x^{m}x^{n}=x^{m+n}$$, so $$x^{5}x^{5}=x^{5+5}=x^{0}=10$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":3,"Q":"After simplifying $$x^5x^{\\pi}$$ we get: ","A":[{"id_":1,"opt":"$$x^{10}$$","isAnswer":false},{"id_":2,"opt":"$$x^{5+\\pi}$$","isAnswer":true},{"id_":3,"opt":"$$5x$$","isAnswer":false},{"id_":4,"opt":"$$\\pi$$","isAnswer":false}],"Points":8,"E":"We use $$x^{m}x^{n}=x^{m+n}$$, so $$x^{5}x^{\\pi}=x^{5+\\pi}$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":4,"Q":"After simplifying $$(x^3)^2$$ we get: ","A":[{"id_":1,"opt":"$$x^{5}$$","isAnswer":false},{"id_":2,"opt":"$$x^{3}$$","isAnswer":false},{"id_":3,"opt":"$$x^6$$","isAnswer":true},{"id_":4,"opt":"$$x$$","isAnswer":false}],"Points":8,"E":"We use $$(x^{m})^{n}=x^{m \times n}$$, so $$(x^{3})^{2}=x^{3 \times 2}=x^{6}$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":5,"Q":"After simplifying $$(x^2)^3$$ we get: ","A":[{"id_":1,"opt":"$$x^{5}$$","isAnswer":false},{"id_":2,"opt":"$$x^{3}$$","isAnswer":false},{"id_":3,"opt":"$$x^6$$","isAnswer":true},{"id_":4,"opt":"$$x$$","isAnswer":false}],"Points":8,"E":"We use $$(x^{m})^{n}=x^{m \times n}$$, so $$(x^{2})^{3}=x^{2 \times 3}=x^{6}$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":6,"Q":"After simplifying $$(x^2)^0$$ we get: ","A":[{"id_":1,"opt":"$$x^{2}$$","isAnswer":false},{"id_":2,"opt":"$$x^{x}$$","isAnswer":false},{"id_":3,"opt":"$$x^0=1$$","isAnswer":true},{"id_":4,"opt":"$$2x$$","isAnswer":false}],"Points":8,"E":"We use $$(x^{m})^{n}=x^{m \times n}$$, so $$(x^{2})^{0}=x^{2 \times 0}=x^{0}=1$$","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"}
+        
+        ]
+    
+} 

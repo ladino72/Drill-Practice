@@ -1,0 +1,15 @@
+{
+    "ID": 5,
+    "name": "Momentum Quiz",
+    "description": "Conservation of momentum",
+    "subject":"Mechanics",
+     "topic":"Momentum",
+     "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"A car accelerates uniformly from rest to a final speed of 21 m/s in 10 seconds. How far does it travel during this period of acceleration?","A":[{"id_":1,"opt":"53 m","isAnswer":false},{"id_":2,"opt":"210 m","isAnswer":false},{"id_":3,"opt":"420 m ","isAnswer":false},{"id_":4,"opt":"105","isAnswer":true}],"Points":8,"E":"Hint: x=at*t/2 v*v=2ax ==> x=vt/2"},
+        {"id":2,"Q":"What is the main river of Bolivia?","A":[{"id_":1,"opt":"Chicamocha","isAnswer":false},{"id_":2,"opt":"Acre","isAnswer":true},{"id_":3,"opt":"Nilo","isAnswer":false},{"id_":4,"opt":"Pereira","isAnswer":false}],"Points":9,"E":"This river is very week"},
+        {"id":3,"Q":"What is the main river of Chile?","A":[{"id_":1,"opt":"Baker","isAnswer":false},{"id_":2,"opt":"Biobío","isAnswer":false},{"id_":3,"opt":"Loa","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"River of little flow and short route"},
+        {"id":4,"Q":"What is the main river of Colombia?","A":[{"id_":1,"opt":"Baker","isAnswer":false},{"id_":2,"opt":"Biobío","isAnswer":false},{"id_":3,"opt":"Magdalena","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"River of little flow and short route"}
+        ]
+    
+} 
