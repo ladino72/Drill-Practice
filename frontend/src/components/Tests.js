@@ -188,7 +188,7 @@ function App() {
 
 
   return (
-    <Fragment>
+    <Fragment className="container">
       {tests.length > 0 ? (
         <MenuTests tests={tests} setQuizId={setQuizId}  />
       ) : null}
