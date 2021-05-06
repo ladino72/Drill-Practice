@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from "react-redux";
 import Questions from "./Questions";
 import Results from './Results';
 import Review from "./Review";
+import Button from "react-bootstrap/Button";
+
 
 import { PagerUpdatetActionCreator } from '../Redux/actions/PagerUpdateActionCreator';
 import { QuizSubmitActionCreator } from "../Redux/actions/QuizSubmitActionCreator";
@@ -65,9 +67,9 @@ const Quiz = () => {
             {renderMode()}
             {(mode !== 'submit') &&
                 <div >
-                    <button id="quiz" className="btn btn-info" style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Quiz</button>
-                    <button id="review" className="btn btn-info" style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Review</button>
-                    <button id="submit" className="btn btn-primary" style={{ width: "120px", margin: "0 10px" }} onClick={(e) => setMode(e)} >Submit Quiz</button >
+                    <Button id="quiz" variant="info" style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Quiz</Button>
+                    <Button id="review" variant="info" style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Review</Button>
+                    <Button id="submit" variant="primary" style={{ width: "120px", margin: "0 10px" }} onClick={(e) => setMode(e)} >Submit Quiz</Button >
 
                 </div >}
 

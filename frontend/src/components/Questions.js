@@ -6,6 +6,8 @@ import "../style.css"
 import uuid from "react-uuid";
 import { InlineTex } from 'react-tex';
 import getTestValue from "../utils/getTestValue";
+import Button from "react-bootstrap/Button";
+
 
 //import {InputGroup, FormControl} from 'react-bootstrap'
 
@@ -118,10 +120,10 @@ return (
 
       <hr />
       <div className="row justify-content-center"  >
-            {quiz.config.allowBack &&<button id="first" className="btn btn-info   col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>First</button>}
-            {quiz.config.allowBack &&<button id="prev" className="btn btn-info   col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>Prev</button>}
-            <button id="next" className="btn btn-info col-md-1 "style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Next</button>
-            <button id="last" className="btn btn-info   col-md-1 " style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Last</button>
+            {quiz.config.allowBack &&<Button id="first" variant="info" className=" col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>First</Button>}
+            {quiz.config.allowBack &&<Button id="prev" variant="info" className="col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>Prev</Button>}
+            <Button id="next" variant="info" className="col-md-1 "style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Next</Button>
+            <Button id="last" variant="info" className="col-md-1 " style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Last</Button>
       </div>
         
         <hr />
