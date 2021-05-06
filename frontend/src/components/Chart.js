@@ -4,7 +4,7 @@ import {Bar } from "react-chartjs-2";
 //https://codesandbox.io/s/jjpk3o5l3?file=/src/Hello.js:52-71
 const Chart = ({ chartDatos}) => {
     const [chartData, setChartData] = useState({});
-    const {data,topic,particpant_num}=chartDatos;
+    const {data,topic}=chartDatos;
 
     data.sort((a, b) => (a.id > b.id) ? 1 : -1)
 
@@ -29,7 +29,7 @@ const Chart = ({ chartDatos}) => {
             });
         };
         chart();
-    }, [chartDatos]);
+    }, [chartDatos,data,topic]);
 
     return (
         <div >

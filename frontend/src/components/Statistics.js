@@ -9,7 +9,6 @@ import axios from "axios"
 
 //import Button from 'react-bootstrap/Button';
 //import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import Jumbotron from "react-bootstrap/Jumbotron"
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import uuid from "react-uuid"

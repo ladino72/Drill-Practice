@@ -1,5 +1,4 @@
 import React,{Fragment,useEffect} from "react";
-import { Link,Redirect} from 'react-router-dom';
 import PrivateRoute from "./components/Routing/PrivateRoute"
 
 
