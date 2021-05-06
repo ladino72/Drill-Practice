@@ -16,7 +16,7 @@ import HallOfFame from "./components/HallOfFame"
 import Statistics from "./components/Statistics"
 
 
-//import "./App.css"
+import "./App.css"
 import store from "./Redux/store"
 
 import {logOutActionCreator} from "./Redux/actions/AuthActionCreator"; //************* */

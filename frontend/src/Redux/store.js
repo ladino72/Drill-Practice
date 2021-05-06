@@ -1,7 +1,6 @@
 import rootReducer from "./reducers"
 import {createStore, applyMiddleware} from "redux";
 import {composeWithDevTools} from "redux-devtools-extension";
-import setAuthToken from './../utils/SetAuthToken';
 import thunk from "redux-thunk"
 
 const middleware=[thunk]
