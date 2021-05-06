@@ -7,7 +7,6 @@ import Review from "./Review";
 
 import { PagerUpdatetActionCreator } from '../Redux/actions/PagerUpdateActionCreator';
 import { QuizSubmitActionCreator } from "../Redux/actions/QuizSubmitActionCreator";
-import axios from "axios";
 
 const Quiz = () => {
     const dispatch = useDispatch();
@@ -42,21 +41,7 @@ const Quiz = () => {
         dispatch(QuizSubmitActionCreator(e.target.id))
     };
 
-    const postScore = (currentTestId, score) => {
-        const axiosconfig = {
-            headers: {
-                "Content-Type": "application/json"
-            }
-        }
-        try {
-            axios.post("/api/ranking", { "ID": currentTestId, "score": score }, axiosconfig)
-
-        } catch (error) {
-            console.error("Server error")
-        }
-    };
-
-
+    
     const renderMode = () => {
         if (mode === 'quiz') {
 
