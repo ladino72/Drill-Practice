@@ -10,7 +10,7 @@ const MenuTests = ({ tests, setQuizId }) => {
 
     return (
 
-        <div style={{backgroundColor:"#f0f8ff"}} className="container">
+        <div style={{backgroundColor:"#f0f8ff"}}>
 
             <div className="d-flex justify-content-between flex-wrap align-items-center">
                 <h4 className=" px-2" >Physics</h4>
