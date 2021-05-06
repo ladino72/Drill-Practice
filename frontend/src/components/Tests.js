@@ -70,7 +70,7 @@ function App() {
       dispatch(CurrentTestIdActionCreator(id));
 
       axios
-        .get(`http://localhost:4000/api/tests/${id}`)
+        .get(`/api/tests/${id}`)
         .then((res) => {
           let Quiz = res.data;
 

@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 4000);
 app.use(express.urlencoded({ extended: true }));
 
 //Init middlewares 
-//app.use(cors()) ;
+app.use(cors());
 app.use(express.json());
 
 // Define routes
