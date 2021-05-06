@@ -120,10 +120,10 @@ return (
 
       <hr />
       <div className="row justify-content-center"  >
-            {quiz.config.allowBack &&<Button id="first" variant="info" className=" col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>First</Button>}
-            {quiz.config.allowBack &&<Button id="prev" variant="info" className="col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>Prev</Button>}
-            <Button id="next" variant="info" className="col-md-1 "style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Next</Button>
-            <Button id="last" variant="info" className="col-md-1 " style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Last</Button>
+            {quiz.config.allowBack &&<Button variant="info" id="first"  className=" col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>First</Button>}
+            {quiz.config.allowBack &&<Button variant="info" id="prev"  className="col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>Prev</Button>}
+            <Button variant="info" id="next"  className="col-md-1 "style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Next</Button>
+            <Button variant="info" id="last" className="col-md-1 " style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Last</Button>
       </div>
         
         <hr />
