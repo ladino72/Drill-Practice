@@ -73,12 +73,12 @@ function Questions({ move}) {
 //let questions = questions ?questions.slice(pager.index, pager.index + pager.size) : [];
     
 return (
-  <div id="quiz" style={{backgroundColor:"#ebf5f0"}} >
+  <div id="quiz" style={{backgroundColor:"#ebf5f0", marginBottom:"0.5rem"}} className="container" >
 
-        <div className="row " style={{color:"navy",fontSize:"1.2rem",marginTop:"1rem"}}>
-            <div className="col-4 text-left" >{quiz.name}</div>
-            <div className="col-4 text-center ">{USER}</div>
-            <div className="col-4 text-right ">Score:{score.p_score}/{t_score}</div>
+        <div className="d-flex flex-wrap justify-content-between" style={{color:"navy",fontSize:"1.2rem",marginTop:"1rem", width:"100%"}} >
+            <div className="text-left" >{quiz.name}</div>
+            <div className="text-center ">{USER}</div>
+            <div className="text-right ">Score:{score.p_score}/{t_score}</div>
 
         </div> 
       
@@ -120,10 +120,10 @@ return (
 
       <hr />
       <div className="row justify-content-center"  >
-            {quiz.config.allowBack &&<Button variant="info" id="first"  className=" col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>First</Button>}
-            {quiz.config.allowBack &&<Button variant="info" id="prev"  className="col-md-1 " style={{margin:"5px 10px"}} onClick={(e)=>move(e)}>Prev</Button>}
-            <Button variant="info" id="next"  className="col-md-1 "style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Next</Button>
-            <Button variant="info" id="last" className="col-md-1 " style={{margin:"5px 10px"}}  onClick={(e)=>move(e)}>Last</Button>
+            {quiz.config.allowBack &&<Button variant="info" id="first"  className=" col-md-1 " onClick={(e)=>move(e)}>First</Button>}
+            {quiz.config.allowBack &&<Button variant="info" id="prev"  className="col-md-1 " onClick={(e)=>move(e)}>Prev</Button>}
+            <Button variant="info" id="next"  className="col-md-1 "  onClick={(e)=>move(e)}>Next</Button>
+            <Button variant="info" id="last" className="col-md-1 "  onClick={(e)=>move(e)}>Last</Button>
       </div>
         
         <hr />

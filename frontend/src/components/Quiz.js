@@ -43,7 +43,7 @@ const Quiz = () => {
         dispatch(QuizSubmitActionCreator(e.target.id))
     };
 
-    
+
     const renderMode = () => {
         if (mode === 'quiz') {
 
@@ -53,10 +53,10 @@ const Quiz = () => {
             return (<Review move={move} />)
         } else if (mode === 'submit') {
             //if (pager.index + 1 === pager.count) {
-                return (<Results move={move} />)
+            return (<Results move={move} />)
             //} else {
-                //dispatch(QuizSubmitActionCreator("quiz"));
-                //dispatch(SetAlertActionCreator("Please answer all questions", "danger"));
+            //dispatch(QuizSubmitActionCreator("quiz"));
+            //dispatch(SetAlertActionCreator("Please answer all questions", "danger"));
             //}
 
         } else { }
@@ -67,10 +67,9 @@ const Quiz = () => {
             {renderMode()}
             {(mode !== 'submit') &&
                 <div >
-                    <Button variant="info" id="quiz"  style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Quiz</Button>
-                    <Button variant="info" id="review" style={{ width: "90px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Review</Button>
-                    <Button variant="primary" id="submit" style={{ width: "90px", margin: "0 10px" }} onClick={(e) => setMode(e)} >Submit</Button >
-
+                    <Button variant="info" id="quiz" onClick={(e) => setMode(e)}>Quiz</Button>
+                    <Button variant="info" id="review" onClick={(e) => setMode(e)}>Review</Button>
+                    <Button variant="primary" id="submit" onClick={(e) => setMode(e)} >Submit</Button >
                 </div >}
 
         </div>
