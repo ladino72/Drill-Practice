@@ -155,7 +155,7 @@ const Statistics = (props) => {
                 </div>
             </div>
             <h6 style={{ color: "blue", paddingTop: "10px", fontSize: "1.2rem" }}>
-                This section shows the statistics of the average scores in percentage form of all the participants. Please select a topic to see the stattistics.
+                Statistics of the average scores in percentage form for all participants. Please select a topic to see the stattistics.
     </h6>
 
 

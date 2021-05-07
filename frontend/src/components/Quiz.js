@@ -68,8 +68,8 @@ const Quiz = () => {
             {(mode !== 'submit') &&
                 <div >
                     <Button variant="info" id="quiz"  style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Quiz</Button>
-                    <Button variant="info" id="review" style={{ width: "80px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Review</Button>
-                    <Button variant="danger" id="submit" style={{ width: "120px", margin: "0 10px" }} onClick={(e) => setMode(e)} >Submit</Button >
+                    <Button variant="info" id="review" style={{ width: "90px", margin: "0 10px" }} onClick={(e) => setMode(e)}>Review</Button>
+                    <Button variant="primary" id="submit" style={{ width: "90px", margin: "0 10px" }} onClick={(e) => setMode(e)} >Submit</Button >
 
                 </div >}
 
