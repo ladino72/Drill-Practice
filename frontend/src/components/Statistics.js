@@ -161,7 +161,7 @@ const Statistics = (props) => {
 
             {statData.data !== undefined ?
                 <div>
-                    <h5 style={{color:"#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h5>
+                    <h6 style={{color:"#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h6>
                     <Chart chartDatos={statData} />
                 </div>
                 : null}
