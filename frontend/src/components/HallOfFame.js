@@ -160,8 +160,8 @@ const HallOfFame = (props) => {
             {score[0] !== undefined ?
                 <div style={{ marginTop: "10px" }} >
                     <div>
-                        <h5 style={{ color: "blue" }}>{score[0].name} / {score[0].value.toFixed(2)} points</h5>
-                        <h5 style={{ color: "red" }}>RANKING</h5>
+                        <h6 style={{ color:"#0099CC" }}>{score[0].name} / {score[0].value.toFixed(2)} points</h6>
+                        <h6 style={{ color:"#0099CC" }}>RANKING</h6>
                     </div>
 
                     <div>

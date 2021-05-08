@@ -154,14 +154,14 @@ const Statistics = (props) => {
                     </Nav>
                 </div>
             </div>
-            <h6 style={{ color: "blue", paddingTop: "10px", fontSize: "1.2rem" }}>
-                Statistics of the average scores in percentage form for all participants. Please select a topic to see the stattistics.
+            <h6 style={{color:"#0099CC", paddingTop: "10px", fontSize: "1.1rem" }}>
+                Statistics of the average scores in percentage form for all participants.
     </h6>
 
 
             {statData.data !== undefined ?
                 <div>
-                    <h5 style={{ color: "red", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h5>
+                    <h5 style={{color:"#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h5>
                     <Chart chartDatos={statData} />
                 </div>
                 : null}
