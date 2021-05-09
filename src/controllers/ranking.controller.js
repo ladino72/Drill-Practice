@@ -46,6 +46,15 @@ rankingCtrl.registerScore = async (req, res) => {
 
     console.log('From registerScore Table_', Table_);
 
+    //Find an empty id. This happens when user submit the test without selecting an option.
+    let empty=false;
+    for(let q=0;q<Table_.length;q++){
+        if (Number.isNaN(Table_[q].id)) {
+            empty=true;
+            break;
+          }
+    }
+    console.log("Does user submit the test without answers?",empty,"so, in the userAnswersTable no id equals NaN ")
 
     
     try {
@@ -54,7 +63,7 @@ rankingCtrl.registerScore = async (req, res) => {
         let ranking = await Ranking.findOne({ "testID": ID });
 
 
-        if (ranking) {
+        if (ranking && !empty) {
 
             let ranking_ = await Ranking.findOne({ "testID": ID });
 
