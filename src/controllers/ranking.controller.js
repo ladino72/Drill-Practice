@@ -34,19 +34,20 @@ rankingCtrl.registerScore = async (req, res) => {
     console.log("Temp_Table", Temp_Table)
     let Table_ = [];
     for (let p = 0; p < Temp_Table.length; p++) {
-        Table_[p] = { "Correct": Temp_Table[p].Correct === ("true"), "id": parseInt(Temp_Table[p].id) }
+        //Table_[p] = { "Correct": Temp_Table[p].Correct === ("true"), "id": parseInt(Temp_Table[p].id) }
+
+        //Converting a possible string into integer
+        //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt
+        //console.log("Types of variables",10*Number.parseInt(" 45",10),Number.parseInt("35 ",10));
+
+        Table_[p] = { "Correct": Temp_Table[p].Correct === ("true"), "id": Number.parseInt(Temp_Table[p].id,10) }
+
     }
 
     console.log('From registerScore Table_', Table_);
 
 
-    //Testing type of variable
-    //console.log("Types of variables",typeof(parseInt(Table[0].id)));
-    //console.log("Types of variables",Table[0].Correct===("true"),Table[1].Correct===("true"));
-
-
-
-
+    
     try {
 
         let user = await User.findById(req.user.id).select("-password");

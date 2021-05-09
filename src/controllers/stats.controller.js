@@ -45,7 +45,7 @@ statsCtrl.getStats = async (req, res) => {
         data_["topic"]=topic;
 
         let data=JSON.parse(JSON.stringify(data_));
-        console.log("================",data)
+        console.log("=====From stats.controller.js===========",data)
 
 
         
