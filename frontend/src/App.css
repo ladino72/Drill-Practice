@@ -314,6 +314,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex:wrap;
   padding: 0.7rem 2rem;
   position: relative;
   z-index: 1;
