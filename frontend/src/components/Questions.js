@@ -89,7 +89,7 @@ return (
               <div className="h6 py-3" >{pager.index + 1}. <InlineTex texContent={quest.Q}/></div>
 
               <div className="row " >
-                  <div className="row col-md-7 "  >
+                  <div className="row col-md-8 "  >
                   {
                       
                       quest.A.map(option =>
@@ -105,7 +105,7 @@ return (
                   } 
                   </div>
 
-                  <div className=" col-md-5 ">
+                  <div className=" col-md-4 ">
                       <div className="logo d-flex justify-content-center">
                           {quest.LinkQ? <img src={quest.LinkQ} width="150"  alt=""/>:null}
                       </div>

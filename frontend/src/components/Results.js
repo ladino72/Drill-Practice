@@ -83,13 +83,13 @@ const handleClick=(e)=>{
 
     return (
       
-      <div  >
-        <h5 className="text-center font-weight-normal">Results</h5>
+      <div >
+        
 
-        <div className="row " style={{color:"navy",fontSize:"1.2rem",marginTop:"1rem"}}>
-            <div className="col-4 text-left" >{quiz.name}</div>
-            <div className="col-4 text-center ">{user.name}</div>
-            <div className="col-4 text-right ">Score:{score.p_score}/{score.t_score}</div>
+        <div className="d-flex flex-wrap justify-content-between" style={{color:"#0099CC",fontSize:"1.1rem",marginTop:"1rem", width:"100%"}} >
+            <div className="text-left" >{quiz.name}</div>
+            <div className="text-center ">{user.name}</div>
+            <div className="text-right ">Score:{score.p_score}/{score.t_score}</div>
 
         </div> 
                 
@@ -101,7 +101,7 @@ const handleClick=(e)=>{
                     <p><span style={{color:"red"}}>Q{index+1}{": "}</span><InlineTex texContent={quest.Q}/></p>
                     
                     <div className="row" >
-                      <div className="col-md-3 d-flex flex-column justify-content-start ">
+                      <div className="col-md-4 d-flex flex-column justify-content-start ">
                           {quest.A.map(opt=>(
                             
                               <div key={uuid()} >
@@ -123,24 +123,24 @@ const handleClick=(e)=>{
                           ))}
                             </div>
 
-                      <div className="col-md-3 d-flex justify-content-center">
+                      <div className="col-md-2">
                               {/*Here the figure goes */}
-                              <div className="logo">
+                              <div className="logo d-flex justify-content-center">
                                 {quest.LinkQ? <img src={quest.LinkQ} width="150"  alt=""/>:null}
                             </div>
                       </div>
-                      <div className="col-md-3">
+                      <div className="col-md-4">
                               {/*Here the explanation goes */}
                                 
                                 <div >
-                                  {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null?<h5>Explanation:</h5> :null}
+                                  {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null?<h6>Explanation:</h6> :null}
                                   {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null?<InlineTex texContent={quest.E}/> :null}
                                  </div>
                             
                       </div>
-                      <div className="col-md-3 d-flex justify-content-center">
+                      <div className="col-md-2 ">
                               {/*Here the figure accompanying the explanation goes */}
-                              <div className="logo">
+                              <div className="logo d-flex justify-content-center">
                                 {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null&&quest.LinkA? <img src={quest.LinkA} width="170"  alt=""/>:null}
                             </div>
                       </div>
