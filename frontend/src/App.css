@@ -394,6 +394,7 @@ button {
 
   .navbar ul {
     text-align: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
 
