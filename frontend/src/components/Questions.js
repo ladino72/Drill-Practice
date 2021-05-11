@@ -120,7 +120,7 @@ function Questions({ move }) {
             </div >
 
             <hr />
-                <div className="d-flex justify-content-center flex-wrap"  >
+                <div className="d-flex justify-content-center "  >
                     {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem"}} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
                     {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                     <Button variant="info" id="next" style={{ marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Next</Button>
