@@ -125,8 +125,8 @@ const handleClick=(e)=>{
 
                       <div className="col-md-2">
                               {/*Here the figure goes */}
-                              <div className="logo d-flex justify-content-center">
-                                {quest.LinkQ? <img src={quest.LinkQ} width="150"  alt=""/>:null}
+                              <div className="d-flex justify-content-center">
+                                {quest.LinkQ? <img src={quest.LinkQ} width="100%" height="null" alt=""/>:null}
                             </div>
                       </div>
                       <div className="col-md-4">
@@ -140,8 +140,8 @@ const handleClick=(e)=>{
                       </div>
                       <div className="col-md-2 ">
                               {/*Here the figure accompanying the explanation goes */}
-                              <div className="logo d-flex justify-content-center">
-                                {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null&&quest.LinkA? <img src={quest.LinkA} width="170"  alt=""/>:null}
+                              <div className="d-flex justify-content-center">
+                                {answer_sheet[index]!==undefined&&answer_sheet[index].A!==null&&quest.LinkA? <img src={quest.LinkA} width="100%" height="null"  alt=""/>:null}
                             </div>
                       </div>
                     </div> 
