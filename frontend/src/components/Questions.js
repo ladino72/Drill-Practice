@@ -81,7 +81,7 @@ function Questions({ move }) {
                 <div className="text-right ">Score:{score.p_score}/{t_score}</div>
 
             </div>
-            <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem" }} className="container" >
+            <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem" }}  >
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
                     <div key={quest.id}>
