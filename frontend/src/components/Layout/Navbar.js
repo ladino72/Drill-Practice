@@ -6,11 +6,11 @@ const Navbar = ({logout}) => {
   const {isAuthenticated,loading} = useSelector(state => state.AuthReducer);
   
   const authLinks = (
-    <ul className="d-flex flex-wrap justify-content-between sm">
+    <ul>
     <li>
         <Link to="/tests">Tests</Link>
       </li>
-      <li>
+      <li className="nowrap">
         <Link to="/hallOfame">Hall of fame</Link>
       </li>
       <li>
@@ -20,7 +20,7 @@ const Navbar = ({logout}) => {
       <li>
         <Link to ="/" onClick={() =>logout()} >
         <i className="fas fa-sign-out-alt" />{' '}
-          <span className="hide-sm">Logout</span>  
+          <span >Logout</span>  
         </Link>
       </li>
       

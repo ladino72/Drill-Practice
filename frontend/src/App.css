@@ -21,6 +21,10 @@ body {
   color: #333;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 a {
   color: var(--primary-color);
   text-decoration: none;
