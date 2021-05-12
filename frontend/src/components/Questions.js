@@ -93,10 +93,10 @@ function Questions({ move }) {
                                 {
                                     quest.A.map(option =>
 
-                                        <div key={uuid()} className="col-8">
+                                        <div key={uuid()} className="col-12">
                                             <label className="font-weight-normal " htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
-                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <InlineTex texContent={option.opt} />
+                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{fontSize:"0.9rem"}} ><InlineTex texContent={option.opt} /></span>
                                             </label>
                                         </div>
 

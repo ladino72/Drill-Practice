@@ -117,7 +117,7 @@ const Results = () => {
 
                         : null}
 
-                      <InlineTex texContent={opt.opt} />
+                        <span style={{fontSize:"0.9rem"}} > <InlineTex texContent={opt.opt} /></span>
                     </div>
                   </div>
 
