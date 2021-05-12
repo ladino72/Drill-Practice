@@ -122,12 +122,12 @@ function Questions({ move }) {
             <hr />
             <div className=" d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
                 <div className=" d-flex justify-content-around">
-                    {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem", marginBottom: "0.4rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
                     {quiz.config.allowBack && <Button style={{marginLeft:"2rem" ,marginBottom: "0.4rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
                 <div className=" d-flex justify-content-around">
                     <Button variant="info" id="next" style={{marginLeft:"2rem", marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Next</Button>
-                    <Button variant="info" id="last" style={{ marginLeft:"2rem",marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Last</Button>
+                    <Button variant="info" id="last" style={{marginLeft:"2rem",marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
             <hr className="mt-1" />
