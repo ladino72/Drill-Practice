@@ -75,13 +75,13 @@ function Questions({ move }) {
     return (
         <div>
 
-            <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "1rem", width: "100%" }} >
+            <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", width: "100%" }} >
                 <div className="text-left" >{quiz.name}</div>
                 <div className="text-center ">{USER}</div>
                 <div className="text-right ">Score:{score.p_score}/{t_score}</div>
 
             </div>
-            <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem" }}  >
+            <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem",marginTop: "0.5rem" }}  >
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
                     <div key={quest.id}>
@@ -93,7 +93,7 @@ function Questions({ move }) {
                                 {
                                     quest.A.map(option =>
 
-                                        <div key={uuid()} className="col-8 ">
+                                        <div key={uuid()} className="col-8">
                                             <label className="font-weight-normal " htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
                                                 <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <InlineTex texContent={option.opt} />
@@ -120,11 +120,11 @@ function Questions({ move }) {
             </div >
 
             <hr />
-                <div className="d-flex justify-content-center "  >
+                <div className=" d-flex justify-content-center" style={{width:"100%"}} >
                     {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem"}} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
-                    {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
+                    {quiz.config.allowBack && <Button style={{ marginBottom: "0.4rem"}} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                     <Button variant="info" id="next" style={{ marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Next</Button>
-                    <Button variant="info" id="last" style={{ marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Last</Button>
+                    <Button variant="info" id="last" style={{ marginBottom: "0.4rem"}} onClick={(e) => move(e)}>Last</Button>
                 </div>
                 <hr className="mt-1"/>
         </div>

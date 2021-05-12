@@ -87,7 +87,7 @@ const Results = () => {
     <div >
 
 
-      <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "1rem", width: "100%" }} >
+      <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", marginBottom: "0.5rem",width: "100%" }} >
         <div className="text-left" >{quiz.name}</div>
         <div className="text-center ">{user.name}</div>
         <div className="text-right ">Score:{score.p_score}/{score.t_score}</div>
