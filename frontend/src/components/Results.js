@@ -102,14 +102,14 @@ const Results = () => {
             <p><span style={{ color: "red" }}>Q{index + 1}{": "}</span><InlineTex texContent={quest.Q} /></p>
 
             <div className="row" >
-              <div className="col-md-7 d-flex flex-column justify-content-start ">
+              <div className="col-md-7 d-flex flex-column justify-content-start">
                 {quest.A.map(opt => (
 
                   <div key={uuid()} >
                     <div className="d-flex align-items-center">
                       <input id={opt.id} type="checkbox" disabled={opt.disabled} checked={opt.selected} readOnly />
                       {(answer_sheet[index] !== undefined ? (opt.id_ === answer_sheet[index].RightAnswerId && answer_sheet[index].A !== null) : null) ?
-                        <FaCheck style={{ color: "blue", fontSize: "1.5rem" }} />
+                        <FaCheck style={{ color: "blue", fontSize: "1.1rem" }} />
                         : null}
                       {answer_sheet[index] !== undefined ? ((answer_sheet[index] !== null && parseInt(answer_sheet[index].A) !== answer_sheet[index].RightAnswerId && parseInt(answer_sheet[index].A) === opt.id_) ? <FaTimes style={{ color: "red", fontSize: "1.1rem" }} />
 
@@ -126,7 +126,7 @@ const Results = () => {
 
               <div className="col-md-5">
                 {/*Here the figure goes */}
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-center my-2">
                   {quest.LinkQ ? <img src={quest.LinkQ} width="100%" height="null" alt="" /> : null}
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Results = () => {
                 </div>
 
               </div>
-              <div className="col-md-5 ">
+              <div className="col-md-5 my-2">
                 {/*Here the figure accompanying the explanation goes */}
                 <div className="d-flex justify-content-center">
                   {answer_sheet[index] !== undefined && answer_sheet[index].A !== null && quest.LinkA ? <img src={quest.LinkA} width="100%" height="null" alt="" /> : null}
