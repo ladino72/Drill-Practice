@@ -102,11 +102,11 @@ const Results = () => {
             <p><span style={{ color: "red" }}>Q{index + 1}{": "}</span><InlineTex texContent={quest.Q} /></p>
 
             <div className="row" >
-              <div className="col-md-7 d-flex flex-column justify-content-start">
+              <div className="col-md-7 d-flex flex-column justify-content-center">
                 {quest.A.map(opt => (
 
                   <div key={uuid()} >
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center py-2">
                       <input id={opt.id} type="checkbox" disabled={opt.disabled} checked={opt.selected} readOnly />
                       {(answer_sheet[index] !== undefined ? (opt.id_ === answer_sheet[index].RightAnswerId && answer_sheet[index].A !== null) : null) ?
                         <FaCheck style={{ color: "blue", fontSize: "1.1rem" }} />
@@ -115,7 +115,7 @@ const Results = () => {
 
                         : (answer_sheet[index] !== undefined ? (opt.id_ !== answer_sheet[index].RightAnswerId && answer_sheet[index].A !== null) : null) ? <FaTimes style={{ color: "gray", fontSize: "1.1rem" }} /> : null)
 
-                        : null}
+                        : null} 
 
                         <span style={{fontSize:"0.9rem"}} > <InlineTex texContent={opt.opt} /></span>
                     </div>
@@ -136,7 +136,7 @@ const Results = () => {
                 {/*Here the explanation goes */}
 
                 <div >
-                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <h6>Explanation:</h6> : null}
+                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <h6 style={{fontWeight:"bold",color:"black"}}>Solution:</h6> : null}
                   {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <InlineTex texContent={quest.E} /> : null}
                 </div>
 
