@@ -78,7 +78,7 @@ function Questions({ move }) {
             <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", width: "100%" }} >
                 <div className="text-left" >{quiz.name}</div>
                 <div className="text-center ">{USER}</div>
-                <div className="text-right ">Score:{score.p_score}/{t_score}</div>
+                <div className="text-right " style={{color:"white",backgroundColor:"#17a2b8"}}>Score:{score.p_score}/{t_score}</div>
 
             </div>
             <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem", marginTop: "0.5rem" }}  >

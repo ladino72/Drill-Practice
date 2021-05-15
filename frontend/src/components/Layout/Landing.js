@@ -19,7 +19,7 @@ const Landing = () => {
         <div className='landing-inner'>
           <h1 className='x-large'>Drill and Practice Application in Science </h1>
           <p className='lead'>
-            Reinfoce basic concepts of physics, mathematics, chemistry, etc. 
+            Reinforce basic concepts of physics, mathematics, chemistry, etc. 
             
           </p>
           <div className='buttons'>

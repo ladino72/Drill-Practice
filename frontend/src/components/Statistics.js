@@ -154,8 +154,8 @@ const Statistics = (props) => {
                     </Nav>
                 </div>
             </div>
-            <h6 style={{color:"#0099CC", paddingTop: "10px", fontSize: "1.1rem" }}>
-                Statistics of the average scores in percentage form for all participants.
+            <h6 style={{color:"black", paddingTop: "10px", fontSize: "1.1rem" }}>
+            Average score as a percentage for each problem.
     </h6>
 
 
