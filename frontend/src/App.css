@@ -22,7 +22,7 @@ ul {
 
 img {
   width: 50%;
-  height: fit-content; }
+  height: auto; }
 
 /* Utilities */
 .container {
