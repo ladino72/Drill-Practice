@@ -21,8 +21,8 @@ ul {
   list-style: none; }
 
 img {
-  width: 50%;
-  height: auto; }
+  width: auto;
+  height: 50%; }
 
 /* Utilities */
 .container {
