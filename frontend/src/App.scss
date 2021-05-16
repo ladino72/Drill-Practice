@@ -34,7 +34,7 @@ ul {
 
 img {
   width: 50%;
-  height: fit-content;
+  height: auto;
 }
 
 /* Utilities */
@@ -398,6 +398,7 @@ button {
   .navbar ul {
     text-align: center;
     justify-content: center;
+    align-self: center;
     flex-wrap: wrap;
   }
 
