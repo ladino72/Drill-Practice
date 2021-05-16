@@ -7,6 +7,7 @@ import uuid from "react-uuid";
 import { InlineTex } from 'react-tex';
 import getTestValue from "../utils/getTestValue";
 import Button from "react-bootstrap/Button";
+import Image from 'react-bootstrap/Image'
 
 
 //import {InputGroup, FormControl} from 'react-bootstrap'
@@ -78,7 +79,7 @@ function Questions({ move }) {
             <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", width: "100%" }} >
                 <div className="text-left" >{quiz.name}</div>
                 <div className="text-center ">{USER}</div>
-                <div className="text-right " style={{color:"white",backgroundColor:"#17a2b8"}}>Score:{score.p_score}/{t_score}</div>
+                <div className="text-right ">Score:{score.p_score}/{t_score}</div>
 
             </div>
             <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem", marginTop: "0.5rem" }}  >
@@ -106,7 +107,7 @@ function Questions({ move }) {
 
                             <div className=" col-md-5 ">
                                 <div className=" d-flex justify-content-center pb-3 pt-1">
-                                    {quest.LinkQ ? <img src={quest.LinkQ} width="100%" height="null" alt="" /> : null}
+                                    {quest.LinkQ ? <Image src={quest.LinkQ}  /> : null}
                                 </div>
                             </div>
 

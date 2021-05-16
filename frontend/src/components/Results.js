@@ -8,6 +8,8 @@ import uuid from "react-uuid"
 import axios from "axios";
 import { PostScoreActionCreator } from '../Redux/actions/PostScoreActionCreator';
 import Button from "react-bootstrap/Button";
+import Image from 'react-bootstrap/Image'
+
 
 function getResults(id) {
   axios.get(`/api/ranking/${id}`)
@@ -127,7 +129,7 @@ const Results = () => {
               <div className="col-md-5">
                 {/*Here the figure goes */}
                 <div className="d-flex justify-content-center my-2">
-                  {quest.LinkQ ? <img src={quest.LinkQ} width="100%" height="null" alt="" /> : null}
+                  {quest.LinkQ ? <Image src={quest.LinkQ} /> : null}
                 </div>
               </div>
             </div>
@@ -144,7 +146,7 @@ const Results = () => {
               <div className="col-md-5 my-2">
                 {/*Here the figure accompanying the explanation goes */}
                 <div className="d-flex justify-content-center">
-                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null && quest.LinkA ? <img src={quest.LinkA} width="100%" height="null" alt="" /> : null}
+                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null && quest.LinkA ? <Image src={quest.LinkA} /> : null}
                 </div>
               </div>
             </div>
