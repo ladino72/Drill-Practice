@@ -85,16 +85,16 @@ function Questions({ move }) {
             <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem", marginTop: "0.5rem" }}  >
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
-                    <div key={quest.id}>
+                    <div key={quest.id} className="start_grid">
                         <div className="badge badge-primary my-2">Question {pager.index + 1} of {pager.count}. </div>
                         <div className="h6 py-2" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
 
-                        <div className="row " >
-                            <div className="row col-md-7"  >
+                        <div className="start_grid1" >
+                            <div className="left-col"  >
                                 {
                                     quest.A.map(option =>
 
-                                        <div key={uuid()} className="col-12">
+                                        <div key={uuid()} >
                                             <label className="font-weight-normal " htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
                                                 <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{fontSize:"0.9rem"}} ><InlineTex texContent={option.opt} /></span>
@@ -105,7 +105,7 @@ function Questions({ move }) {
                                 }
                             </div>
 
-                            <div className=" col-md-5 ">
+                            <div className="right-col" >
                                 <div className=" d-flex justify-content-center pb-3 pt-1">
                                     {quest.LinkQ ? <Image src={quest.LinkQ}  /> : null}
                                 </div>
