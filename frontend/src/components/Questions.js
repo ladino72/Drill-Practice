@@ -105,8 +105,8 @@ function Questions({ move }) {
                                 }
                             </div>
 
-                            <div className="right-col" >
-                                <div className=" d-flex justify-content-center pb-3 pt-1">
+                            <div className="right-col py-2" >
+                                <div >
                                     {quest.LinkQ ? <Image src={quest.LinkQ}  /> : null}
                                 </div>
                             </div>

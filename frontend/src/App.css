@@ -14,7 +14,12 @@
   align-items: center; }
 
 .left-col {
-  justify-self: start; }
+  justify-self: start;
+  align-self: center; }
+
+.right-col {
+  justify-self: center;
+  align-self: center; }
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -324,7 +329,15 @@ button {
   text-align: center; }
 
 /* Mobile Styles */
-@media (max-width: 700px) {
+@media screen and (max-width: 768px) {
+  .start_grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr); }
+  .start_grid1 {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr); }
+  img {
+    width: 60%; }
   .container {
     margin-top: 1rem; }
   .hide-sm {
