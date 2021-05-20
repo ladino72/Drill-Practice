@@ -74,23 +74,23 @@ function Questions({ move }) {
     //let questions = questions ?questions.slice(pager.index, pager.index + pager.size) : [];
 
     return (
-        <div>
+        <div className="Main_wrapper">
 
-            <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", width: "100%" }} >
-                <div className="text-left" >{quiz.name}</div>
-                <div className="text-center ">{USER}</div>
-                <div className="text-right ">Score:{score.p_score}/{t_score}</div>
-
+            <div className="header header-items" >
+                <div className="header-item-1">{quiz.name}</div>
+                <div className="header-item-2" >{USER}</div>
+                <div className="header-item-3" >Score:{score.p_score}/{t_score}</div>
             </div>
-            <div id="quiz" style={{ backgroundColor: "#ebf5f0", marginBottom: "0.5rem", marginTop: "0.5rem" }}  >
+
+            <div id="quiz" className="questions"  >
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
-                    <div key={quest.id} className="start_grid">
-                        <div className="badge badge-primary my-2">Question {pager.index + 1} of {pager.count}. </div>
-                        <div className="h6 py-2" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
+                    <div key={quest.id} className="quest" >
+                        <div className="badge badge-primary my-2 quest-number">Question {pager.index + 1} of {pager.count}. </div>
+                        <div className="h6 py-2 quest-body" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
 
-                        <div className="start_grid1" >
-                            <div className="left-col"  >
+                        <div className="quest-option">
+                            <div className="quest-opt" >
                                 {
                                     quest.A.map(option =>
 
@@ -105,10 +105,10 @@ function Questions({ move }) {
                                 }
                             </div>
 
-                            <div className="right-col py-2" >
-                                <div >
+                            <div className="quest-fig" >
+                            
                                     {quest.LinkQ ? <Image src={quest.LinkQ}  /> : null}
-                                </div>
+                                
                             </div>
 
                         </div>
@@ -120,18 +120,21 @@ function Questions({ move }) {
 
             </div >
 
-            <hr />
-            <div className=" d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
-                <div className=" d-flex justify-content-around">
+            < div className="controls py-3">
+                <div>
                     {quiz.config.allowBack && <Button style={{marginLeft:"2rem", marginBottom: "0.4rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                </div>
+                <div>
                     {quiz.config.allowBack && <Button style={{marginLeft:"2rem" ,marginBottom: "0.4rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
-                <div className=" d-flex justify-content-around">
+                <div>
                     <Button variant="info" id="next" style={{marginLeft:"2rem", marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Next</Button>
+                </div>  
+                <div>  
                     <Button variant="info" id="last" style={{marginLeft:"2rem",marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
-            <hr className="mt-1" />
+            
         </div>
     )
 }
