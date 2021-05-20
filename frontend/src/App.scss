@@ -21,6 +21,11 @@ $success-color: #28a745;
 }
 .header{
   grid-area: h;
+  background-color: #ebf5f0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 
 }
 .header-items{
@@ -29,24 +34,35 @@ $success-color: #28a745;
   flex-wrap:wrap;
 }
 .header-item-1{
+  padding-left: 0.5rem;
 }
 .header-item-2{
 }
 .header-item-3{
-  color:chocolate;
+  color:hotpink;
+  font-weight: bold;
+  padding-right: 0.5rem;
+
 }
 
 .questions{
   grid-area: q;
+  background-color:#ebf5f0;
 
 }
 .controls{
   grid-area: c;
-  
-  background-color:$light-color ;
-  padding: 0.5rem 0;
+  padding: 0.8rem 0;
   margin-top: 1rem;
-  
+  margin-bottom: 1rem;
+  background-color: #ebf5f0;
+ }
+ .lower-controls{
+  display:flex;
+  justify-content: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+  background-color: #ebf5f0;
 }
 
 .quest{
@@ -56,9 +72,19 @@ $success-color: #28a745;
   "qn qn qn qn qn qn qn qn qn qn qn qn"
   "qb qb qb qb qb qb qb qb qb qb qb qb"
   "qo qo qo qo qo qo qo qo qo qo qo qo"; 
+  padding-left: 0.5rem;
+
 }
 .quest-number{
   grid-area: qn;
+  justify-self: start;
+  background-color:$primary-color;
+  color:white;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+
   
 }
 .quest-body{
@@ -82,6 +108,7 @@ $success-color: #28a745;
   align-self: center;
   justify-self: center;
   grid-area: f;
+  padding-bottom: 1rem;
 }
 
 body {

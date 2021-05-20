@@ -86,7 +86,7 @@ function Questions({ move }) {
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
                     <div key={quest.id} className="quest" >
-                        <div className="badge badge-primary my-2 quest-number">Question {pager.index + 1} of {pager.count}. </div>
+                        <div className=" my-2 quest-number">Question {pager.index + 1} of {pager.count} </div>
                         <div className="h6 py-2 quest-body" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
 
                         <div className="quest-option">

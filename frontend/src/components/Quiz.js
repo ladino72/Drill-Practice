@@ -66,7 +66,7 @@ const Quiz = () => {
         <div >
             {renderMode()}
             {(mode !== 'submit') &&
-                <div >
+                <div className="lower-controls ">
                     <Button style={{marginBottom:"0.4rem"}} variant="info" id="quiz" onClick={(e) => setMode(e)}>Quiz</Button>
                     <Button style={{marginBottom:"0.4rem"}} variant="info" id="review" onClick={(e) => setMode(e)}>Review</Button>
                     <Button style={{marginBottom:"0.4rem"}} variant="info" id="submit" onClick={(e) => setMode(e)} >Submit</Button >

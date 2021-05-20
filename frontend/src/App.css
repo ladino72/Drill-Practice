@@ -9,32 +9,59 @@
   grid-template-areas: "h h h h h h h h h h h h " "q q q q q q q q q q q q " "c c c c c c c c c c c c"; }
 
 .header {
-  grid-area: h; }
+  grid-area: h;
+  background-color: #ebf5f0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem; }
 
 .header-items {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; }
 
+.header-item-1 {
+  padding-left: 0.5rem; }
+
 .header-item-3 {
-  color: chocolate; }
+  color: hotpink;
+  font-weight: bold;
+  padding-right: 0.5rem; }
 
 .questions {
-  grid-area: q; }
+  grid-area: q;
+  background-color: #ebf5f0; }
 
 .controls {
   grid-area: c;
-  background-color: #f4f4f4;
-  padding: 0.5rem 0;
-  margin-top: 1rem; }
+  padding: 0.8rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #ebf5f0; }
+
+.lower-controls {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.4rem;
+  background-color: #ebf5f0; }
 
 .quest {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "qn qn qn qn qn qn qn qn qn qn qn qn" "qb qb qb qb qb qb qb qb qb qb qb qb" "qo qo qo qo qo qo qo qo qo qo qo qo"; }
+  grid-template-areas: "qn qn qn qn qn qn qn qn qn qn qn qn" "qb qb qb qb qb qb qb qb qb qb qb qb" "qo qo qo qo qo qo qo qo qo qo qo qo";
+  padding-left: 0.5rem; }
 
 .quest-number {
-  grid-area: qn; }
+  grid-area: qn;
+  justify-self: start;
+  background-color: #17a2b8;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem; }
 
 .quest-body {
   grid-area: qb; }
@@ -53,7 +80,8 @@
 .quest-fig {
   align-self: center;
   justify-self: center;
-  grid-area: f; }
+  grid-area: f;
+  padding-bottom: 1rem; }
 
 body {
   font-family: "Raleway", sans-serif;
