@@ -74,7 +74,7 @@ function Questions({ move }) {
     //let questions = questions ?questions.slice(pager.index, pager.index + pager.size) : [];
 
     return (
-        <div className="Main_wrapper">
+        <div className="questions-wrapper">
 
             <div className="header header-items" >
                 <div className="header-item-1">{quiz.name}</div>
@@ -120,14 +120,14 @@ function Questions({ move }) {
 
             </div >
 
-            <div className=" controls d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
+            <div className="upper-controls d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
                 <div className=" d-flex justify-content-around">
-                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
-                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
+                    {quiz.config.allowBack && <Button style={{marginLeft:"0.25rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <Button style={{marginLeft:"0.25rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
                 <div className=" d-flex justify-content-around">
-                    <Button variant="info" id="next" style={{marginLeft:"2rem"}} onClick={(e) => move(e)}>Next</Button>
-                    <Button variant="info" id="last" style={{marginLeft:"2rem" }} onClick={(e) => move(e)}>Last</Button>
+                    <Button variant="info" id="next" style={{marginLeft:"0.25rem"}} onClick={(e) => move(e)}>Next</Button>
+                    <Button variant="info" id="last" style={{marginLeft:"0.25rem" }} onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
             

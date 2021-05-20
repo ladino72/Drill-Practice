@@ -34,9 +34,6 @@ const Results = () => {
   const { currentTestId } = useSelector(state => state.CurrentTestIdReducer)
   console.log('currentTestId', currentTestId);
   console.log(">>>>>>>>Config", config)
-  console.log("Stallon!")
-
-
 
 
   useEffect(() => {
@@ -88,23 +85,24 @@ const Results = () => {
 
     <div >
 
-
-      <div className="d-flex flex-wrap justify-content-between" style={{ color: "#0099CC", fontSize: "1.1rem", marginTop: "0.5rem", marginBottom: "0.5rem",width: "100%" }} >
-        <div className="text-left" >{quiz.name}</div>
-        <div className="text-center ">{user.name}</div>
-        <div className="text-right ">Score:{score.p_score}/{score.t_score}</div>
-
+      <div className="header header-items" >
+        <div className="header-item-1">{quiz.name}</div>
+        <div className="header-item-2" >{user.name}</div>
+        <div className="header-item-3" >Score:{score.p_score}/{score.t_score}</div>
       </div>
 
       {questions.map((quest, index) => {
 
         return (
 
-          <div key={uuid()} className="border-right border-left border-success p-3 mb-2 bg-light text-dark">
-            <p><span style={{ color: "red" }}>Q{index + 1}{": "}</span><InlineTex texContent={quest.Q} /></p>
+          <div key={uuid()} className="results-wrapper border-right border-left border-success p-3 mb-2 bg-light text-dark">
 
-            <div className="row" >
-              <div className="col-md-7 d-flex flex-column justify-content-center">
+            <div className="points" style={{ color: "red" }}>Points:{answer_sheet[index] !== undefined ? answer_sheet[index].Score : null}/{quest.Points}  {answer_sheet[index] !== undefined ? (answer_sheet[index].A == null ? "Not answered" : null) : null}</div>
+
+            <div className="question-body"><span style={{ color: "red" }}>Q{index + 1}{": "}</span><InlineTex texContent={quest.Q} /></div>
+
+            <div className="question-option" >
+              <div className="question-opt">
                 {quest.A.map(opt => (
 
                   <div key={uuid()} >
@@ -117,42 +115,36 @@ const Results = () => {
 
                         : (answer_sheet[index] !== undefined ? (opt.id_ !== answer_sheet[index].RightAnswerId && answer_sheet[index].A !== null) : null) ? <FaTimes style={{ color: "gray", fontSize: "1.1rem" }} /> : null)
 
-                        : null} 
+                        : null}
 
-                        <span style={{fontSize:"0.9rem"}} > <InlineTex texContent={opt.opt} /></span>
+                      <span style={{ fontSize: "0.9rem" }} > <InlineTex texContent={opt.opt} /></span>
                     </div>
                   </div>
 
                 ))}
               </div>
 
-              <div className="col-md-5">
+              <div className="question-figure">
                 {/*Here the figure goes */}
-                <div className="d-flex justify-content-center my-2">
-                  {quest.LinkQ ? <Image src={quest.LinkQ} /> : null}
-                </div>
+                {quest.LinkQ ? <Image src={quest.LinkQ} /> : null}
               </div>
             </div>
-            <div className="row  mt-1 "  >
-              <div className="col-md-7 ">
+            <div className="question-answer"  >
+              <div className="question-explanation">
                 {/*Here the explanation goes */}
 
                 <div >
-                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <h6 style={{fontWeight:"bold",color:"black"}}>Solution:</h6> : null}
+                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <h6 style={{ fontWeight: "bold", color: "black" }}>Solution:</h6> : null}
                   {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ? <InlineTex texContent={quest.E} /> : null}
                 </div>
 
               </div>
-              <div className="col-md-5 my-2">
+              <div className="question-explt-fig">
                 {/*Here the figure accompanying the explanation goes */}
-                <div className="d-flex justify-content-center">
-                  {answer_sheet[index] !== undefined && answer_sheet[index].A !== null && quest.LinkA ? <Image src={quest.LinkA} /> : null}
-                </div>
+
+                {answer_sheet[index] !== undefined && answer_sheet[index].A !== null && quest.LinkA ? <Image src={quest.LinkA} /> : null}
               </div>
             </div>
-
-            <p style={{ color: "red" }}>Points:{answer_sheet[index] !== undefined ? answer_sheet[index].Score : null}/{quest.Points}  {answer_sheet[index] !== undefined ? (answer_sheet[index].A == null ? "Not answered" : null) : null}</p>
-
 
           </div>
         )

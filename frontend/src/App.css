@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0; }
 
-.Main_wrapper {
+/*Questions*/
+.questions_wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: "h h h h h h h h h h h h " "q q q q q q q q q q q q " "c c c c c c c c c c c c"; }
@@ -33,7 +34,7 @@
   grid-area: q;
   background-color: #ebf5f0; }
 
-.controls {
+.upper-controls {
   grid-area: c;
   padding: 0.8rem 0;
   margin-top: 1rem;
@@ -83,6 +84,49 @@
   grid-area: f;
   padding-bottom: 1rem; }
 
+/*End questions*/
+/*Results*/
+.results-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "p p p p p p p p p p p p " "qb qb qb qb qb qb qb qb qb qb qb qb " "qo qo qo qo qo qo qo qo qo qo qo qo" "qa qa qa qa qa qa qa qa qa qa qa qa"; }
+
+.points {
+  grid-area: p; }
+
+.question-body {
+  grid-area: qb; }
+
+.question-option {
+  grid-area: qo;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "o o o o o o o o o f f f"; }
+
+.question-opt {
+  grid-area: o; }
+
+.question-figure {
+  grid-area: f;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 1rem; }
+
+.question-answer {
+  grid-area: qa;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: "qe qe qe qe qe qe qe qe qe qef qef qef"; }
+
+.question-explanation {
+  grid-area: qe; }
+
+.question-explt-fig {
+  grid-area: qef;
+  align-self: center;
+  justify-self: center; }
+
+/*End Results*/
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
@@ -397,6 +441,27 @@ button {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; }
+  .question-option {
+    grid-area: qo;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; }
+  .question-answer {
+    grid-area: qa;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: "qe qe qe qe qe qe qe qe qe qe qe qe" ". . . . qef qef qef qef qef qef qef qef"; }
+  .question-explt-fig {
+    margin-top: 1rem; }
+  .header-item-1 {
+    padding-left: 0.5rem; }
+  .header-item-2 {
+    padding-left: 0.5rem; }
+  .header-item-3 {
+    color: hotpink;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; }
   img {
     width: 50%; }
   .container {
