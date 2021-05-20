@@ -121,11 +121,11 @@ function Questions({ move }) {
             </div >
 
             <div className="upper-controls d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
-                <div className=" d-flex justify-content-around">
+                <div className=" d-flex justify-content-center">
                     {quiz.config.allowBack && <Button variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
                     {quiz.config.allowBack && <Button variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
-                <div className=" d-flex justify-content-around">
+                <div className=" d-flex justify-content-center">
                     <Button variant="info" id="next" onClick={(e) => move(e)}>Next</Button>
                     <Button variant="info" id="last" onClick={(e) => move(e)}>Last</Button>
                 </div>
