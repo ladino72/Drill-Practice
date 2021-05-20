@@ -120,18 +120,14 @@ function Questions({ move }) {
 
             </div >
 
-            < div className="controls">
-                <div>
-                    {quiz.config.allowBack && <Button className="first"  variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+            <div className=" controls d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
+                <div className=" d-flex justify-content-around">
+                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
-                <div>
-                    {quiz.config.allowBack && <Button className="prev"  variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
-                </div>
-                <div>
-                    <Button className="next" variant="info" id="next"  onClick={(e) => move(e)}>Next</Button>
-                </div>  
-                <div>  
-                    <Button className="last" variant="info" id="last"  onClick={(e) => move(e)}>Last</Button>
+                <div className=" d-flex justify-content-around">
+                    <Button variant="info" id="next" style={{marginLeft:"2rem"}} onClick={(e) => move(e)}>Next</Button>
+                    <Button variant="info" id="last" style={{marginLeft:"2rem" }} onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
             
