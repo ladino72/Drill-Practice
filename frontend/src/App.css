@@ -24,8 +24,17 @@
 
 .controls {
   grid-area: c;
-  display: flex;
-  justify-content: center; }
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  justify-items: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 0.5rem 0; }
+
+.first, .prev, .last, .next {
+  margin-left: 0.5rem;
+  justify-self: end;
+  align-self: center; }
 
 .quest {
   display: grid;

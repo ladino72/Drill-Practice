@@ -120,18 +120,18 @@ function Questions({ move }) {
 
             </div >
 
-            < div className="controls py-3">
+            < div className="controls">
                 <div>
-                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem", marginBottom: "0.4rem" }} variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <Button className="first"  variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
                 </div>
                 <div>
-                    {quiz.config.allowBack && <Button style={{marginLeft:"2rem" ,marginBottom: "0.4rem" }} variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
+                    {quiz.config.allowBack && <Button className="prev"  variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
                 <div>
-                    <Button variant="info" id="next" style={{marginLeft:"2rem", marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Next</Button>
+                    <Button className="next" variant="info" id="next"  onClick={(e) => move(e)}>Next</Button>
                 </div>  
                 <div>  
-                    <Button variant="info" id="last" style={{marginLeft:"2rem",marginBottom: "0.4rem" }} onClick={(e) => move(e)}>Last</Button>
+                    <Button className="last" variant="info" id="last"  onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
             
