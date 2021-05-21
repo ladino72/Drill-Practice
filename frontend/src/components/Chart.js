@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
-import {HorizontalBar} from 'react-chartjs-2';
+import {Bar, HorizontalBar} from 'react-chartjs-2';
 
 //https://codesandbox.io/s/jjpk3o5l3?file=/src/Hello.js:52-71
+//In order for HorizontalBar runs I had to install an older version of react-chartjs and chart.js. 
+//Versions can be seen in the frontend package.json file. With these versions both charts (Bar and HorizontalBar) run.
+//In a newer version HorizontalBar does not work!
+
 const Chart = ({ chartDatos}) => {
     const [chartData, setChartData] = useState({});
     const {data,topic}=chartDatos;
@@ -38,7 +42,7 @@ const Chart = ({ chartDatos}) => {
 
     return (
         <div >
-            <HorizontalBar data={chartData} options={{ responsive: true }} />
+            <Bar data={chartData} options={{ responsive: true }} />
         </div>
     )
 }

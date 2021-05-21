@@ -39,7 +39,26 @@
   padding: 0.8rem 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: #ebf5f0; }
+  background-color: #ebf5f0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: ". . . . fs pr nx lt . . . ."; }
+
+.first {
+  grid-area: fs;
+  justify-self: center; }
+
+.prev {
+  grid-area: pr;
+  justify-self: center; }
+
+.next {
+  grid-area: nx;
+  justify-self: center; }
+
+.last {
+  grid-area: lt;
+  justify-self: center; }
 
 .lower-controls {
   display: flex;

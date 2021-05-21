@@ -59,8 +59,28 @@ $bgColor:#ebf5f0;
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: $bgColor;
-  
+  display:grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-areas: 
+    ". . . . fs pr nx lt . . . .";
  }
+ .first{
+   grid-area: fs;
+   justify-self: center;
+ }
+ .prev{
+   grid-area:pr;
+   justify-self: center;
+ }
+ .next{
+   grid-area:nx;
+   justify-self: center;
+ }
+ .last{
+   grid-area:lt;
+   justify-self: center;
+ }
+ 
  .lower-controls{
   display:flex;
   justify-content: center;

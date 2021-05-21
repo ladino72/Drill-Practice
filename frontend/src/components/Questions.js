@@ -97,7 +97,7 @@ function Questions({ move }) {
                                         <div key={uuid()} >
                                             <label className="font-weight-normal " htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
-                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{fontSize:"0.9rem"}} ><InlineTex texContent={option.opt} /></span>
+                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{ fontSize: "0.9rem" }} ><InlineTex texContent={option.opt} /></span>
                                             </label>
                                         </div>
 
@@ -106,9 +106,9 @@ function Questions({ move }) {
                             </div>
 
                             <div className="quest-fig" >
-                            
-                                    {quest.LinkQ ? <Image src={quest.LinkQ}  /> : null}
-                                
+
+                                {quest.LinkQ ? <Image src={quest.LinkQ} /> : null}
+
                             </div>
 
                         </div>
@@ -120,17 +120,21 @@ function Questions({ move }) {
 
             </div >
 
-            <div className="upper-controls d-flex justify-content-center flex-wrap" style={{ width: "100%" }} >
-                <div className=" d-flex justify-content-center">
+            <div className="upper-controls" >
+                <div className="first">
                     {quiz.config.allowBack && <Button variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                </div>
+                <div className="prev">
                     {quiz.config.allowBack && <Button variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
-                <div className=" d-flex justify-content-center">
+                <div className="next">
                     <Button variant="info" id="next" onClick={(e) => move(e)}>Next</Button>
+                </div>
+                <div className="last">
                     <Button variant="info" id="last" onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
-            
+
         </div>
     )
 }
