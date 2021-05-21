@@ -481,6 +481,23 @@ button {
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
+  .upper-controls {
+    grid-area: c;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ebf5f0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". . . . . fs pr . . . . ." ". . . .  .nx lt . . . . ."; }
+  .next {
+    grid-area: nx;
+    justify-self: center;
+    margin-top: 0.5rem; }
+  .last {
+    grid-area: lt;
+    justify-self: center;
+    margin-top: 0.5rem; }
   img {
     width: 50%; }
   .container {

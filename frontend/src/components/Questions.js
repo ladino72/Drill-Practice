@@ -122,16 +122,16 @@ function Questions({ move }) {
 
             <div className="upper-controls" >
                 <div className="first">
-                    {quiz.config.allowBack && <Button variant="info" id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <Button  id="first" onClick={(e) => move(e)}>First</Button>}
                 </div>
                 <div className="prev">
-                    {quiz.config.allowBack && <Button variant="info" id="prev" onClick={(e) => move(e)}>Prev</Button>}
+                    {quiz.config.allowBack && <Button  id="prev" onClick={(e) => move(e)}>Prev</Button>}
                 </div>
                 <div className="next">
-                    <Button variant="info" id="next" onClick={(e) => move(e)}>Next</Button>
+                    <Button id="next" onClick={(e) => move(e)}>Next</Button>
                 </div>
                 <div className="last">
-                    <Button variant="info" id="last" onClick={(e) => move(e)}>Last</Button>
+                    <Button id="last" onClick={(e) => move(e)}>Last</Button>
                 </div>
             </div>
 
