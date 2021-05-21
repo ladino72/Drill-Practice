@@ -597,6 +597,17 @@ button {
       ". . . .  .nx lt . . . . .";
       
    }
+   .next{
+    grid-area:nx;
+    justify-self: center;
+    margin-top: 0.5rem;
+  }
+  .last{
+    grid-area:lt;
+    justify-self: center;
+    margin-top: 0.5rem;
+  }
+
   img{
 
     width: 50%;
