@@ -26,7 +26,7 @@
   padding-left: 0.5rem; }
 
 .header-item-3 {
-  color: hotpink;
+  color: orangered;
   font-weight: bold;
   padding-right: 0.5rem; }
 
@@ -454,7 +454,7 @@ button {
   text-align: center; }
 
 /* Mobile Styles */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   .quest-option {
     grid-area: qo;
     display: grid;
@@ -477,7 +477,7 @@ button {
   .header-item-2 {
     padding-left: 0.5rem; }
   .header-item-3 {
-    color: hotpink;
+    color: orangered;
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem; }

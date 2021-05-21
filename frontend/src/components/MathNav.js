@@ -12,7 +12,7 @@ const MathNav = ({ tests, setQuizId }) => {
 
 
   return (
-    <Nav variant="pills" activeKey="1" onSelect={handleSelect} >
+    <Nav variant="pills" activeKey="1" onSelect={handleSelect} className="d-flex flex-row" >
      
       <Nav.Item>
         <NavDropdown title="Algebra" id="nav-dropdown">
@@ -20,16 +20,8 @@ const MathNav = ({ tests, setQuizId }) => {
 
         </NavDropdown>
       </Nav.Item>
-      <Nav.Item>
-        <NavDropdown title="Trigonometry" id="nav-dropdown">
-          <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
-      </Nav.Item>
-      <Nav.Item>
+      
+      <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 1" id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
@@ -38,7 +30,7 @@ const MathNav = ({ tests, setQuizId }) => {
           <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
         </NavDropdown>
       </Nav.Item>
-      <Nav.Item>
+      <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 2" id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
@@ -47,7 +39,7 @@ const MathNav = ({ tests, setQuizId }) => {
           <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
         </NavDropdown>
       </Nav.Item>
-      <Nav.Item>
+      <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 3" id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
           <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>

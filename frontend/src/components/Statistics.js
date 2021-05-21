@@ -106,7 +106,7 @@ const Statistics = (props) => {
                 </div>
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Math</h4>
+                    <h4 className=" px-2">Math    </h4>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Algebra" id="nav-dropdown">
@@ -131,28 +131,7 @@ const Statistics = (props) => {
                     </Nav>
                 </div>
 
-                <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Chemistry</h4>
-
-                    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 1" id="nav-dropdown">
-                                {mathAlgebra.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 2" id="nav-dropdown">
-                                {physModern.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 3" id="nav-dropdown">
-                                {physModern.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-                    </Nav>
-                </div>
+                
             </div>
             <h6 style={{color:"black", paddingTop: "10px", fontSize: "1.1rem" }}>
             Average score as a percentage for each problem.

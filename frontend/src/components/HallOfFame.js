@@ -131,37 +131,14 @@ const HallOfFame = (props) => {
                         </Nav.Item>
                     </Nav>
                 </div>
-
-                <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Chemistry</h4>
-
-                    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 1" id="nav-dropdown">
-                                {mathAlgebra.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 2" id="nav-dropdown">
-                                {physModern.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <NavDropdown title="Chemistry 3" id="nav-dropdown">
-                                {physModern.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
-                            </NavDropdown>
-                        </Nav.Item>
-                    </Nav>
-                </div>
             </div>
 
 
             {score[0] !== undefined ?
                 <div style={{ marginTop: "10px" }} >
                     <div>
-                        <h6 style={{ color:"#0099CC" }}>{score[0].name} / {score[0].value.toFixed(2)} points</h6>
-                        <h6 style={{ color:"#0099CC" }}>RANKING</h6>
+                        <h6 style={{ color: "#0099CC" }}>{score[0].name} / {score[0].value.toFixed(2)} points</h6>
+                        <h6 style={{ color: "#0099CC" }}>RANKING</h6>
                     </div>
 
                     <div>

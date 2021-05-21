@@ -42,7 +42,7 @@ $bgColor:#ebf5f0;
 .header-item-2{
 }
 .header-item-3{
-  color:hotpink;
+  color:orangered;
   font-weight: bold;
   padding-right: 0.5rem;
 
@@ -542,7 +542,7 @@ button {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
 
   .quest-option{
     grid-area: qo;
@@ -579,7 +579,7 @@ button {
     padding-left: 0.5rem;
   }
   .header-item-3{
-    color:hotpink;
+    color:orangered;
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
