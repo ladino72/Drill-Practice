@@ -80,7 +80,7 @@ const Statistics = (props) => {
             <div className="d-flex  flex-column">
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Physics</h4>
+                    <h3 className=" px-2">Physics</h3>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Fundamental" id="nav-dropdown">
@@ -106,7 +106,7 @@ const Statistics = (props) => {
                 </div>
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Math    </h4>
+                    <h3 className=" px-2">Math    </h3>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Algebra" id="nav-dropdown">
@@ -130,22 +130,20 @@ const Statistics = (props) => {
                         </Nav.Item>
                     </Nav>
                 </div>
-
-                
             </div>
-            <h6 style={{color:"black", paddingTop: "10px", fontSize: "1.1rem" }}>
-            Average score as a percentage for each problem.
+            <h6 style={{ color: "black", paddingTop: "10px", fontSize: "1.1rem" }}>
+                Average score as a percentage for each problem.
     </h6>
 
 
             {statData.data !== undefined ?
                 <div>
-                    <h6 style={{color:"#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h6>
+                    <h6 style={{ color: "#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h6>
                     <Chart chartDatos={statData} />
                 </div>
                 : null}
 
-                <Button onClick={(e) => handleClick(e)}>Go back </Button>
+            <Button onClick={(e) => handleClick(e)}>Go back </Button>
 
         </Fragment>
     )

@@ -81,7 +81,7 @@ const HallOfFame = (props) => {
             <div className="d-flex  flex-column">
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Physics</h4>
+                    <h3 className=" px-2">Physics</h3>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Fundamental" id="nav-dropdown">
@@ -107,7 +107,7 @@ const HallOfFame = (props) => {
                 </div>
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h4 className=" px-2">Math</h4>
+                    <h3 className=" px-2">Math</h3>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Algebra" id="nav-dropdown">

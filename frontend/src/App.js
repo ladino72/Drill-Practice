@@ -2,7 +2,7 @@ import React,{Fragment,useEffect} from "react";
 import PrivateRoute from "./components/Routing/PrivateRoute"
 
 
-import Navbar from "./components/Layout/Navbar";
+import NavBar from "./components/Layout/NavBar";
 import Landing from "./components/Layout/Landing";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register"
@@ -41,7 +41,7 @@ return(
   
     <Router>
       <Fragment>
-      <Navbar logout={logout}/>
+      <NavBar logout={logout}/>
       <Route exact path="/" component={Landing} /> 
       <section className="container">
           <Alert/>
