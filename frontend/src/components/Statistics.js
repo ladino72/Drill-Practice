@@ -80,7 +80,7 @@ const Statistics = (props) => {
             <div className="d-flex  flex-column">
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h3 className=" px-2">Physics</h3>
+                    <h5 className=" px-2">Physics</h5>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Fundamental" id="nav-dropdown">
@@ -106,7 +106,7 @@ const Statistics = (props) => {
                 </div>
 
                 <div className="d-flex justify-content-between flex-wrap" style={{ backgroundColor: "#f0f8ff" }}>
-                    <h3 className=" px-2">Math    </h3>
+                    <h5 className=" px-2">Math    </h5>
                     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
                         <Nav.Item>
                             <NavDropdown title="Algebra" id="nav-dropdown">

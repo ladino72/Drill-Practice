@@ -86,7 +86,7 @@ function Questions({ move }) {
 
                 {quiz.questions ? questions.slice(pager.index, pager.index + pager.size).map(quest =>
                     <div key={quest.id} className="quest" >
-                        <div className=" my-2 quest-number">Question {pager.index + 1} of {pager.count} </div>
+                        <div className=" my-2 quest-number badge rounded-pill bg-primary">Question {pager.index + 1} of {pager.count} </div>
                         <div className="h6 py-2 quest-body" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
 
                         <div className="quest-option">
@@ -122,7 +122,7 @@ function Questions({ move }) {
 
             <div className="upper-controls" >
                 <div className="first">
-                    {quiz.config.allowBack && <Button  id="first" onClick={(e) => move(e)}>First</Button>}
+                    {quiz.config.allowBack && <button type="button" className="btn btn-primary" id="first" onClick={(e) => move(e)}>First</button>}
                 </div>
                 <div className="prev">
                     {quiz.config.allowBack && <Button  id="prev" onClick={(e) => move(e)}>Prev</Button>}

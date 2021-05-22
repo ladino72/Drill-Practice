@@ -29,19 +29,19 @@ const NavBar = ({ logout }) => {
   );
 
   return (
-    <Navbar bg="dark" expand="md" sticky="top" variant="dark" collapseOnSelect >
+    <Navbar bg="primary" expand="md" sticky="top" variant="dark" collapseOnSelect >
       <Navbar.Brand>
-        <h3>
-         Drill & Practice
-        </h3>
+        <h4>
+          Drill&Practice
+        </h4>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse>
-            
-      {!loading && isAuthenticated ? authLinks : guestLinks}
-      
-    
-        
+
+        {!loading && isAuthenticated ? authLinks : guestLinks}
+
+
+
       </Navbar.Collapse>
 
     </Navbar>

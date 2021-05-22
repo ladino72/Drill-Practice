@@ -4,6 +4,7 @@ import {Provider} from "react-redux";
 import store from "./Redux/store";
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootswatch/dist/materia/bootstrap.min.css"
 import 'katex/dist/katex.min.css'
 
 
