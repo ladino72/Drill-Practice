@@ -17,7 +17,7 @@ const Landing = () => {
         <section className='landing'>
       <div className='dark-overlay'>
         <div className='landing-inner'>
-          <h1 className='x-large'>Drill and Practice Application in Science </h1>
+          <h1 className='large'>Drill and Practice Application in Science </h1>
           <p className='lead'>
             Reinforce basic concepts of physics, mathematics, chemistry, etc. 
             

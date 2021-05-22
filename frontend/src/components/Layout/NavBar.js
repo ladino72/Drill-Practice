@@ -31,9 +31,9 @@ const NavBar = ({ logout }) => {
   return (
     <Navbar bg="dark" expand="md" sticky="top" variant="dark" collapseOnSelect >
       <Navbar.Brand>
-        <h1>
-          <i className="fas fa-globe" /> Drill & Practice
-        </h1>
+        <h3>
+         Drill & Practice
+        </h3>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
       <Navbar.Collapse>
