@@ -122,16 +122,16 @@ function Questions({ move }) {
 
             <div className="upper-controls" >
                 <div className="first">
-                    {quiz.config.allowBack && <button type="button" className="btn btn-primary" id="first" onClick={(e) => move(e)}>First</button>}
+                    {quiz.config.allowBack && <button type="button" className="btn btn-outline-primary" id="first" onClick={(e) => move(e)}>First</button>}
                 </div>
                 <div className="prev">
                     {quiz.config.allowBack && <button type="button" className="btn btn-primary"  id="prev" onClick={(e) => move(e)}>Prev</button>}
                 </div>
                 <div className="next">
-                    <button type="button" className="btn btn-primary" id="next" onClick={(e) => move(e)}>Next</button>
+                    <button type="button" className="btn btn-outline-primary" id="next" onClick={(e) => move(e)}>Next</button>
                 </div>
                 <div className="last">
-                    <button type="button" className="btn btn-primary" id="last" onClick={(e) => move(e)}>Last</button>
+                    <button type="button" className="btn btn-outline-success" id="last" onClick={(e) => move(e)}>Last</button>
                 </div>
             </div>
 
