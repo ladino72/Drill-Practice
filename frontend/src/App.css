@@ -64,8 +64,7 @@
   display: flex;
   justify-content: center;
   padding-top: 0.8rem;
-  padding-bottom: 0.4rem;
-  background-color: #ebf5f0; }
+  padding-bottom: 0.4rem; }
 
 .quest {
   display: grid;
@@ -151,7 +150,7 @@ body {
   white-space: nowrap; }
 
 a {
-  color: #17a2b8;
+  color: #2f97e9;
   text-decoration: none; }
 
 ul {
@@ -189,7 +188,7 @@ img {
   text-align: center; }
 
 .text-primary {
-  color: #17a2b8; }
+  color: #2f97e9; }
 
 .text-dark {
   color: #343a40; }
@@ -284,7 +283,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: #17a2b8;
+  background: #2f97e9;
   color: #fff; }
 
 .btn-light,
@@ -425,7 +424,7 @@ button {
   margin: 0 0.25rem; }
 
 .navbar a:hover {
-  color: #17a2b8; }
+  color: #2f97e9; }
 
 .navbar .welcome span {
   margin-right: 0.6rem; }

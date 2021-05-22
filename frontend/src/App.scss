@@ -1,9 +1,11 @@
-$primary-color: #17a2b8;
+$primary1-color: #17a2b8;
 $dark-color: #343a40;
 $light-color: #f4f4f4;
 $danger-color: #dc3545;
 $success-color: #28a745;
 $bgColor:#ebf5f0;
+
+$primary-color:rgba(47,151,233,255);
 
 * {
   box-sizing: border-box;
@@ -87,7 +89,7 @@ $bgColor:#ebf5f0;
   justify-content: center;
   padding-top: 0.8rem;
   padding-bottom: 0.4rem;
-  background-color: $bgColor;
+  
 }
 
 .quest{

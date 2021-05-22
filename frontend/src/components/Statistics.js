@@ -143,7 +143,7 @@ const Statistics = (props) => {
                 </div>
                 : null}
 
-            <Button onClick={(e) => handleClick(e)}>Go back </Button>
+            <button type="button" className="btn btn-outline-primary" onClick={(e) => handleClick(e)}>Go back </button>
 
         </Fragment>
     )
