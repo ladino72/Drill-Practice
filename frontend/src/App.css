@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0; }
 
-.bg-primary {
-  background-color: #5c2d91 !important; }
-
 /*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
 /*Questions*/
 .questions_wrapper {
