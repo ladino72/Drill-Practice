@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0; }
 
+.bg-primary {
+  background-color: #5c2d91 !important; }
+
+/*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
 /*Questions*/
 .questions_wrapper {
   display: grid;
@@ -43,6 +47,16 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: ". . . . fs pr nx lt . . . ."; }
+  @media only screen and (max-width: 576px) {
+    .upper-controls {
+      grid-area: c;
+      padding: 0.8rem 0;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      background-color: #ebf5f0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: ". . . . . fs pr . . . . ." ". . . .  .nx lt . . . . ."; } }
 
 .first {
   grid-area: fs;
@@ -55,10 +69,20 @@
 .next {
   grid-area: nx;
   justify-self: center; }
+  @media only screen and (max-width: 576px) {
+    .next {
+      grid-area: nx;
+      justify-self: center;
+      margin-top: 0.5rem; } }
 
 .last {
   grid-area: lt;
   justify-self: center; }
+  @media only screen and (max-width: 576px) {
+    .last {
+      grid-area: lt;
+      justify-self: center;
+      margin-top: 0.5rem; } }
 
 .lower-controls {
   display: flex;
@@ -84,6 +108,12 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: "o o o o o o o o o f f f"; }
+  @media only screen and (max-width: 576px) {
+    .quest-option {
+      grid-area: qo;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; } }
 
 .quest-opt {
   grid-area: o;
@@ -114,6 +144,12 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: "o o o o o o o o o f f f"; }
+  @media only screen and (max-width: 576px) {
+    .question-option {
+      grid-area: qo;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; } }
 
 .question-opt {
   grid-area: o; }
@@ -129,6 +165,12 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: "qe qe qe qe qe qe qe qe qe qef qef qef"; }
+  @media only screen and (max-width: 576px) {
+    .question-answer {
+      grid-area: qa;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-areas: "qe qe qe qe qe qe qe qe qe qe qe qe" ". . . . qef qef qef qef qef qef qef qef"; } }
 
 .question-explanation {
   grid-area: qe; }
@@ -137,6 +179,9 @@
   grid-area: qef;
   align-self: center;
   justify-self: center; }
+  @media only screen and (max-width: 576px) {
+    .question-explt-fig {
+      margin-top: 1rem; } }
 
 /*End Results*/
 body {
@@ -339,7 +384,7 @@ img {
 
 /* Overlay */
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -446,25 +491,8 @@ button {
   justify-content: center;
   text-align: center; }
 
-/* Mobile Styles */
+/* Mobile Styles  Another way*/
 @media only screen and (max-width: 576px) {
-  .quest-option {
-    grid-area: qo;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; }
-  .question-option {
-    grid-area: qo;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; }
-  .question-answer {
-    grid-area: qa;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: "qe qe qe qe qe qe qe qe qe qe qe qe" ". . . . qef qef qef qef qef qef qef qef"; }
-  .question-explt-fig {
-    margin-top: 1rem; }
   .header-item-1 {
     padding-left: 0.5rem; }
   .header-item-2 {
@@ -474,23 +502,6 @@ button {
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
-  .upper-controls {
-    grid-area: c;
-    padding: 0.8rem 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: #ebf5f0;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas: ". . . . . fs pr . . . . ." ". . . .  .nx lt . . . . ."; }
-  .next {
-    grid-area: nx;
-    justify-self: center;
-    margin-top: 0.5rem; }
-  .last {
-    grid-area: lt;
-    justify-self: center;
-    margin-top: 0.5rem; }
   img {
     width: 50%; }
   .container {

@@ -1,18 +1,28 @@
-$primary1-color: #17a2b8;
-$dark-color: #343a40;
-$light-color: #f4f4f4;
-$danger-color: #dc3545;
-$success-color: #28a745;
-$bgColor:#ebf5f0;
 
-$primary-color:rgba(47,151,233,255);
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+};
+
+.bg-primary {
+  background-color: #5c2d91 !important;
 }
 
+$primary2-color: #17a2b8;
+$dark-color: #343a40;
+$light-color: #f4f4f4;
+$danger-color: #dc3545;
+$success-color: #28a745;
+
+/*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
+$colores: (
+  score: orangered,
+  primary-color:rgba(47,151,233,255),
+  bgColor:#ebf5f0,
+  
+);
 
 /*Questions*/
 
@@ -27,13 +37,14 @@ $primary-color:rgba(47,151,233,255);
 }
 .header{
   grid-area: h;
-  background-color: $bgColor;
+  background-color: map-get($colores,bgColor);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-
+  
 }
+
 .header-items{
   display:flex;
   justify-content: space-between;
@@ -43,9 +54,10 @@ $primary-color:rgba(47,151,233,255);
   padding-left: 0.5rem;
 }
 .header-item-2{
+  
 }
 .header-item-3{
-  color:orangered;
+  color:map-get($colores,score);
   font-weight: bold;
   padding-right: 0.5rem;
 
@@ -53,7 +65,7 @@ $primary-color:rgba(47,151,233,255);
 
 .questions{
   grid-area: q;
-  background-color:$bgColor;
+  background-color:map-get($colores,bgColor);
 
 }
 .upper-controls{
@@ -61,27 +73,57 @@ $primary-color:rgba(47,151,233,255);
   padding: 0.8rem 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: $bgColor;
+  background-color: map-get($colores,bgColor);
   display:grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-areas: 
     ". . . . fs pr nx lt . . . .";
+    @media only screen and (max-width: 576px) {
+        grid-area: c;
+        padding: 0.8rem 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: map-get($colores,bgColor);
+        display:grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-areas: 
+          ". . . . . fs pr . . . . ."
+          ". . . .  .nx lt . . . . .";
+       }
  }
+
  .first{
    grid-area: fs;
    justify-self: center;
+   @media only screen and (max-width: 576px) {
+
+   }
  }
  .prev{
    grid-area:pr;
    justify-self: center;
+   @media only screen and (max-width: 576px) {
+     
+  }
  }
  .next{
    grid-area:nx;
    justify-self: center;
+   @media only screen and (max-width: 576px) {
+    grid-area:nx;
+    justify-self: center;
+    margin-top: 0.5rem;
+     
+  }
  }
  .last{
    grid-area:lt;
    justify-self: center;
+   @media only screen and (max-width: 576px) {
+    grid-area:lt;
+    justify-self: center;
+    margin-top: 0.5rem;
+  }
  }
  
  .lower-controls{
@@ -105,8 +147,7 @@ $primary-color:rgba(47,151,233,255);
 .quest-number{
   grid-area: qn;
   justify-self: start;
-  
-  
+ 
 }
 .quest-body{
   grid-area: qb;
@@ -117,7 +158,17 @@ $primary-color:rgba(47,151,233,255);
   display:grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-areas: 
-  "o o o o o o o o o f f f"
+  "o o o o o o o o o f f f";
+
+  @media only screen and (max-width: 576px) {
+    grid-area: qo;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    "o o o o o o o o o o o o"
+    ". . . . f f f f f f f f";
+
+  }
   
 }
 .quest-opt{
@@ -155,7 +206,16 @@ $primary-color:rgba(47,151,233,255);
   display:grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-areas: 
-  "o o o o o o o o o f f f"
+  "o o o o o o o o o f f f";
+  @media only screen and (max-width: 576px) {
+    
+      grid-area: qo;
+      display:grid;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-areas: 
+      "o o o o o o o o o o o o"
+      ". . . . f f f f f f f f";
+    }
 }
 .question-opt{
   grid-area: o;
@@ -165,22 +225,38 @@ $primary-color:rgba(47,151,233,255);
   align-self: center;
   justify-self: center;
   padding-bottom: 1rem;
-
 }
+
 .question-answer{
   grid-area:qa ;
   display:grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-areas: 
-  "qe qe qe qe qe qe qe qe qe qef qef qef"
+  "qe qe qe qe qe qe qe qe qe qef qef qef";
+
+  @media only screen and (max-width: 576px) {
+
+      grid-area:qa ;
+      display:grid;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-areas: 
+      "qe qe qe qe qe qe qe qe qe qe qe qe"
+      ". . . . qef qef qef qef qef qef qef qef";
+    }
 }
+
 .question-explanation{
 grid-area: qe;
 }
+
 .question-explt-fig{
   grid-area: qef;
   align-self: center;
   justify-self: center;
+  
+  @media only screen and (max-width: 576px) {
+    margin-top: 1rem;
+  }
 
 }
 
@@ -199,7 +275,7 @@ body {
 }
 
 a {
-  color: $primary-color;
+  color: map-get($colores,primary-color );
   text-decoration: none;
 }
 
@@ -245,7 +321,7 @@ img {
 }
 
 .text-primary {
-  color: $primary-color;
+  color: map-get($colores,primary-color );
 }
 
 .text-dark {
@@ -347,7 +423,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: $primary-color;
+  background: map-get($colores,primary-color );
   color: #fff;
 }
 
@@ -413,7 +489,7 @@ img {
 
 /* Overlay */
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -512,7 +588,7 @@ button {
 }
 
 .navbar a:hover {
-  color: $primary-color;
+  color: map-get($colores,primary-color );
 }
 
 .navbar .welcome span {
@@ -538,36 +614,8 @@ button {
   text-align: center;
 }
 
-/* Mobile Styles */
+/* Mobile Styles  Another way*/
 @media only screen and (max-width: 576px) {
-
-  .quest-option{
-    grid-area: qo;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-areas: 
-    "o o o o o o o o o o o o"
-    ". . . . f f f f f f f f";
-  }
-  .question-option{
-    grid-area: qo;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-areas: 
-    "o o o o o o o o o o o o"
-    ". . . . f f f f f f f f";
-  }
-  .question-answer{
-    grid-area:qa ;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-areas: 
-    "qe qe qe qe qe qe qe qe qe qe qe qe"
-    ". . . . qef qef qef qef qef qef qef qef";
-  }
-  .question-explt-fig{
-    margin-top: 1rem;
-  }
 
   .header-item-1{
     padding-left: 0.5rem;
@@ -576,34 +624,12 @@ button {
     padding-left: 0.5rem;
   }
   .header-item-3{
-    color:orangered;
+    color:map-get($colores,score );
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
    }
-   .upper-controls{
-    grid-area: c;
-    padding: 0.8rem 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: $bgColor;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-areas: 
-      ". . . . . fs pr . . . . ."
-      ". . . .  .nx lt . . . . .";
-      
-   }
-   .next{
-    grid-area:nx;
-    justify-self: center;
-    margin-top: 0.5rem;
-  }
-  .last{
-    grid-area:lt;
-    justify-self: center;
-    margin-top: 0.5rem;
-  }
+   
 
   img{
 

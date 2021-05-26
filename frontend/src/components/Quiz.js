@@ -67,9 +67,9 @@ const Quiz = () => {
             {renderMode()}
             {(mode !== 'submit') &&
                 <div className="lower-controls ">
-                    <button type="button" className="btn btn-outline-primary" style={{marginBottom:"0.4rem"}}  id="quiz" onClick={(e) => setMode(e)}>Quiz</button>
-                    <button type="button" className="btn btn-outline-primary" style={{marginBottom:"0.4rem"}}  id="review" onClick={(e) => setMode(e)}>Review</button>
-                    <button type="button" className="btn btn-outline-primary" style={{marginBottom:"0.4rem"}}  id="submit" onClick={(e) => setMode(e)} >Submit</button >
+                    <button type="button" className="btn btn-primary" style={{marginBottom:"0.4rem"}}  id="quiz" onClick={(e) => setMode(e)}>Quiz</button>
+                    <button type="button" className="btn btn-primary" style={{marginBottom:"0.4rem"}}  id="review" onClick={(e) => setMode(e)}>Review</button>
+                    <button type="button" className="btn btn-primary" style={{marginBottom:"0.4rem"}}  id="submit" onClick={(e) => setMode(e)} >Submit</button >
                 </div >}
 
         </div>
