@@ -1,6 +1,7 @@
 
-import{ADD_ANSWER,LOAD_ANSWER_SHEET,LOAD_QUIZ,PAGER_UPDATE,QUIZ_SUBMIT,READ_SCORE,SET_ALERT,REMOVE_ALERT,
-    REGISTER_SUCCESS,REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL, LOGOUT,CURRENT_TEST_ID,POST_SCORE} from "../types"
+import {ADD_ANSWER,LOAD_ANSWER_SHEET,LOAD_QUIZ,PAGER_UPDATE,QUIZ_SUBMIT,READ_SCORE,SET_ALERT,REMOVE_ALERT,
+    REGISTER_SUCCESS,REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL, 
+    LOGOUT,CURRENT_TEST_ID,POST_SCORE, GET_TEST, GET_TEST_ERROR} from "../types";
 
 
 export const AnswerAction=(payload)=>{
@@ -102,7 +103,15 @@ export const PostScoreAction=(payload)=>{
         {type:POST_SCORE,post:payload}
     )
 }
-
-
+export const GetTestAction=(payload)=>{
+    return (
+        {type:GET_TEST,payload}
+    )
+}
+export const GetTestFailAction=(payload)=>{
+    return (
+        {type:GET_TEST_ERROR,payload}
+    )
+}
 
 

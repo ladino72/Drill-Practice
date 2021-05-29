@@ -23,4 +23,10 @@ export const CURRENT_TEST_ID="CURRENT_TEST_ID";
 
 export const POST_SCORE="POST_SCORE";
 
+export const GET_TEST="GET_TEST";
+export const GET_TEST_ERROR="GET_TEST_ERROR";
+
+
+
+
 
