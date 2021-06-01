@@ -530,6 +530,8 @@ button {
 /*New navbar*/
 .nav {
   color: #17a2b8; }
+  .nav ul li:first-child i ~ .logo {
+    font-size: 1.5rem; }
   .nav ul li:first-child i {
     font-size: 2rem;
     padding-right: 1rem; }
@@ -544,10 +546,10 @@ button {
     .nav__toggle .close {
       display: none;
       fill: #17a2b8;
-      padding-top: 1rem;
+      padding-top: 1.3rem;
       padding-bottom: 1rem; }
     .nav__toggle .menu {
-      padding-top: 1rem;
+      padding-top: 1.3rem;
       padding-bottom: 1rem;
       fill: #17a2b8; }
   .nav__checkbox {
@@ -590,6 +592,8 @@ button {
     display: none; }
   .nav ul li:first-child i {
     font-size: 2rem; }
+  .nav ul li:first-child i ~ .logo {
+    font-size: 1.5rem; }
   .nav__menu {
     flex-direction: row;
     justify-content: space-evenly;
@@ -600,4 +604,4 @@ button {
       margin-right: 1rem; }
     .nav__menu li {
       display: block;
-      margin-left: 1.5rem; } }
+      margin-left: 0.5rem; } }

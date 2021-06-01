@@ -691,6 +691,10 @@ button {
 
 .nav {
   color:$primary2-color;
+  ul li:first-child i ~.logo{
+    font-size: 1.5rem;
+  }
+  
   ul li:first-child i   {
     font-size: 2rem;
     padding-right: 1rem;
@@ -711,13 +715,13 @@ button {
     .close {
       display: none;
       fill: $primary2-color;
-      padding-top: 1rem;
-        padding-bottom: 1rem;
+      padding-top: 1.3rem;
+      padding-bottom: 1rem;
 
     }
 
     .menu {
-      padding-top: 1rem;
+      padding-top: 1.3rem;
       padding-bottom: 1rem;
       fill: $primary2-color;
 
@@ -759,7 +763,6 @@ button {
       opacity: 0.7;
     }
 
-    
   }
 }
 
@@ -788,6 +791,9 @@ button {
     ul li:first-child i   {
       font-size: 2rem;
     }
+    ul li:first-child i ~.logo{
+      font-size: 1.5rem;
+    }
 
     &__menu {
       flex-direction: row;
@@ -802,7 +808,7 @@ button {
       
       li {
         display: block;
-        margin-left: 1.5rem;
+        margin-left: 0.5rem;
         
       }
     }
