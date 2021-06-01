@@ -13,8 +13,6 @@ import { loadAnswerSheetActionCreator } from "../actions/loadAnswerSheetActionCr
 import { ReadScoreActionCreator } from "../actions/ReadScoreActionCreator";
 import { PostScoreActionCreator } from "../actions/PostScoreActionCreator";
 import { PagerUpdatetActionCreator } from "../actions/PagerUpdateActionCreator";
-import { CurrentTestIdActionCreator } from "../actions/CurrentTestIdActionCreator";
-
 
 
 var CryptoJS = require("crypto-js");
@@ -32,7 +30,7 @@ const DecryptAnswersOneDocument = (encrypt) => {
     return decryptedArray;
   };
 
-  function CU_AnswerTable(currentTestId, big_string) {
+  const CU_AnswerTable= async (currentTestId, big_string)=> {
     const axiosconfig = {
       headers: {
         "Content-Type": "application/json"
@@ -40,7 +38,7 @@ const DecryptAnswersOneDocument = (encrypt) => {
     }
     try {
 
-      axios.post("/api/ranking/88", { "ID": currentTestId, "packedAnswerTable": big_string }, axiosconfig) //88 is to create a new post route
+      await axios.post("/api/ranking/88", { "ID": currentTestId, "packedAnswerTable": big_string }, axiosconfig) //88 is to create a new post route
 
     } catch (error) {
       console.error("Server error")
@@ -48,14 +46,14 @@ const DecryptAnswersOneDocument = (encrypt) => {
   };
 
 
-// Get test
-export const GetTestActionCreator = (id) => async dispatch => {
-
-  dispatch(CurrentTestIdActionCreator(id));  
+// Get test. Here we are using a Redux thunk (to make an asynchronous call). A shorter way is as follows:
+// export const GetTestActionCreator = (id) => async dispatch => { .........}
+export const GetTestActionCreator = (id) => {
+  return async function(dispatch) {
     try {
         const res = await api.get(`/tests/${id}`);
   
-      dispatch(GetTestAction(res.data));
+     dispatch(GetTestAction({}));
       let Quiz  =res.data;
 
       // Decrypt answers in problem
@@ -147,7 +145,9 @@ export const GetTestActionCreator = (id) => async dispatch => {
       dispatch(loadAnswerSheetActionCreator(answerSheet));
       dispatch(PostScoreActionCreator(false));  
 
-    } catch (err) {
-      dispatch(GetTestFailAction({ msg: err.response.statusText, status: err.response.status }));
+    } catch (error) {
+      dispatch(GetTestFailAction({"Error":error.message}));
+      console.error("Error my friend:",error.messager)
     }
-  };
+  }
+};

@@ -31,10 +31,12 @@ const Results = () => {
   const { config } = useSelector(state => state.QuizReducer.quiz)
   const { score } = useSelector(state => state.QuizReducer)
   const { user } = useSelector(state => state.AuthReducer)
-  const { currentTestId } = useSelector(state => state.CurrentTestIdReducer)
-  console.log('currentTestId', currentTestId);
-  console.log(">>>>>>>>Config", config)
 
+
+  //console.log('currentTestId', currentTestId);
+  console.log(">>>>>>>>Config", config)
+  console.log(">>>>>>>>testId","+++++++++",quiz._id)
+  let currentTestId=quiz._id;
 
   useEffect(() => {
     if (!postScore) {

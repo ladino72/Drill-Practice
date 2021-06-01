@@ -1,7 +1,7 @@
 
 import {ADD_ANSWER,LOAD_ANSWER_SHEET,LOAD_QUIZ,PAGER_UPDATE,QUIZ_SUBMIT,READ_SCORE,SET_ALERT,REMOVE_ALERT,
     REGISTER_SUCCESS,REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL, 
-    LOGOUT,CURRENT_TEST_ID,POST_SCORE, GET_TEST, GET_TEST_ERROR} from "../types";
+    LOGOUT,POST_SCORE, GET_TEST, GET_TEST_ERROR} from "../types";
 
 
 export const AnswerAction=(payload)=>{
@@ -89,12 +89,6 @@ export const LoginFailAction=()=>{
 export const LogOutAction=()=>{
     return (
         {type:LOGOUT}
-    )
-}
-
-export const CurrentTestIdAction=(payload)=>{
-    return (
-        {type:CURRENT_TEST_ID,current:payload}
     )
 }
 

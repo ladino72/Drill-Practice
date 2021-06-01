@@ -1,50 +1,63 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom';
 import { useSelector } from "react-redux";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-
 
 const NavBar = ({ logout }) => {
   const { isAuthenticated, loading } = useSelector(state => state.AuthReducer);
 
   const authLinks = (
-    <Nav className=" ml-auto">
-      <Nav.Link href="/tests">Tests</Nav.Link>
-      <Nav.Link href="/hallOfame">Hall of fame</Nav.Link>
-      <Nav.Link href="/statistics">Statistics </Nav.Link>
+    <ul className="nav__menu">
+      <li>
+        <Link to="/"> <i className="fas fa-globe" /> Drill & Practice  </Link>
+      </li>
+      <li>
+        <Link to="/tests">Tests</Link>
+      </li>
+      <li className="nowrap">
+        <Link to="/hallOfame">Hall of fame</Link>
+      </li>
+      <li>
+        <Link to="/statistics">Statistics</Link>
+      </li>
 
-      <Nav.Link href="/" onClick={() => logout()} >
-        <i className="fas fa-sign-out-alt" />{' '}
-        <span className="hide-sm">Logout</span>
-      </Nav.Link>
-    </Nav>
+      <li>
+        <Link to="/" onClick={() => logout()} >
+          <i className="fas fa-sign-out-alt " />{' '}
+          <span className="hide-sm">Logout</span>
+        </Link>
+      </li>
 
+    </ul>
   );
   const guestLinks = (
-    <Nav className="ml-auto" >
-      <Nav.Link href="/register">Register</Nav.Link>
-      <Nav.Link href="/login">Login </Nav.Link>
-    </Nav>
+    <ul className="nav__menu">
+      <li>
+        <Link to="/"> <i className="fas fa-globe log" /> <span className="logo">Drill & Practice </span>  </Link>
+      </li>
+      <li>
+        <Link to="/register">Register</Link>
+      </li>
+      <li>
+        <Link to="/login">Login</Link>
+      </li>
+    </ul>
   );
 
   return (
-    <Navbar bg="primary" expand="md" sticky="top" variant="dark" collapseOnSelect >
-      <Navbar.Brand>
-        <h3>
-          Drill & Practice
-        </h3>
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse>
+    <nav className="nav">
 
-        {!loading && isAuthenticated ? authLinks : guestLinks}
+      <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
+      <label for="nav__checkbox" class="nav__toggle">
+        <svg className="menu" viewBox="0 0 448 512" width="100" title="bars">
+          <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+        </svg>
+        <svg className="close" viewBox="0 0 384 512" width="100" title="times">
+          <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+        </svg>
+      </label>
 
-
-
-      </Navbar.Collapse>
-
-    </Navbar>
+      {!loading && <Fragment>{isAuthenticated ? authLinks : guestLinks}</Fragment>}
+    </nav>
   )
 }
 

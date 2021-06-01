@@ -2,7 +2,6 @@ import { GET_TEST,GET_TEST_ERROR} from "../types";
 
   
   const initialState = {
-    test:{},
     loading: true,
     error: {}
   };
@@ -14,8 +13,8 @@ import { GET_TEST,GET_TEST_ERROR} from "../types";
       case GET_TEST:
         return {
           ...state,
-          test: payload,
-          loading: false
+          loading: false,
+          error:payload
         };
         case GET_TEST_ERROR:
           return {

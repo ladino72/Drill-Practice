@@ -1,12 +1,8 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { useDispatch} from "react-redux";
-
 import { GetTestActionCreator} from "../Redux/actions/GetTestActionCreator";
 
-
-
 import Quiz from "./Quiz";
-
 import MenuTests from "./MenuTests";
 import axios from "axios";
 

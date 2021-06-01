@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0; }
 
+/*   color variables */
 /*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
 /*Questions*/
 .questions_wrapper {
@@ -525,3 +526,78 @@ button {
     margin-bottom: 1rem; }
   .navbar .welcome {
     display: none; } }
+
+/*New navbar*/
+.nav {
+  color: #17a2b8; }
+  .nav ul li:first-child i {
+    font-size: 2rem;
+    padding-right: 1rem; }
+  .nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0; }
+    .nav__toggle svg {
+      width: 1.5rem;
+      fill: #2a324b; }
+    .nav__toggle .close {
+      display: none;
+      fill: #17a2b8;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+    .nav__toggle .menu {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      fill: #17a2b8; }
+  .nav__checkbox {
+    display: none; }
+  .nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    flex-grow: 1;
+    border-bottom: 0.5px solid #17a2b8;
+    margin-bottom: 0rem;
+    background-color: #343a40; }
+    .nav__menu li {
+      list-style: none;
+      display: none; }
+      .nav__menu li:first-child {
+        margin-right: auto;
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem; }
+    .nav__menu a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.2rem; }
+    .nav__menu a:hover {
+      opacity: 0.7; }
+
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block; }
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block; }
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none; }
+
+@media only screen and (min-width: 768px) {
+  .nav__toggle {
+    display: none; }
+  .nav ul li:first-child i {
+    font-size: 2rem; }
+  .nav__menu {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    height: 4rem;
+    background-color: #343a40; }
+    .nav__menu li :last-child {
+      margin-right: 1rem; }
+    .nav__menu li {
+      display: block;
+      margin-left: 1.5rem; } }

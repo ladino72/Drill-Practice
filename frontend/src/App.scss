@@ -1,17 +1,28 @@
 
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 };
 
-
 $primary2-color: #17a2b8;
 $dark-color: #343a40;
 $light-color: #f4f4f4;
 $danger-color: #dc3545;
 $success-color: #28a745;
+
+/*   color variables */
+$clr-primary: #0e48fe;
+$clr-primary-hover: #29e6a7;
+$clr-primary-dark: #039d69;
+$clr-gray100: #f9fbff;
+$clr-gray150: #f4f6fb;
+$clr-gray200: #eef1f6;
+$clr-gray300: #e1e5ee;
+$clr-gray400: #767b91;
+$clr-gray500: #4f546c;
+$clr-gray600: #2a324b;
+$clr-gray700: #161d34;
 
 /*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
 $colores: (
@@ -673,5 +684,127 @@ button {
 
   .navbar .welcome {
     display: none;
+  }
+}
+
+/*New navbar*/
+
+.nav {
+  color:$primary2-color;
+  ul li:first-child i   {
+    font-size: 2rem;
+    padding-right: 1rem;
+  }
+
+   &__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+
+    
+    svg {
+      width: 1.5rem;
+      fill: $clr-gray600;
+    }
+
+    .close {
+      display: none;
+      fill: $primary2-color;
+      padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .menu {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      fill: $primary2-color;
+
+    }
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    flex-grow:1;
+    border-bottom: 0.5px solid $primary2-color;
+    margin-bottom: 0rem;
+    background-color:$dark-color;
+
+    li {
+      list-style: none;
+      display: none;
+
+      &:first-child {
+        margin-right: auto;
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.2rem;
+    }
+    a:hover{
+      opacity: 0.7;
+    }
+
+    
+  }
+}
+
+// Toggle the hamburger menu in mobile view
+#nav__checkbox:checked ~ ul.nav__menu li {
+  display: block;
+}
+
+//Change from menu to close icon on tap
+#nav__checkbox:checked ~ label.nav__toggle .close {
+  display: block;
+  
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+  display: none;
+  
+}
+
+// Desktop view
+@media only screen and (min-width: 768px) {
+  .nav {
+    &__toggle {
+      display: none;
+    }
+    ul li:first-child i   {
+      font-size: 2rem;
+    }
+
+    &__menu {
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-grow: 1;
+      height: 4rem;
+      background-color:$dark-color;
+      
+      li :last-child{
+        margin-right: 1rem;
+      }
+      
+      li {
+        display: block;
+        margin-left: 1.5rem;
+        
+      }
+    }
   }
 }

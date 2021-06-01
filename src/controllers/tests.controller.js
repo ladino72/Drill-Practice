@@ -60,6 +60,8 @@ testsCtrl.updateTest = async (req, res) => {
 testsCtrl.getTest = async (req, res) => {
     const { id } = req.params;
     let problem;
+    try{
+
     //https://stackoverflow.com/questions/13850819/can-i-determine-if-a-string-is-a-mongodb-objectid
     if (id.match(/^[0-9a-fA-F]{24}$/)) {
         // it's an ObjectID
@@ -96,8 +98,10 @@ testsCtrl.getTest = async (req, res) => {
         problem.map(item=>console.log(item.topic)) 
         res.json(problem)  
     }
-
-   
+}catch (err) {
+    console.error(err.message);
+    res.status(500).send('Server error');
+  }
     
 }
 

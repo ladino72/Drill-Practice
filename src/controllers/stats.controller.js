@@ -53,8 +53,8 @@ statsCtrl.getStats = async (req, res) => {
         res.json(data);
 
     }
-    catch (err) {
-        console.error(err.message);
+    catch (error) {
+        console.error(error.message);
         res.status(500).send("Server Error");
     }
 };
