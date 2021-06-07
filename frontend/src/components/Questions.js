@@ -6,7 +6,6 @@ import "../style.css"
 import uuid from "react-uuid";
 import { InlineTex } from 'react-tex';
 import getTestValue from "../utils/getTestValue";
-import Button from "react-bootstrap/Button";
 import Image from 'react-bootstrap/Image'
 
 
@@ -125,7 +124,7 @@ function Questions({ move }) {
                     {quiz.config.allowBack && <button type="button" className="btn btn-outline-primary" id="first" onClick={(e) => move(e)}>First</button>}
                 </div>
                 <div className="prev">
-                    {quiz.config.allowBack && <button type="button" className="btn btn-outline-primary"  id="prev" onClick={(e) => move(e)}>Prev</button>}
+                    {quiz.config.allowBack && <button type="button" className="btn btn-outline-primary" id="prev" onClick={(e) => move(e)}>Prev</button>}
                 </div>
                 <div className="next">
                     <button type="button" className="btn btn-outline-primary" id="next" onClick={(e) => move(e)}>Next</button>

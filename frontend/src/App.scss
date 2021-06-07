@@ -1,9 +1,8 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-};
+}
 
 $primary2-color: #17a2b8;
 $dark-color: #343a40;
@@ -27,9 +26,8 @@ $clr-gray700: #161d34;
 /*Another way to define variables, more info from https://www.youtube.com/watch?v=mHp2nr2kErs*/
 $colores: (
   score: orangered,
-  primary-color:rgba(47,151,233,255),
-  bgColor:#ebf5f0,
-  
+  primary-color: rgba(47, 151, 233, 255),
+  bgColor: #ebf5f0,
 );
 
 /*Questions*/
@@ -37,154 +35,139 @@ $colores: (
 .questions_wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: 
-    "h h h h h h h h h h h h "
-    "q q q q q q q q q q q q "
-    "c c c c c c c c c c c c";
-
+  grid-template-areas:
+    'h h h h h h h h h h h h '
+    'q q q q q q q q q q q q '
+    'c c c c c c c c c c c c';
 }
-.header{
+.header {
   grid-area: h;
-  background-color: map-get($colores,bgColor);
+  background-color: map-get($colores, bgColor);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-  
 }
 
-.header-items{
-  display:flex;
+.header-items {
+  display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
-.header-item-1{
+.header-item-1 {
   padding-left: 0.5rem;
 }
-.header-item-2{
-  
+.header-item-2 {
 }
-.header-item-3{
-  color:map-get($colores,score);
+.header-item-3 {
+  color: map-get($colores, score);
   font-weight: bold;
   padding-right: 0.5rem;
-
 }
 
-.questions{
+.questions {
   grid-area: q;
-  background-color:map-get($colores,bgColor);
-
+  background-color: map-get($colores, bgColor);
 }
-.upper-controls{
+.upper-controls {
   grid-area: c;
   padding: 0.8rem 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: map-get($colores,bgColor);
-  display:grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-areas: 
-    ". . . . fs pr nx lt . . . .";
-    @media only screen and (max-width: 576px) {
-        grid-area: c;
-        padding: 0.8rem 0;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        background-color: map-get($colores,bgColor);
-        display:grid;
-        grid-template-columns: repeat(12,1fr);
-        grid-template-areas: 
-          ". . . . . fs pr . . . . ."
-          ". . . .  .nx lt . . . . .";
-       }
- }
-
- .first{
-   grid-area: fs;
-   justify-self: center;
-   @media only screen and (max-width: 576px) {
-
-   }
- }
- .prev{
-   grid-area:pr;
-   justify-self: center;
-   @media only screen and (max-width: 576px) {
-     
+  background-color: map-get($colores, bgColor);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: '. . . . fs pr nx lt . . . .';
+  @media only screen and (max-width: 576px) {
+    grid-area: c;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: map-get($colores, bgColor);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      '. . . . . fs pr . . . . .'
+      '. . . .  .nx lt . . . . .';
   }
- }
- .next{
-   grid-area:nx;
-   justify-self: center;
-   @media only screen and (max-width: 576px) {
-    grid-area:nx;
-    justify-self: center;
-    margin-top: 0.5rem;
-     
+}
+
+.first {
+  grid-area: fs;
+  justify-self: center;
+  @media only screen and (max-width: 576px) {
   }
- }
- .last{
-   grid-area:lt;
-   justify-self: center;
-   @media only screen and (max-width: 576px) {
-    grid-area:lt;
+}
+.prev {
+  grid-area: pr;
+  justify-self: center;
+  @media only screen and (max-width: 576px) {
+  }
+}
+.next {
+  grid-area: nx;
+  justify-self: center;
+  @media only screen and (max-width: 576px) {
+    grid-area: nx;
     justify-self: center;
     margin-top: 0.5rem;
   }
- }
- 
- .lower-controls{
-  display:flex;
+}
+.last {
+  grid-area: lt;
+  justify-self: center;
+  @media only screen and (max-width: 576px) {
+    grid-area: lt;
+    justify-self: center;
+    margin-top: 0.5rem;
+  }
+}
+
+.lower-controls {
+  display: flex;
   justify-content: center;
   padding-top: 0.8rem;
   padding-bottom: 0.4rem;
-  
 }
 
-.quest{
- display: grid;
- grid-template-columns: repeat(12,1fr);
- grid-template-areas: 
-  "qn qn qn qn qn qn qn qn qn qn qn qn"
-  "qb qb qb qb qb qb qb qb qb qb qb qb"
-  "qo qo qo qo qo qo qo qo qo qo qo qo"; 
+.quest {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    'qn qn qn qn qn qn qn qn qn qn qn qn'
+    'qb qb qb qb qb qb qb qb qb qb qb qb'
+    'qo qo qo qo qo qo qo qo qo qo qo qo';
   padding-left: 0.5rem;
-
 }
-.quest-number{
+.quest-number {
   grid-area: qn;
   justify-self: start;
- 
 }
-.quest-body{
+.quest-body {
   grid-area: qb;
 }
 
-.quest-option{
+.quest-option {
   grid-area: qo;
-  display:grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-areas: 
-  "o o o o o o o o o f f f";
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'o o o o o o o o o f f f';
 
   @media only screen and (max-width: 576px) {
     grid-area: qo;
-    display:grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-areas: 
-    "o o o o o o o o o o o o"
-    ". . . . f f f f f f f f";
-
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      'o o o o o o o o o o o o'
+      '. . . . f f f f f f f f';
   }
-  
 }
-.quest-opt{
+.quest-opt {
   grid-area: o;
-  align-self:center;
+  align-self: center;
   justify-self: start;
 }
-.quest-fig{
+.quest-fig {
   align-self: center;
   justify-self: center;
   grid-area: f;
@@ -193,85 +176,79 @@ $colores: (
 /*End questions*/
 
 /*Results*/
-.results-wrapper{
+.results-wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: 
-    "p p p p p p p p p p p p "
-    "qb qb qb qb qb qb qb qb qb qb qb qb "
-    "qo qo qo qo qo qo qo qo qo qo qo qo"
-    "qa qa qa qa qa qa qa qa qa qa qa qa";
-
+  grid-template-areas:
+    'p p p p p p p p p p p p '
+    'qb qb qb qb qb qb qb qb qb qb qb qb '
+    'qo qo qo qo qo qo qo qo qo qo qo qo'
+    'qa qa qa qa qa qa qa qa qa qa qa qa';
 }
-.points{
+.points {
   grid-area: p;
 }
-.question-body{
+.question-body {
   grid-area: qb;
 }
-.question-option{
+.question-option {
   grid-area: qo;
-  display:grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-areas: 
-  "o o o o o o o o o f f f";
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'o o o o o o o o o f f f';
   @media only screen and (max-width: 576px) {
-    
-      grid-area: qo;
-      display:grid;
-      grid-template-columns: repeat(12,1fr);
-      grid-template-areas: 
-      "o o o o o o o o o o o o"
-      ". . . . f f f f f f f f";
-    }
+    grid-area: qo;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      'o o o o o o o o o o o o'
+      '. . . . f f f f f f f f';
+  }
 }
-.question-opt{
+.question-opt {
   grid-area: o;
 }
-.question-figure{
+.question-figure {
   grid-area: f;
   align-self: center;
   justify-self: center;
   padding-bottom: 1rem;
 }
 
-.question-answer{
-  grid-area:qa ;
-  display:grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-areas: 
-  "qe qe qe qe qe qe qe qe qe qef qef qef";
+.question-answer {
+  grid-area: qa;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 'qe qe qe qe qe qe qe qe qe qef qef qef';
 
   @media only screen and (max-width: 576px) {
-
-      grid-area:qa ;
-      display:grid;
-      grid-template-columns: repeat(12,1fr);
-      grid-template-areas: 
-      "qe qe qe qe qe qe qe qe qe qe qe qe"
-      ". . . . qef qef qef qef qef qef qef qef";
-    }
+    grid-area: qa;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+      'qe qe qe qe qe qe qe qe qe qe qe qe'
+      '. . . . qef qef qef qef qef qef qef qef';
+  }
 }
 
-.question-explanation{
-grid-area: qe;
+.question-explanation {
+  grid-area: qe;
 }
 
-.question-explt-fig{
+.question-explt-fig {
   grid-area: qef;
   align-self: center;
   justify-self: center;
-  
+
   @media only screen and (max-width: 576px) {
     margin-top: 1rem;
   }
-
 }
 
 /*End Results*/
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -283,7 +260,7 @@ body {
 }
 
 a {
-  color: map-get($colores,primary-color );
+  color: map-get($colores, primary-color);
   text-decoration: none;
 }
 
@@ -329,7 +306,7 @@ img {
 }
 
 .text-primary {
-  color: map-get($colores,primary-color );
+  color: map-get($colores, primary-color);
 }
 
 .text-dark {
@@ -431,7 +408,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: map-get($colores,primary-color );
+  background: map-get($colores, primary-color);
   color: #fff;
 }
 
@@ -516,10 +493,10 @@ img {
   color: #888;
 }
 
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="password"],
-.form input[type="date"],
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
 .form select,
 .form textarea {
   display: block;
@@ -529,7 +506,7 @@ img {
   border: 1px solid #ccc;
 }
 
-.form input[type="submit"],
+.form input[type='submit'],
 button {
   font: inherit;
 }
@@ -596,7 +573,7 @@ button {
 }
 
 .navbar a:hover {
-  color: map-get($colores,primary-color );
+  color: map-get($colores, primary-color);
 }
 
 .navbar .welcome span {
@@ -606,7 +583,7 @@ button {
 /* Landing Page */
 .landing {
   position: relative;
-  background: url("./img/showcase6.jpg") no-repeat center center/cover;
+  background: url('./img/showcase6.jpg') no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -624,26 +601,23 @@ button {
 
 /* Mobile Styles  Another way*/
 @media only screen and (max-width: 576px) {
-
-  .header-item-1{
+  .header-item-1 {
     padding-left: 0.5rem;
   }
-  .header-item-2{
+  .header-item-2 {
     padding-left: 0.5rem;
   }
-  .header-item-3{
-    color:map-get($colores,score );
+  .header-item-3 {
+    color: map-get($colores, score);
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-   }
-   
+  }
 
-  img{
-
+  img {
     width: 50%;
   }
-  
+
   .container {
     margin-top: 1rem;
   }
@@ -690,23 +664,22 @@ button {
 /*New navbar*/
 
 .nav {
-  color:$primary2-color;
-  ul li:first-child i ~.logo{
+  color: $primary2-color;
+  ul li:first-child i ~ .logo {
     font-size: 1.5rem;
   }
-  
-  ul li:first-child i   {
+
+  ul li:first-child i {
     font-size: 2rem;
     padding-right: 1rem;
   }
 
-   &__toggle {
+  &__toggle {
     position: absolute;
     cursor: pointer;
     margin: 0rem 1rem;
     right: 0;
 
-    
     svg {
       width: 1.5rem;
       fill: $clr-gray600;
@@ -717,14 +690,12 @@ button {
       fill: $primary2-color;
       padding-top: 1.3rem;
       padding-bottom: 1rem;
-
     }
 
     .menu {
       padding-top: 1.3rem;
       padding-bottom: 1rem;
       fill: $primary2-color;
-
     }
   }
 
@@ -737,10 +708,10 @@ button {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
-    flex-grow:1;
+    flex-grow: 1;
     border-bottom: 0.5px solid $primary2-color;
     margin-bottom: 0rem;
-    background-color:$dark-color;
+    background-color: $dark-color;
 
     li {
       list-style: none;
@@ -758,11 +729,14 @@ button {
       text-decoration: none;
       color: inherit;
       font-size: 1.2rem;
+      opacity: 0.9;
+      transition: 0.3s;
     }
-    a:hover{
-      opacity: 0.7;
+    a:hover {
+      color: white;
+      opacity: 1;
+      text-decoration: none;
     }
-
   }
 }
 
@@ -774,12 +748,10 @@ button {
 //Change from menu to close icon on tap
 #nav__checkbox:checked ~ label.nav__toggle .close {
   display: block;
-  
 }
 
 #nav__checkbox:checked ~ label.nav__toggle .menu {
   display: none;
-  
 }
 
 // Desktop view
@@ -788,10 +760,10 @@ button {
     &__toggle {
       display: none;
     }
-    ul li:first-child i   {
+    ul li:first-child i {
       font-size: 2rem;
     }
-    ul li:first-child i ~.logo{
+    ul li:first-child i ~ .logo {
       font-size: 1.5rem;
     }
 
@@ -800,17 +772,24 @@ button {
       justify-content: space-evenly;
       flex-grow: 1;
       height: 4rem;
-      background-color:$dark-color;
-      
-      li :last-child{
+      background-color: $dark-color;
+
+      li :last-child {
         margin-right: 1rem;
       }
-      
+
       li {
         display: block;
         margin-left: 0.5rem;
-        
       }
     }
   }
+}
+//In Review:
+.answered_Yes {
+  background-color: $primary2-color;
+  opacity: 0.5;
+}
+.answered_No {
+  background-color: $primary2-color;
 }

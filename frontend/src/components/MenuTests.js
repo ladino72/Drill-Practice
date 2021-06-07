@@ -10,7 +10,7 @@ const MenuTests = ({ tests, setQuizId }) => {
 
     return (
 
-        <div style={{backgroundColor:"#f0f8ff"}} className="d-flex flex-column">
+        <div style={{ backgroundColor: "#f0f8ff" }} className="d-flex flex-column">
 
             <div className="d-flex justify-content-between flex-wrap ">
                 <h5 className=" px-2" >Physics</h5>
@@ -19,7 +19,7 @@ const MenuTests = ({ tests, setQuizId }) => {
 
             <div className="d-flex justify-content-between flex-wrap ">
                 <h5 className=" px-2">Math</h5>
-                <MathNav tests={tests} setQuizId={setQuizId}/>
+                <MathNav tests={tests} setQuizId={setQuizId} />
             </div>
 
         </div>

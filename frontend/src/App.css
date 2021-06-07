@@ -9,7 +9,7 @@
 .questions_wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "h h h h h h h h h h h h " "q q q q q q q q q q q q " "c c c c c c c c c c c c"; }
+  grid-template-areas: 'h h h h h h h h h h h h ' 'q q q q q q q q q q q q ' 'c c c c c c c c c c c c'; }
 
 .header {
   grid-area: h;
@@ -44,7 +44,7 @@
   background-color: #ebf5f0;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: ". . . . fs pr nx lt . . . ."; }
+  grid-template-areas: '. . . . fs pr nx lt . . . .'; }
   @media only screen and (max-width: 576px) {
     .upper-controls {
       grid-area: c;
@@ -54,7 +54,7 @@
       background-color: #ebf5f0;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: ". . . . . fs pr . . . . ." ". . . .  .nx lt . . . . ."; } }
+      grid-template-areas: '. . . . . fs pr . . . . .' '. . . .  .nx lt . . . . .'; } }
 
 .first {
   grid-area: fs;
@@ -91,7 +91,7 @@
 .quest {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "qn qn qn qn qn qn qn qn qn qn qn qn" "qb qb qb qb qb qb qb qb qb qb qb qb" "qo qo qo qo qo qo qo qo qo qo qo qo";
+  grid-template-areas: 'qn qn qn qn qn qn qn qn qn qn qn qn' 'qb qb qb qb qb qb qb qb qb qb qb qb' 'qo qo qo qo qo qo qo qo qo qo qo qo';
   padding-left: 0.5rem; }
 
 .quest-number {
@@ -105,13 +105,13 @@
   grid-area: qo;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "o o o o o o o o o f f f"; }
+  grid-template-areas: 'o o o o o o o o o f f f'; }
   @media only screen and (max-width: 576px) {
     .quest-option {
       grid-area: qo;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; } }
+      grid-template-areas: 'o o o o o o o o o o o o' '. . . . f f f f f f f f'; } }
 
 .quest-opt {
   grid-area: o;
@@ -129,7 +129,7 @@
 .results-wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "p p p p p p p p p p p p " "qb qb qb qb qb qb qb qb qb qb qb qb " "qo qo qo qo qo qo qo qo qo qo qo qo" "qa qa qa qa qa qa qa qa qa qa qa qa"; }
+  grid-template-areas: 'p p p p p p p p p p p p ' 'qb qb qb qb qb qb qb qb qb qb qb qb ' 'qo qo qo qo qo qo qo qo qo qo qo qo' 'qa qa qa qa qa qa qa qa qa qa qa qa'; }
 
 .points {
   grid-area: p; }
@@ -141,13 +141,13 @@
   grid-area: qo;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "o o o o o o o o o f f f"; }
+  grid-template-areas: 'o o o o o o o o o f f f'; }
   @media only screen and (max-width: 576px) {
     .question-option {
       grid-area: qo;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: "o o o o o o o o o o o o" ". . . . f f f f f f f f"; } }
+      grid-template-areas: 'o o o o o o o o o o o o' '. . . . f f f f f f f f'; } }
 
 .question-opt {
   grid-area: o; }
@@ -162,13 +162,13 @@
   grid-area: qa;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-areas: "qe qe qe qe qe qe qe qe qe qef qef qef"; }
+  grid-template-areas: 'qe qe qe qe qe qe qe qe qe qef qef qef'; }
   @media only screen and (max-width: 576px) {
     .question-answer {
       grid-area: qa;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: "qe qe qe qe qe qe qe qe qe qe qe qe" ". . . . qef qef qef qef qef qef qef qef"; } }
+      grid-template-areas: 'qe qe qe qe qe qe qe qe qe qe qe qe' '. . . . qef qef qef qef qef qef qef qef'; } }
 
 .question-explanation {
   grid-area: qe; }
@@ -183,7 +183,7 @@
 
 /*End Results*/
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   background-color: #fff;
@@ -398,10 +398,10 @@ img {
   margin-top: 0.3rem;
   color: #888; }
 
-.form input[type="text"],
-.form input[type="email"],
-.form input[type="password"],
-.form input[type="date"],
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form input[type='date'],
 .form select,
 .form textarea {
   display: block;
@@ -410,7 +410,7 @@ img {
   font-size: 1.2rem;
   border: 1px solid #ccc; }
 
-.form input[type="submit"],
+.form input[type='submit'],
 button {
   font: inherit; }
 
@@ -574,9 +574,13 @@ button {
     .nav__menu a {
       text-decoration: none;
       color: inherit;
-      font-size: 1.2rem; }
+      font-size: 1.2rem;
+      opacity: 0.9;
+      transition: 0.3s; }
     .nav__menu a:hover {
-      opacity: 0.7; }
+      color: white;
+      opacity: 1;
+      text-decoration: none; }
 
 #nav__checkbox:checked ~ ul.nav__menu li {
   display: block; }
@@ -605,3 +609,10 @@ button {
     .nav__menu li {
       display: block;
       margin-left: 0.5rem; } }
+
+.answered_Yes {
+  background-color: #17a2b8;
+  opacity: 0.5; }
+
+.answered_No {
+  background-color: #17a2b8; }
