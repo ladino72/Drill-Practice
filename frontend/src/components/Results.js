@@ -35,8 +35,8 @@ const Results = () => {
 
   //console.log('currentTestId', currentTestId);
   console.log(">>>>>>>>Config", config)
-  console.log(">>>>>>>>testId","+++++++++",quiz._id)
-  let currentTestId=quiz._id;
+  console.log(">>>>>>>>testId", "+++++++++", quiz._id)
+  let currentTestId = quiz._id;
 
   useEffect(() => {
     if (!postScore) {
@@ -108,7 +108,7 @@ const Results = () => {
                 {quest.A.map(opt => (
 
                   <div key={uuid()} >
-                    <div className="d-flex align-items-center py-2">
+                    <div className="d-flex align-items-center py-2 flex-row ">
                       <input id={opt.id} type="checkbox" disabled={opt.disabled} checked={opt.selected} readOnly />
                       {(answer_sheet[index] !== undefined ? (opt.id_ === answer_sheet[index].RightAnswerId && answer_sheet[index].A !== null) : null) ?
                         <FaCheck style={{ color: "blue", fontSize: "1.1rem" }} />
@@ -119,7 +119,7 @@ const Results = () => {
 
                         : null}
 
-                      <span style={{ fontSize: "0.9rem" }} > <InlineTex texContent={opt.opt} /></span>
+                      <span style={{ fontSize: "0.9rem", marginLeft: "0.25rem" }} > <InlineTex texContent={opt.opt} /></span>
                     </div>
                   </div>
 

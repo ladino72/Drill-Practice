@@ -40,23 +40,23 @@ rankingCtrl.registerScore = async (req, res) => {
         //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt
         //console.log("Types of variables",10*Number.parseInt(" 45",10),Number.parseInt("35 ",10));
 
-        Table_[p] = { "Correct": Temp_Table[p].Correct === ("true"), "id": Number.parseInt(Temp_Table[p].id,10) }
+        Table_[p] = { "Correct": Temp_Table[p].Correct === ("true"), "id": Number.parseInt(Temp_Table[p].id, 10) }
 
     }
 
     console.log('From registerScore Table_', Table_);
 
     //Find an empty id. This happens when user submit the test without selecting an option.
-    let empty=false;
-    for(let q=0;q<Table_.length;q++){
+    let empty = false;
+    for (let q = 0; q < Table_.length; q++) {
         if (Number.isNaN(Table_[q].id)) {
-            empty=true;
+            empty = true;
             break;
-          }
+        }
     }
-    console.log("Does user submit the test without answers?",empty,"so, in the userAnswersTable no id equals NaN ")
+    console.log("Does user submit the test without answers?", empty, "so, in the userAnswersTable no id equals NaN ")
 
-    
+
     try {
 
         let user = await User.findById(req.user.id).select("-password");
@@ -82,7 +82,7 @@ rankingCtrl.registerScore = async (req, res) => {
                 let Table = [];
                 let userIndex = ranking_.topScores.findIndex(ele => ele.userid === user.id)
                 let userTable = ranking_.topScores[userIndex]
-                let {userAnswersTable} = userTable ///-----------equivalent to: userTable.userAnswersTable
+                let { userAnswersTable } = userTable ///-----------equivalent to: userTable.userAnswersTable
 
                 console.log('Input---->>>>>>>>>>>>', Table_);
 
@@ -114,11 +114,11 @@ rankingCtrl.registerScore = async (req, res) => {
                 }
 
                 userAnswersTable.forEach(ele => score_ += ele.Points)
-                
+
                 //score_ is now calculated using lodash library. Its result is not used thought. Just for fun! lodash library was installed in the backend!
-                let sum_=0;
-                sum_=_.sumBy(userAnswersTable, function(o) { return o.Points })
-                console.log('--Using lodash-----sum_', sum_,"score_",score_);
+                let sum_ = 0;
+                sum_ = _.sumBy(userAnswersTable, function (o) { return o.Points })
+                console.log('--Using lodash-----sum_', sum_, "score_", score_);
 
 
                 console.log("Table", Table)
@@ -170,7 +170,7 @@ rankingCtrl.registerScore = async (req, res) => {
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error");
+        res.status(500).send("Server Error->registerScore in ranking.controller.js");
     }
 };
 
@@ -197,7 +197,7 @@ rankingCtrl.getScore = async (req, res) => {
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error");
+        res.status(500).send("Server Error->getScore in ranking.controller.js");
     }
 };
 
@@ -280,7 +280,7 @@ rankingCtrl.cu_testValue_answersTable = async (req, res) => {
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error");
+        res.status(500).send("Server Error->cu_testvalue in ranking.controller.js");
     }
 };
 
