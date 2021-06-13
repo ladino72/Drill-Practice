@@ -96,7 +96,7 @@ function Questions({ move }) {
                                         <div key={uuid()} >
                                             <label className="font-weight-normal d-flex flex-row align-items-center" htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
-                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{ fontSize: "0.9rem" }} ><InlineTex texContent={option.opt} /></span>
+                                                <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{ fontSize: "0.9rem", marginLeft: "0.25rem" }} ><InlineTex texContent={option.opt} /></span>
                                             </label>
                                         </div>
 
