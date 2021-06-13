@@ -1,0 +1,17 @@
+{
+    "ID": 110,
+    "name": "Logarithms Quiz",
+    "description":"Operation with logarithms",
+    "subject":"Algebra",
+    "topic":"Logarithms",
+    "area":"Math",
+    "questions": [
+        {"id":1,"Q":"After expanding $$\\log(4 \\times 5)$$ we get: ","A":[{"id_":1,"opt":"$$\\log(4)+\\log(5)$$","isAnswer":true},{"id_":2,"opt":"$$\\log(4) \\log(5)$$","isAnswer":false},{"id_":3,"opt":"$$\\frac{\\log(4)}{\\log(5)}$$","isAnswer":false},{"id_":4,"opt":"$$4 \\log(5)$$","isAnswer":false},{"id_":5,"opt":"$$5 \\log(4)$$","isAnswer":false}],"Points":8,"E":"We use $$\\log(xy)=\\log(x)+\\log(y)$$, so $$\\log(4\\times 5)=\\log(4)+\\log(5)$$"},
+        {"id":2,"Q":"After expanding $$\\log(4 \\times 5\\times 6)$$ we get: ","A":[{"id_":1,"opt":"$$\\log(4)+\\log(5)+\\log(6)$$","isAnswer":true},{"id_":2,"opt":"$$\\log(4) \\log(5) \\log(6)$$","isAnswer":false},{"id_":3,"opt":"$$\\frac{\\log(4)}{\\log(5)}\\log(6)$$","isAnswer":false},{"id_":4,"opt":"$$4 \\log(5)\\log(6)$$","isAnswer":false},{"id_":5,"opt":"$$5 \\log(4) \\log(6)$$","isAnswer":false}],"Points":8,"E":"We use $$\\log(xyz)=\\log(x)+\\log(y)+\\log(z)$$, so $$\\log(4\\times 5\\times 6)=\\log(4)+\\log(6)$$","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":3,"Q":"After expanding $$\\log(4^5)$$ we get: ","A":[{"id_":1,"opt":"$$4\\log(5)$$","isAnswer":false},{"id_":2,"opt":"$$5\\log(4)$$","isAnswer":true},{"id_":3,"opt":"$$\\frac{\\log(4)}{5}$$","isAnswer":false},{"id_":4,"opt":"$$\\frac{\\log(4)}{\\log(5)}$$","isAnswer":false},{"id_":5,"opt":"$$\\log(4) \\log(5)$$","isAnswer":false}],"Points":8,"E":"We use $$\\log(x^m)=m \\log(x)$$, so $$\\log(4^5)=5 \\log(4)$$ ","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
+        {"id":4,"Q":"After expanding $$\\log(4^\\pi)$$ we get: ","A":[{"id_":1,"opt":"$$4\\log(\\pi)$$","isAnswer":false},{"id_":2,"opt":"$$\\pi\\log(4)$$","isAnswer":true},{"id_":3,"opt":"$$\\frac{\\log(4)}{\\pi}$$","isAnswer":false},{"id_":4,"opt":"$$\\frac{\\log(4)}{\\log(\\pi)}$$","isAnswer":false},{"id_":5,"opt":"$$\\log(4) \\log(\\pi)$$","isAnswer":false}],"Points":8,"E":"We use $$\\log(x^m)=m \\log(x)$$, so $$\\log(4^\\pi)=\\pi \\log(4)$$ "},
+        {"id":5,"Q":"After expanding $$\\log(e^{\\pi x})$$ we get: ","A":[{"id_":1,"opt":"$$\\pi \\log(e x)$$","isAnswer":false},{"id_":2,"opt":"$$\\pi x \\log(e)$$","isAnswer":true},{"id_":3,"opt":"$$\\pi \\log(x) \\log(e)$$","isAnswer":false},{"id_":4,"opt":"$$\\log(e)+\\log(x)+\\log(\\pi)$$","isAnswer":false}],"Points":8,"E":"We use $$\\log(a^{b x})=bx \\log(a)$$ where $$a>0$$, so $$\\log(e^{\\pi x})=\\pi x \\log(e)$$ "}
+        
+        ]
+    
+} 

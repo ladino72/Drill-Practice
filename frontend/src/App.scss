@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-$primary2-color: #17a2b8;
 $dark-color: #343a40;
 $light-color: #f4f4f4;
 $danger-color: #dc3545;
@@ -28,7 +27,10 @@ $colores: (
   score: orangered,
   primary-color: rgba(47, 151, 233, 255),
   bgColor: #ebf5f0,
+  primary2-color: #17a2b8,
 );
+//The color function is a Sass function defined in the _color.scss file
+@import 'color';
 
 /*Questions*/
 
@@ -42,7 +44,7 @@ $colores: (
 }
 .header {
   grid-area: h;
-  background-color: map-get($colores, bgColor);
+  background-color: color(bgColor);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 0.25rem;
@@ -60,21 +62,21 @@ $colores: (
 .header-item-2 {
 }
 .header-item-3 {
-  color: map-get($colores, score);
+  color: color(score);
   font-weight: bold;
   padding-right: 0.5rem;
 }
 
 .questions {
   grid-area: q;
-  background-color: map-get($colores, bgColor);
+  background-color: color(bgColor);
 }
 .upper-controls {
   grid-area: c;
   padding: 0.8rem 0;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background-color: map-get($colores, bgColor);
+  background-color: color(bgColor);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas: '. . . . fs pr nx lt . . . .';
@@ -83,7 +85,7 @@ $colores: (
     padding: 0.8rem 0;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: map-get($colores, bgColor);
+    background-color: color(bgColor);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
@@ -260,7 +262,7 @@ body {
 }
 
 a {
-  color: map-get($colores, primary-color);
+  color: color(primary-color);
   text-decoration: none;
 }
 
@@ -306,7 +308,7 @@ img {
 }
 
 .text-primary {
-  color: map-get($colores, primary-color);
+  color: color(primary-color);
 }
 
 .text-dark {
@@ -408,7 +410,7 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: map-get($colores, primary-color);
+  background: color(primary-color);
   color: #fff;
 }
 
@@ -573,7 +575,7 @@ button {
 }
 
 .navbar a:hover {
-  color: map-get($colores, primary-color);
+  color: color(primary-color);
 }
 
 .navbar .welcome span {
@@ -608,7 +610,7 @@ button {
     padding-left: 0.5rem;
   }
   .header-item-3 {
-    color: map-get($colores, score);
+    color: color(score);
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -664,7 +666,7 @@ button {
 /*New navbar*/
 
 .nav {
-  color: $primary2-color;
+  color: color(primary2-color);
   ul li:first-child i ~ .logo {
     font-size: 1.5rem;
   }
@@ -687,7 +689,7 @@ button {
 
     .close {
       display: none;
-      fill: $primary2-color;
+      fill: color(primary2-color);
       padding-top: 1.3rem;
       padding-bottom: 1rem;
     }
@@ -695,7 +697,7 @@ button {
     .menu {
       padding-top: 1.3rem;
       padding-bottom: 1rem;
-      fill: $primary2-color;
+      fill: color(primary2-color);
     }
   }
 
@@ -709,7 +711,7 @@ button {
     gap: 0.5rem;
     align-items: center;
     flex-grow: 1;
-    border-bottom: 0.5px solid $primary2-color;
+    border-bottom: 0.5px solid color(primary2-color);
     margin-bottom: 0rem;
     background-color: $dark-color;
 
@@ -787,9 +789,9 @@ button {
 }
 //In Review:
 .answered_Yes {
-  background-color: $primary2-color;
+  background-color: color(primary2-color);
   opacity: 0.5;
 }
 .answered_No {
-  background-color: $primary2-color;
+  background-color: color(primary2-color);
 }
