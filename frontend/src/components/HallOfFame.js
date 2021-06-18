@@ -31,8 +31,8 @@ const HallOfFame = (props) => {
             .then((response) => {
                 getTests(response.data);
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            })
-            .catch((error) => alert(`Error: ${error}`));
+            }).catch((error) => alert(`${error.response.data.message}`));
+
     };
 
 
@@ -52,8 +52,8 @@ const HallOfFame = (props) => {
             .then((response) => {
                 getScore(response.data);
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            })
-            .catch((error) => alert(`Error: ${error}`));
+            }).catch((error) => alert(`${error.response.data.message}`));
+
     };
 
 

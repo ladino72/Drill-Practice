@@ -1,11 +1,11 @@
 const express = require('express');
 const cors = require('cors');
-const path=require("path")
+const path = require("path")
 
 const app = express();
+const { handleError, convertToAppError } = require("./src/Errors/AppError")
 
 // settings
-app.set('port', process.env.PORT || 4000);
 app.use(express.urlencoded({ extended: true }));
 
 //Init middlewares 
@@ -19,21 +19,32 @@ app.use('/api/auth', require('./src/routes/auth'));
 app.use('/api/ranking', require('./src/routes/ranking'));
 app.use('/api/statistics', require('./src/routes/statistics'));
 
+//Handle errors with class defined in AppError
+app.use((err, req, res, next) => {
+    const { statusCode, message } = err;
+    console.log("From the app.js file")
+    res.status(statusCode).json({
+        status: "error",
+        statusCode,
+        message
+    });
+})
+
 // Serve static assets in production
-if(process.env.NODE_ENV==="production"){
+if (process.env.NODE_ENV === "production") {
     //Set static folder
     app.use(express.static("frontend/build"));
 
-    app.get("*",(req,res)=>{
-        res.sendFile(path.resolve(__dirname,"frontend","build","index.html"));
+    app.get("*", (req, res) => {
+        res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"));
     })
-
-
 }
 
-
-
 //static files
-app.use(express.static(path.join(__dirname,"public")));
+app.use(express.static(path.join(__dirname, "public")));
+
+
+app.set('port', process.env.PORT || 4000);
+
 
 module.exports = app;

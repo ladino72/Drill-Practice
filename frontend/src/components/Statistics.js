@@ -56,8 +56,7 @@ const Statistics = (props) => {
                 setData(response.data);
                 console.log("--------Answer from axios-------------", response.data)
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            })
-            .catch((error) => alert(`Error: ${error}`));
+            }).catch((error) => alert(`${error.response.data.message}`));
     };
 
     useEffect(() => {

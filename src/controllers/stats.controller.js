@@ -1,4 +1,7 @@
 const statsCtrl = {};
+const httpStatus = require("http-status");
+const { AppError } = require("../Errors/AppError")
+
 
 const User = require("../models/User");
 const Ranking = require("../models/Ranking")
@@ -8,16 +11,31 @@ const Problem = require("../models/Problem")
 // @route    GET api/statistics
 // @desc     Get statistics by topic
 // @access   Private
-statsCtrl.getStats = async (req, res) => {
+statsCtrl.getStats = async (req, res, next) => {
     const { id } = req.params
     try {
         //const ranking = await Ranking.find({$and:[{"testID":id},{ "topScores.score" : { $gt: 180 } }]});
         let ranking = await Ranking.find({ "testID": id });
 
+
+        //This part deals with the case when a new topic is created and the admin has not started the corresponding test.
+        //Now the adimin can just merely load the test. It is not necessary that the admin take the test first for the users can take it
+        //https://httpstatuses.com/
+
+        if (ranking[0] === undefined) {
+            throw new AppError(httpStatus.INTERNAL_SERVER_ERROR, "Uninitialized test. To remove this warning, simply open the test!");
+        }
+
+        if (ranking[0].topScores.length == 0) {
+            throw new AppError(httpStatus.BAD_REQUEST, "Nobody has taken this test yet. Dare to Take the Challenge!");
+        }
+
         let userAnswerTables = ranking[0].topScores.map(ele => ele.userAnswersTable);
         let participants_number = userAnswerTables.length;
         let topic = ranking[0].topic
-        let { answersTable } = ranking[0]   //Be careful this table may not exist at the moment of displaying stats!
+        let { answersTable } = ranking[0]
+
+
 
         let statData = [];
         let sum = 0;
@@ -53,9 +71,9 @@ statsCtrl.getStats = async (req, res) => {
         res.json(data);
 
     }
-    catch (error) {
-        console.error(error.message);
-        res.status(500).send("Server Error-->getStats in stats.controller.js");
+    catch (e) {
+        console.error(e.message, e.statusCode);
+        next(e)
     }
 };
 

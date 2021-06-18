@@ -1,5 +1,6 @@
 var _ = require('lodash')
-
+const httpStatus = require("http-status");
+const { AppError } = require("../Errors/AppError")
 
 const rankingCtrl = {};
 
@@ -177,11 +178,25 @@ rankingCtrl.registerScore = async (req, res) => {
 // @route    GET api/ranking
 // @desc     Get highest score
 // @access   Private
-rankingCtrl.getScore = async (req, res) => {
+rankingCtrl.getScore = async (req, res, next) => {
     const { id } = req.params
     try {
         //const ranking = await Ranking.find({$and:[{"testID":id},{ "topScores.score" : { $gt: 180 } }]});
         let ranking = await Ranking.find({ "testID": id });
+
+        //This part deals with the case when a new topic is created and the admin has not started the corresponding test.
+        //Now the adimin can just merely load the test. It is not necessary that the admin take the test first for the users can take it
+        //https://httpstatuses.com/
+
+        if (ranking[0] === undefined) {
+            throw new AppError(httpStatus.INTERNAL_SERVER_ERROR, "Uninitialized test. To remove this warning, simply open the test!");
+        }
+
+        if (ranking[0].topScores.length == 0) {
+            throw new AppError(httpStatus.BAD_REQUEST, "Nobody has taken this test yet. Dare to Take the Challenge!");
+        }
+
+
         //console.log('ranking', ranking[0].topScores);
 
         // let winners=ranking[0].topScores.filter(item=>item.score>0.75*ranking[0].value)
@@ -197,7 +212,7 @@ rankingCtrl.getScore = async (req, res) => {
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error->getScore in ranking.controller.js");
+        next(err);
     }
 };
 
