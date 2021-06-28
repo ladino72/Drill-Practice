@@ -21,13 +21,7 @@ app.use('/api/statistics', require('./src/routes/statistics'));
 
 //Handle errors with class defined in AppError
 app.use((err, req, res, next) => {
-    const { statusCode, message } = err;
-    console.log("From the app.js file")
-    res.status(statusCode).json({
-        status: "error",
-        statusCode,
-        message
-    });
+    handleError(err, res)
 })
 
 // Serve static assets in production

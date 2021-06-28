@@ -1,5 +1,10 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect, Fragment, useCallback } from "react";
+import { useSelector } from "react-redux";
+
 import { withRouter } from 'react-router-dom';
+import { useAlert } from 'react-alert';
+import { FaTrophy, FaAward } from 'react-icons/fa';
+
 
 import axios from "axios"
 
@@ -14,26 +19,32 @@ import uuid from "react-uuid"
 const HallOfFame = (props) => {
     //https://www.youtube.com/watch?v=8m8Q4wqFez0
     //React Router DOM v4 desde cero: BrowserRouter, Route, Switch, Redirect, Link, history
+    //https://www.npmjs.com/package/react-alert
+    const alert = useAlert()
+
+    const { user } = useSelector(state => state.AuthReducer)
+
 
     const { history } = props
     const [tests, getTests] = useState([]);
     const [score, getScore] = useState([]);
 
-
-    //https://levelup.gitconnected.com/fetch-api-data-with-axios-and-display-it-in-a-react-app-with-hooks-3f9c8fa89e7b
-    useEffect(() => {
-        getAllTests();
-    }, []);
-
-    const getAllTests = () => {
+    const getAllTests = useCallback(() => {
         axios
             .get("/api/tests") //Notice, we are using the proxy declared in the package.json file located in the frontend folder.
             .then((response) => {
                 getTests(response.data);
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            }).catch((error) => alert(`${error.response.data.message}`));
+            }).catch((error) => alert.show(`${error.response.data.message}`));
 
-    };
+    }, [alert]);
+
+    //https://levelup.gitconnected.com/fetch-api-data-with-axios-and-display-it-in-a-react-app-with-hooks-3f9c8fa89e7b
+    useEffect(() => {
+        getAllTests();
+    }, [getAllTests]);
+
+
 
 
     const physFundamentals = tests.filter(item => (item.area === "Physics" && item.subject === "Fundamentals"));
@@ -45,16 +56,16 @@ const HallOfFame = (props) => {
     const mathAlgebra = tests.filter(item => (item.area === "Math" && item.subject === "Algebra"));
 
 
-    const getScores = (id) => {
+    const getScores = useCallback((id) => {
         console.log("id", id)
         axios
             .get(`/api/ranking/${id}`) //Notice, we are using the proxy declared in the package.json file located in the frontend folder.
             .then((response) => {
                 getScore(response.data);
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            }).catch((error) => alert(`${error.response.data.message}`));
+            }).catch((error) => alert.show(`${error.response.data.message}`));
 
-    };
+    }, [alert]);
 
 
     useEffect(() => {
@@ -62,7 +73,7 @@ const HallOfFame = (props) => {
         //by MongoDb in the "problems collection". The same is done in the statistics component.
 
         getScores("60294174b4d3640ce78bf544")
-    }, []);
+    }, [getScores]);
 
     //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
     if (score[0] !== undefined) {
@@ -145,17 +156,25 @@ const HallOfFame = (props) => {
                         <Table bordered>
                             <thead>
                                 <tr>
-                                    <th>#</th>
+                                    <th style={{ textAlign: "center" }}>#</th>
                                     <th> Name</th>
-                                    <th>Score</th>
+                                    <th style={{ textAlign: "center" }}>Score</th>
+                                    <th style={{ textAlign: "center" }}>Prize</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {score[0].topScores.map((q, index) =>
                                     <tr key={q._id}>
-                                        <th scope="row">{index + 1}</th>
-                                        <td>{q.name}</td>
-                                        <td>{q.score.toFixed(2)}</td>
+                                        {user.name === q.name ? <th style={{ color: "red", textAlign: "center" }} scope="row">{index + 1}</th> : <th style={{ textAlign: "center" }} scope="row">{index + 1}</th>}
+                                        {user.name === q.name ? <td style={{ color: "red" }}>{q.name}</td> : <td>{q.name}</td>}
+                                        {user.name === q.name ? <td style={{ color: "red", textAlign: "center" }}>{q.score.toFixed(2)}</td> : <td style={{ textAlign: "center" }}>{q.score.toFixed(2)}</td>}
+                                        {q.score === 1.0 * score[0].value ?
+                                            <td style={{ color: "gold", textAlign: "center", fontSize: "1.3rem" }}><FaTrophy />{" "}<FaTrophy />{" "}<FaTrophy /></td> :
+                                            (q.score >= 0.9 * score[0].value && q.score < 1.0 * score[0].value) ?
+                                                <td style={{ color: "gold", textAlign: "center", fontSize: "1.3rem" }}><FaTrophy />{" "}<FaTrophy /></td> :
+                                                (q.score >= 0.8 * score[0].value && q.score < 0.9 * score[0].value) ?
+                                                    <td style={{ color: "gold", textAlign: "center", fontSize: "1.3rem" }}><FaTrophy /></td> :
+                                                    <td style={{ color: "black", textAlign: "center", fontSize: "1.0rem", opacity: "0.4" }}><FaAward /></td>}
                                     </tr>)}
                             </tbody>
                         </Table>

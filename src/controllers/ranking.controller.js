@@ -13,12 +13,14 @@ const Problem = require("../models/Problem")
 // @route    POST api/ranking
 // @desc     POST score by token
 // @access   Private
-rankingCtrl.registerScore = async (req, res) => {
+rankingCtrl.registerScore = async (req, res, next) => {
     const { ID, score } = req.body;
-    console.log("Score from registerScore point in ranking:controller", score, "typeof(score)", typeof (score))
+    console.log("|************************************************************************************|");
+    console.log("|************************************************************************************|");
+
+    console.log("Score Receieved (from registerScore, ranking.controller.js) BEFORE saving scores", score, "typeof(score)", typeof (score))
 
 
-    console.log("received object:", score)
     let score_t = score.trim().slice(0, -1).split("/")
     console.log('score_*********', score_t)
     let Temp_Table = []
@@ -72,6 +74,24 @@ rankingCtrl.registerScore = async (req, res) => {
             let refTable = ranking_.answersTable
             console.log('refTable-------->', refTable[0].Points, refTable[0].id);
 
+            //Troubleshooting section
+
+            if (refTable.length === Table_.length) {
+                console.log("|*****************************************************|")
+                console.log("|****************Sizes match**************************|")
+                console.log("|*****************************************************|")
+            } else {
+                console.log("|*****************************************************|")
+                console.log("|****************Sizes don't match********************|")
+                console.log("|*****************************************************|")
+            }
+
+
+
+            // End troublesooting section
+
+
+
             const exist = ranking_.topScores.find(ele => ele.userid === user.id)
             let ranking = ""
             if (exist !== undefined) {
@@ -85,11 +105,19 @@ rankingCtrl.registerScore = async (req, res) => {
                 let userTable = ranking_.topScores[userIndex]
                 let { userAnswersTable } = userTable ///-----------equivalent to: userTable.userAnswersTable
 
-                console.log('Input---->>>>>>>>>>>>', Table_);
+                console.log("|*************************************************************!")
+                console.log('Table_---->>>>>>>>>>>>>>>', Table_);
 
                 console.log('refTable---->>>>>>>>>>>>', refTable);
 
                 console.log('userAnswersTable---->>>>>>>>>>>>', userAnswersTable);
+
+                console.log("|*************************************************************!")
+
+
+                for (let p = 0; p < userAnswersTable.length; p++) {
+                    Table[p] = { "Points": 0, "id": userAnswersTable[p].id }
+                }
 
 
                 let score_ = 0
@@ -98,11 +126,9 @@ rankingCtrl.registerScore = async (req, res) => {
                     const index2 = userAnswersTable.findIndex(ele => ele.id === Table_[k].id);
 
                     if (Table_[k].Correct) {
-                        //score_ += (refTable[index1].Points + userAnswersTable[index2].Points) / 2;
-                        Table[k] = { "Points": (refTable[index1].Points + userAnswersTable[index2].Points) / 2, "id": Table_[k].id }
+                        Table[k] = { "Points": (refTable[index1].Points + userAnswersTable[index2].Points) / 2, "id": refTable[index1].id }
                     } else {
-                        //score_ += userAnswersTable[index2].Points / 2;
-                        Table[k] = { "Points": userAnswersTable[index2].Points / 2, "id": Table_[k].id }
+                        Table[k] = { "Points": userAnswersTable[index2].Points / 2, "id": refTable[index1].id }
                     }
                 }
                 //--------------------------------
@@ -148,12 +174,13 @@ rankingCtrl.registerScore = async (req, res) => {
                 }
                 let score_ = 0
                 for (let k = 0; k < Table_.length; k++) {
+                    const index = refTable.findIndex(ele => ele.id === Table_[k].id);
+
                     if (Table_[k].Correct) {
-                        const index = refTable.findIndex(ele => ele.id === Table_[k].id);
                         //score_ += refTable[index].Points;
-                        scaledTable[k] = { "Points": refTable[index].Points, "id": Table_[k].id }
+                        scaledTable[k] = refTable[index]
                     } else {
-                        scaledTable[k] = { "Points": 0, "id": Table_[k].id }
+                        scaledTable[k] = { "Points": 0, "id": refTable[index].id }
                     }
                 }
                 scaledTable.forEach(ele => score_ += ele.Points)
@@ -166,12 +193,12 @@ rankingCtrl.registerScore = async (req, res) => {
 
             return res.json(ranking);
         }
-
+        console.log("*************No answer was selected!**********")
 
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error->registerScore in ranking.controller.js");
+        next(err)
     }
 };
 
@@ -219,7 +246,7 @@ rankingCtrl.getScore = async (req, res, next) => {
 // @route    POST api/create_update_ranking
 // @desc     POST score by token
 // @access   Private
-rankingCtrl.cu_testValue_answersTable = async (req, res) => {
+rankingCtrl.cu_testValue_answersTable = async (req, res, next) => {
     const { ID, packedAnswerTable } = req.body;
     console.log("PackedAnswerTable from ranking:controller", packedAnswerTable, "typeof(packedAnswerTable)", typeof (packedAnswerTable))
 
@@ -238,7 +265,7 @@ rankingCtrl.cu_testValue_answersTable = async (req, res) => {
         TTable.push(tableRow)
     }
 
-    console.log("From Create and Update the temporal Table is:", TTable)
+    console.log("From Create and Update the temporal TTable is:", TTable)
 
     //Prepare Table
     let Table = []
@@ -279,7 +306,8 @@ rankingCtrl.cu_testValue_answersTable = async (req, res) => {
 
             let ranking = ""
 
-            console.log("It exist")
+            console.log("Answers table was created and its size is", Table.length)
+            console.log("Check type of id and points:", typeof (Table[0].id), typeof (Table[0].Points))
 
             ranking = await Ranking.findOneAndUpdate({ "testID": ID }, { $set: { "value": test_value, answersTable: Table } });
 
@@ -292,10 +320,12 @@ rankingCtrl.cu_testValue_answersTable = async (req, res) => {
         res.json(ranking);
 
 
+
+
     }
     catch (err) {
         console.error(err.message);
-        res.status(500).send("Server Error->cu_testvalue in ranking.controller.js");
+        next(err)
     }
 };
 

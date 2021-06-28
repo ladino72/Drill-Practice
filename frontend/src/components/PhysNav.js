@@ -2,11 +2,14 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import uuid from "react-uuid"
+import { useAlert } from 'react-alert'
+
 
 const PhysNav = ({ tests, setQuizId }) => {
+  const alert = useAlert()
 
+  if (tests === null) alert.show("Network connection issues")
   const physFundamentals = tests.filter(item => (item.area === "Physics" && item.subject === "Fundamentals"));
-  //console.log('physFundamentals', physFundamentals);
   const physMechanics = tests.filter(item => (item.area === "Physics" && item.subject === "Mechanics"));
   const physElectromagnetism = tests.filter(item => (item.area === "Physics" && item.subject === "Electromagnetism"));
   const physModern = tests.filter(item => (item.area === "Physics" && item.subject === "Modern"));
@@ -15,9 +18,7 @@ const PhysNav = ({ tests, setQuizId }) => {
 
 
   return (
-<div>
-
-
+    <div>
 
       <Nav variant="pills" activeKey="1" onSelect={handleSelect} className="d-flex flex-row">
         <Nav.Item className="flex-grow-1">
@@ -42,7 +43,7 @@ const PhysNav = ({ tests, setQuizId }) => {
         </Nav.Item>
       </Nav>
 
-      </div>
+    </div>
   );
 }
 

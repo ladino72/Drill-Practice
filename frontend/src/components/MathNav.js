@@ -1,26 +1,30 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import uuid from "react-uuid"
+import uuid from "react-uuid";
+import { useAlert } from 'react-alert';
+
 
 
 const MathNav = ({ tests, setQuizId }) => {
+  const alert = useAlert()
 
+  if (tests === null) alert.show("Network connection issues")
   const mathAlgebra = tests.filter(item => (item.area === "Math" && item.subject === "Algebra"));
- 
-  const handleSelect = (eventKey) => {setQuizId(eventKey)};
+
+  const handleSelect = (eventKey) => { setQuizId(eventKey) };
 
 
   return (
     <Nav variant="pills" activeKey="1" onSelect={handleSelect} className="d-flex flex-row" >
-     
+
       <Nav.Item>
         <NavDropdown title="Algebra" id="nav-dropdown">
-        {mathAlgebra.map(item => <NavDropdown.Item  key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
+          {mathAlgebra.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
 
         </NavDropdown>
       </Nav.Item>
-      
+
       <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 1" id="nav-dropdown">
           <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
@@ -48,10 +52,10 @@ const MathNav = ({ tests, setQuizId }) => {
           <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
         </NavDropdown>
       </Nav.Item>
-      
-      
-     
-      
+
+
+
+
     </Nav>
   );
 }

@@ -1,9 +1,8 @@
 import api from "../../utils/api";
 import axios from "axios";
 
-import {GetTestFailAction} from "../actions/actions";
-import {GetTestAction} from "../actions/actions";
-
+import { GetTestFailAction } from "../actions/actions";
+import { GetTestAction } from "../actions/actions";
 
 import { Qconfig } from "../../QuizConfig";
 import ShuffleArray from "../../utils/ShuffleArray";
@@ -18,43 +17,43 @@ import { PagerUpdatetActionCreator } from "../actions/PagerUpdateActionCreator";
 var CryptoJS = require("crypto-js");
 
 const DecryptAnswersOneDocument = (encrypt) => {
-    //First index refers to the document, second index refers to the number of problem.
-    //The answers of each problem are encrypted in an array
-    let decryptedArray = [];
-    encrypt.forEach((item) => {
-      let bytes = CryptoJS.AES.decrypt(item, "secret key 123");
-      let decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
-      //console.log(decryptedData)
-      decryptedArray.push(decryptedData);
-    });
-    return decryptedArray;
-  };
+  //First index refers to the document, second index refers to the number of problem.
+  //The answers of each problem are encrypted in an array
+  let decryptedArray = [];
+  encrypt.forEach((item) => {
+    let bytes = CryptoJS.AES.decrypt(item, "secret key 123");
+    let decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+    //console.log(decryptedData)
+    decryptedArray.push(decryptedData);
+  });
+  return decryptedArray;
+};
 
-  const CU_AnswerTable= async (currentTestId, big_string)=> {
-    const axiosconfig = {
-      headers: {
-        "Content-Type": "application/json"
-      }
+const CU_AnswerTable = async (currentTestId, big_string) => {
+  const axiosconfig = {
+    headers: {
+      "Content-Type": "application/json"
     }
-    try {
+  }
+  try {
 
-      await axios.post("/api/ranking/88", { "ID": currentTestId, "packedAnswerTable": big_string }, axiosconfig) //88 is to create a new post route
+    await axios.post("/api/ranking/88", { "ID": currentTestId, "packedAnswerTable": big_string }, axiosconfig) //88 is to create a new post route
 
-    } catch (error) {
-      console.error("Server error")
-    }
-  };
+  } catch (error) {
+    console.error("Fail to create the reference answer table")
+  }
+};
 
 
 // Get test. Here we are using a Redux thunk (to make an asynchronous call). A shorter way is as follows:
 // export const GetTestActionCreator = (id) => async dispatch => { .........}
 export const GetTestActionCreator = (id) => {
-  return async function(dispatch) {
+  return async function (dispatch) {
     try {
-        const res = await api.get(`/tests/${id}`);
-  
-     dispatch(GetTestAction({}));
-      let Quiz  =res.data;
+      const res = await api.get(`/tests/${id}`);
+
+      dispatch(GetTestAction({}));
+      let Quiz = res.data;
 
       // Decrypt answers in problem
       var encryptAnswers = [];
@@ -143,11 +142,11 @@ export const GetTestActionCreator = (id) => {
       dispatch(PagerUpdatetActionCreator(pager));
       dispatch(ReadScoreActionCreator(score));
       dispatch(loadAnswerSheetActionCreator(answerSheet));
-      dispatch(PostScoreActionCreator(false));  
+      dispatch(PostScoreActionCreator(false));
 
     } catch (error) {
-      dispatch(GetTestFailAction({"Error":error.message}));
-      console.error("Error my friend:",error.messager)
+      dispatch(GetTestFailAction({ "Error": error.message }));
+      console.error("Fail to create the test:", error.message)
     }
   }
 };

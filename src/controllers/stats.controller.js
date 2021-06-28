@@ -1,6 +1,6 @@
 const statsCtrl = {};
 const httpStatus = require("http-status");
-const { AppError } = require("../Errors/AppError")
+const { AppError } = require("../Errors/AppError");
 
 
 const User = require("../models/User");
@@ -29,12 +29,21 @@ statsCtrl.getStats = async (req, res, next) => {
         if (ranking[0].topScores.length == 0) {
             throw new AppError(httpStatus.BAD_REQUEST, "Nobody has taken this test yet. Dare to Take the Challenge!");
         }
+        //ranking[0].topScores is an array of arrays, where each array contains an object whose structure is 
+        //{_id:xxxxx, userid:cccc,score:bbbb, name:zzzzz,userAnswersTable:{Points:xx,id:vv}}
+
+        console.log("-------->>>>>>ranking[0].topScores from getStats:", ranking[0].topScores)
+        //userAnswerTables is an array with structure [{Points:xx1,id:vv1},{Points:xx2,id:vv2},{Points:xx3,id:vv3} ...] for each user
 
         let userAnswerTables = ranking[0].topScores.map(ele => ele.userAnswersTable);
         let participants_number = userAnswerTables.length;
         let topic = ranking[0].topic
         let { answersTable } = ranking[0]
 
+
+        console.log("*****************Problem identified!   userAnswerTables", userAnswerTables, "Contents:", "Points", userAnswerTables[0][0].Points, "id", userAnswerTables[0][0].id)
+
+        console.log("*****************Problem identified!   answersTable", answersTable, "First element:", answersTable[0].Points, answersTable[0].id)
 
 
         let statData = [];
@@ -59,7 +68,7 @@ statsCtrl.getStats = async (req, res, next) => {
 
         let data_ = {};
         data_["data"] = statData;
-        data_["particpant_num"] = participants_number;
+        data_["participant_num"] = participants_number;
         data_["topic"] = topic;
 
         let data = JSON.parse(JSON.stringify(data_));
@@ -72,7 +81,7 @@ statsCtrl.getStats = async (req, res, next) => {
 
     }
     catch (e) {
-        console.error(e.message, e.statusCode);
+        console.error("The problem is here:", e.message, e.statusCode);
         next(e)
     }
 };

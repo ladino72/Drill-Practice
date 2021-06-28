@@ -8,17 +8,9 @@ import uuid from "react-uuid"
 import axios from "axios";
 import { PostScoreActionCreator } from '../Redux/actions/PostScoreActionCreator';
 import Button from "react-bootstrap/Button";
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+import { useAlert } from 'react-alert'
 
-
-function getResults(id) {
-  axios.get(`/api/ranking/${id}`)
-    .then(res => {
-      const high_scores = res.data[0].topScores.filter(result => (result.score > 20 && result.score <= 24));
-      high_scores.forEach(result => console.log("From Results component,", "Name:", result.userid, "Score:", result.score))
-    })
-    .catch(error => error.message)
-};
 
 
 const Results = () => {
@@ -31,7 +23,7 @@ const Results = () => {
   const { config } = useSelector(state => state.QuizReducer.quiz)
   const { score } = useSelector(state => state.QuizReducer)
   const { user } = useSelector(state => state.AuthReducer)
-
+  const alert = useAlert();
 
   //console.log('currentTestId', currentTestId);
   console.log(">>>>>>>>Config", config)
@@ -43,7 +35,7 @@ const Results = () => {
       console.log('postScore', typeof (postScore));
 
       //SaveScore(currentTestId,score.p_score)
-      const CU_AnswerTable = (currentTestId) => {
+      const registerScore = (currentTestId) => {
         const axiosconfig = {
           headers: {
             "Content-Type": "application/json"
@@ -58,19 +50,16 @@ const Results = () => {
           axios.post("/api/ranking", { "ID": currentTestId, "score": big_string }, axiosconfig)
 
         } catch (error) {
-          console.error("Server error")
+          alert.show(`${error.response.data.message}`)
         }
       };
 
-      CU_AnswerTable(currentTestId);
+      registerScore(currentTestId);
 
       dispatch(PostScoreActionCreator(true))
     };
 
-  }, [postScore, currentTestId, dispatch, answer_sheet]);
-
-  //getResults("602941a4b4d3640ce78bf546")
-  getResults("605cd1108ceecf08c78124af");
+  }, [postScore, currentTestId, dispatch, answer_sheet, alert]);
 
 
   //console.log("AnswerSheet***********",answer_sheet)

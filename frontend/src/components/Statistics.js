@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect, Fragment, useCallback } from "react";
 import { withRouter } from 'react-router-dom';
 import Button from "react-bootstrap/Button";
 
@@ -12,6 +12,7 @@ import axios from "axios"
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import uuid from "react-uuid"
+import { useAlert } from 'react-alert'
 
 const Statistics = (props) => {
     //https://www.youtube.com/watch?v=8m8Q4wqFez0
@@ -20,24 +21,23 @@ const Statistics = (props) => {
     const [tests, getTests] = useState([]);
     const [statData, setData] = useState({});
     const { history } = props
+    //https://www.npmjs.com/package/react-alert
+    const alert = useAlert();
 
-    //https://levelup.gitconnected.com/fetch-api-data-with-axios-and-display-it-in-a-react-app-with-hooks-3f9c8fa89e7b
-    useEffect(() => {
-        getAllTests();
-    }, []);
-
-
-
-    const getAllTests = () => {
+    const getAllTests = useCallback(() => {
         axios
             .get("/api/tests") //Notice, we are using the proxy declared in the package.json file located in the frontend folder.
             .then((response) => {
                 getTests(response.data);
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
             })
-            .catch((error) => alert(`Error: ${error}`));
-    };
+            .catch((error) => alert.show(`${error.response.data.message}`));
+    }, [alert]);
 
+    //https://levelup.gitconnected.com/fetch-api-data-with-axios-and-display-it-in-a-react-app-with-hooks-3f9c8fa89e7b
+    useEffect(() => {
+        getAllTests();
+    }, [getAllTests]);
 
     const physFundamentals = tests.filter(item => (item.area === "Physics" && item.subject === "Fundamentals"));
     //console.log('physFundamentals', physFundamentals);
@@ -48,7 +48,7 @@ const Statistics = (props) => {
     const mathAlgebra = tests.filter(item => (item.area === "Math" && item.subject === "Algebra"));
 
 
-    const getStatsData = (id) => {
+    const getStatsData = useCallback((id) => {
         console.log("From Statistics component, id:", id)
         axios
             .get(`/api/statistics/${id}`) //Notice, we are using the proxy declared in the package.json file located in the frontend folder.
@@ -56,14 +56,14 @@ const Statistics = (props) => {
                 setData(response.data);
                 console.log("--------Answer from axios-------------", response.data)
                 //I installed -wrap  console log simple-. Pressing Shift+ ele simplifies having to write console.log
-            }).catch((error) => alert(`${error.response.data.message}`));
-    };
+            }).catch((error) => alert.show(`${error.response.data.message}`));
+    }, [alert]);
 
     useEffect(() => {
         //We load a default test and this one is kinematic (Mechanics) whose id is "60294174b4d3640ce78bf544". This value was assigned 
         //by MongoDb in the "problems collection". The same is done in the hallOfFame component.
         getStatsData("60294174b4d3640ce78bf544");
-    }, [])
+    }, [getStatsData])
 
     const handleClick = (e) => {
         history.push("/tests")
@@ -137,7 +137,7 @@ const Statistics = (props) => {
 
             {statData.data !== undefined ?
                 <div>
-                    <h6 style={{ color: "#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.particpant_num}</h6>
+                    <h6 style={{ color: "#0099CC", paddingTop: "10px" }}> TOTAL TEST TAKERS: {statData.participant_num}</h6>
                     <Chart chartDatos={statData} />
                 </div>
                 : null}
