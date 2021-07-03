@@ -113,33 +113,29 @@ rankingCtrl.registerScore = async (req, res, next) => {
                 console.log('userAnswersTable---->>>>>>>>>>>>', userAnswersTable);
 
                 console.log("|*************************************************************!")
+                // //Start a clean template 
+                // Grade either all or just a few questions. 
+                //The template format is: [{"Points":cc1,"id":bb1},{"Points":cc2,"id":bb2},...]
 
-
-                for (let p = 0; p < userAnswersTable.length; p++) {
-                    Table[p] = { "Points": 0, "id": userAnswersTable[p].id }
-                }
-
-
-                let score_ = 0
                 for (let k = 0; k < Table_.length; k++) {
                     const index1 = refTable.findIndex(ele => ele.id === Table_[k].id);
-                    const index2 = userAnswersTable.findIndex(ele => ele.id === Table_[k].id);
-
                     if (Table_[k].Correct) {
-                        Table[k] = { "Points": (refTable[index1].Points + userAnswersTable[index2].Points) / 2, "id": refTable[index1].id }
+                        Table[k] = refTable[index1]
                     } else {
-                        Table[k] = { "Points": userAnswersTable[index2].Points / 2, "id": refTable[index1].id }
+                        Table[k] = { "Points": 0, "id": refTable[index1].id }
                     }
                 }
-                //--------------------------------
-                //Update table
-                for (let k = 0; k < Table.length; k++) {
-                    const index = userAnswersTable.findIndex(ele => ele.id === Table[k].id);
 
-                    userAnswersTable[index] = Table[k]
-
+                for (let k = 0; k < Table_.length; k++) {
+                    const index1 = userAnswersTable.findIndex(ele => ele.id === Table_[k].id);
+                    if (Table_[k].Correct === true) {
+                        userAnswersTable[index1] = { "Points": (Table[k].Points + userAnswersTable[index1].Points) / 2, "id": Table[k].id }
+                    } else {
+                        userAnswersTable[index1] = { "Points": userAnswersTable[index1].Points / 2, "id": Table[k].id }
+                    }
                 }
 
+                let score_ = 0
                 userAnswersTable.forEach(ele => score_ += ele.Points)
 
                 //score_ is now calculated using lodash library. Its result is not used thought. Just for fun! lodash library was installed in the backend!
@@ -148,9 +144,9 @@ rankingCtrl.registerScore = async (req, res, next) => {
                 console.log('--Using lodash-----sum_', sum_, "score_", score_);
 
 
-                console.log("Table", Table)
+                //console.log("Table*", Table)
 
-                console.log("Output", userAnswersTable)
+                console.log("Output*", userAnswersTable)
 
                 //----------------------------------
 
@@ -160,34 +156,54 @@ rankingCtrl.registerScore = async (req, res, next) => {
             }
             if (exist === undefined) {
                 console.log("It does NOT exist")
-                console.log("RefTable", refTable, "refTable[0].Points", refTable[0].Points)
+                console.log("RefTable", refTable)
+                console.log("Table_", Table_)
 
-                //-------------------------------
+                let Table = [];
+                let userAnswersTable = [];
+                //We use lodash to make a copy by value of the refTable array. By reference (userAnswersTable = refTable) means that
+                //any change in any array changes the other automatically.
+                //https://javascript.plainenglish.io/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089
+                userAnswersTable = _.cloneDeep(refTable)
+
+                //A primitive way of making a copy by value is shown in the next three lines of code. It is OK, but unprofessional 
+                // for (let k = 0; k < refTable.length; k++) {
+                //     userAnswersTable[k] = { "Points": refTable[k].Points, "id": refTable[k].id }
+                // }
+                userAnswersTable.forEach(ele => ele.Points = 0);
+
+                console.log("userAnswersTable Before grading", userAnswersTable)
+                console.log("refTable Before grading", refTable)
 
 
 
-                //--------------------------------
-                let resetTable_ = ranking_.answersTable;
-                let scaledTable = []
-                for (let p = 0; p < resetTable_.length; p++) {
-                    scaledTable[p] = { "Points": 0, "id": resetTable_[p].id }
-                }
-                let score_ = 0
                 for (let k = 0; k < Table_.length; k++) {
                     const index = refTable.findIndex(ele => ele.id === Table_[k].id);
 
-                    if (Table_[k].Correct) {
-                        //score_ += refTable[index].Points;
-                        scaledTable[k] = refTable[index]
-                    } else {
-                        scaledTable[k] = { "Points": 0, "id": refTable[index].id }
+                    if (Table_[k].Correct === true) {
+                        Table.push(refTable[index])
+                    }
+                    else {
+                        Table.push({ "Points": 0, "id": Table_[k].id })
                     }
                 }
-                scaledTable.forEach(ele => score_ += ele.Points)
-                console.log("Scaled table", scaledTable)
+
+                for (k = 0; k < Table.length; k++) {
+                    const index = refTable.findIndex(ele => ele.id === Table[k].id);
+
+                    userAnswersTable[index] = Table[k]
+
+                }
+
+
+                let score_ = 0
+                userAnswersTable.forEach(ele => score_ += ele.Points)
+                console.log("Table After grading:", Table)
+
+                console.log("userAnswersTable After grading:", userAnswersTable)
                 //----------------------------------
 
-                ranking = await Ranking.findOneAndUpdate({ "testID": ID }, { $addToSet: { topScores: { "name": user.name, "userid": user.id, "score": score_, "userAnswersTable": scaledTable } } });
+                ranking = await Ranking.findOneAndUpdate({ "testID": ID }, { $addToSet: { topScores: { "name": user.name, "userid": user.id, "score": score_, "userAnswersTable": userAnswersTable } } });
 
             }
 
