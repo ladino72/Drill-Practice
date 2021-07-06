@@ -13,7 +13,7 @@ const Review = ({ move }) => {
 
     const isAnswered = (q) => {
 
-        return q.A.some(x => x.selected) ? 'Answered' : 'Not Answered';
+        return q.A.some(x => x.selected) ? 'Answered' : 'Unanswered';
     }
     let num_quest_answered = answerSheet.filter(checkedAnswerd => checkedAnswerd.A !== null);
     let total_questions = answerSheet.length;
