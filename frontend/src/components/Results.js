@@ -100,7 +100,7 @@ const Results = () => {
 
         return (
           <div>
-            {answer_sheet[index].A !== null && answer_sheet[index] !== undefined ?
+            {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ?
               <div key={uuid()} className="results-wrapper border-right border-left border-success p-3 mb-2 bg-light text-dark">
 
                 <div className="points" style={{ color: "red" }}>Points:{answer_sheet[index] !== undefined ? answer_sheet[index].Score : null}/{quest.Points}  {answer_sheet[index] !== undefined ? (answer_sheet[index].A == null ? "Not answered" : null) : null}</div>

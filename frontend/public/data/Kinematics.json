@@ -1,0 +1,17 @@
+{
+    "ID": 1,
+    "name": "Kinematics Quiz",
+    "description": "Kinematics",
+    "subject":"Mechanics",
+    "topic":"Kinematics",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"The graph shows the position against time for a body moving along x-axis. The speed of the body at $$t=5\\,\\text{s}$$ is:","A":[{"id_":1,"opt":"$$0\\,\\text{m/s}$$","isAnswer":true},{"id_":2,"opt":"$$5\\,\\text{m/s}$$","isAnswer":false},{"id_":3,"opt":"$$5\\,\\text{m/s}$$","isAnswer":false},{"id_":4,"opt":"$$2\\,\\text{m/s}$$","isAnswer":false}],"Points":8,"E":"The speed is given by the slope of the curve at $$t=0\\,\\text{s}$$, which is:","LinkQ":"data/img/kinematics/kinematics_01.png"},
+        {"id":2,"Q":"The graph shows the position against time for a body moving along x-axis. The speed of the body at $$t=8\\,\\text{s}$$ is:","A":[{"id_":1,"opt":"$$\\frac{8}{3}\\,\\text{m/s}$$","isAnswer":true},{"id_":2,"opt":"$$5\\,\\text{m/s}$$","isAnswer":false},{"id_":3,"opt":"$$5\\,\\text{m/s}$$","isAnswer":false},{"id_":4,"opt":"$$2\\,\\text{m/s}$$","isAnswer":false}],"Points":8,"E":"The speed is given by the slope of the curve at $$t=8\\,\\text{s}$$, which is $$-\\frac{8}{3}\\,\\text{m/s}$$","LinkQ":"data/img/kinematics/kinematics_01.png"},
+        {"id":3,"Q":"The graph shows the velocity against time for a body moving along x-axis. The displacement of the body for the time interval $$t=0$$ to $$t=10\\,\\text{s}$$ is:","A":[{"id_":1,"opt":"$$56\\,\\text{m}$$","isAnswer":true},{"id_":2,"opt":"$$28\\,\\text{m}$$","isAnswer":false},{"id_":3,"opt":"$$14\\,\\text{m}$$","isAnswer":false},{"id_":4,"opt":"$$7\\,\\text{m}$$","isAnswer":false}],"Points":8,"E":"The displacament is given by the area under the curve, i.e., $$\\text{area of the shaded trapezoid}=\\Delta x=\\frac{1}{2}(4\\,\\text{s})(10\\,\\text{s})(8\\,\\text{m/s})=56\\,\\text{m}$$","LinkQ":"data/img/kinematics/kinematics_02.png","LinkA":"data/img/kinematics/kinematics_02a2.png"},
+        {"id":4,"Q":"The graph shows the velocity against time for a body moving along x-axis. The displacement of the body for the first three seconds is:","A":[{"id_":1,"opt":"$$12\\,\\text{m}$$","isAnswer":true},{"id_":2,"opt":"$$24\\,\\text{m}$$","isAnswer":false},{"id_":3,"opt":"$$6\\,\\text{m}$$","isAnswer":false},{"id_":4,"opt":"$$10\\,\\text{m}$$","isAnswer":false}],"Points":8,"E":"The displacament is given by the area under the curve, i.e., $$\\text{area of the shaded triangle}=\\Delta x =\\frac{1}{2}(3\\,\\text{s})(8\\,\\text{m/s})=12\\,\\text{m}$$","LinkQ":"data/img/kinematics/kinematics_02.png","LinkA":"data/img/kinematics/kinematics_02a1.png"}
+
+    
+        ]
+    
+} 
