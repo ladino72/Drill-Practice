@@ -7,8 +7,8 @@
     "area":"Physics",
     "questions": [
         {"id":1,"Q":"The resultant of the four vectors is:","A":[{"id_":1,"opt":"8 cm and points along the positive y-axis","isAnswer":true},{"id_":2,"opt":"6 cm and points along the positive y-axis","isAnswer":false},{"id_":3,"opt":"6 units and points along the negative y-axis","isAnswer":false},{"id_":4,"opt":"8 units and points along the negative y-axis","isAnswer":false}],"Points":8,"E":"8 units and points along the positive y-axis","LinkQ":"data/img/vectors/vector_01.png","LinkA":"data/img/vectors/vector_01.png"},
-        {"id":2,"Q":"What is the capital of Bolivia?","A":[{"id_":1,"opt":"Asunción","isAnswer":false},{"id_":2,"opt":"La Paz","isAnswer":true},{"id_":3,"opt":"La Guerra","isAnswer":false},{"id_":4,"opt":"Pereira","isAnswer":false}],"Points":9,"E":"This capital was established in 1888","LinkQ":"https://images.unsplash.com/photo-1518583396317-c4e34ac7794b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80","LinkA":"https://media.istockphoto.com/photos/light-speed-explosion-illustration-picture-id1024569566?s=612x612"}
-  
+        {"id":2,"Q":"The resultant of the four vectors is:","A":[{"id_":1,"opt":"8 cm and points along the positive y-axis","isAnswer":true},{"id_":2,"opt":"6 cm and points along the positive y-axis","isAnswer":false},{"id_":3,"opt":"6 units and points along the negative y-axis","isAnswer":false},{"id_":4,"opt":"8 units and points along the negative y-axis","isAnswer":false}],"Points":8,"E":"8 units and points along the positive y-axis","LinkQ":"data/img/vectors/vector_02.png","LinkA":"data/img/vectors/vector_02.png"}
+        
         ]
     
 } 
