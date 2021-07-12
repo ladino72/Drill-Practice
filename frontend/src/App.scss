@@ -161,7 +161,7 @@ $colores: (
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
       'o o o o o o o o o o o o'
-      '. . . . f f f f f f f f';
+      '. . f f f f f f f f . .';
   }
 }
 .quest-opt {
@@ -204,7 +204,7 @@ $colores: (
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
       'o o o o o o o o o o o o'
-      '. . . . f f f f f f f f';
+      '. . f f f f f f f f . .';
   }
 }
 .question-opt {
@@ -229,7 +229,7 @@ $colores: (
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
       'qe qe qe qe qe qe qe qe qe qe qe qe'
-      '. . . . qef qef qef qef qef qef qef qef';
+      '. . qef qef qef qef qef qef qef qef. .';
   }
 }
 

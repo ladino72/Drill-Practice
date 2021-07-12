@@ -27,9 +27,9 @@
      showgrid="false"
      inkscape:current-layer="svg2"
      inkscape:document-units="px"
-     inkscape:cy="556.31527"
-     inkscape:cx="393.47174"
-     inkscape:zoom="1.7919654"
+     inkscape:cy="-420.35036"
+     inkscape:cx="1164.6484"
+     inkscape:zoom="0.5"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -42,6 +42,299 @@
   </sodipodi:namedview>
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker32114"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path32116"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker31952"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path31954"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker31840"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path31842"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker31730"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path31732" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker30038"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path30040" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker29134"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path29136" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker28706"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path28708" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker28602"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path28604"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker27524"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path27526"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker27416"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path27418" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker27322"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path27324"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker26870"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path26872"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker26488"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path26490" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker26114"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path26116"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker25814"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path25816"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker25255"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path25257" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker25147"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path25149"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker24989"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path24991" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker24911"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path24913" />
+    </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -159,7 +452,8 @@
        refX="0"
        id="Arrow1Mend-1"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path4151-6"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
@@ -384,7 +678,8 @@
        refX="0"
        id="Arrow1Mend-1-3"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path4151-6-6"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
@@ -399,7 +694,8 @@
        refX="0"
        id="Arrow1Mend-1-5"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path4151-6-3"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
@@ -451,6 +747,21 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
          id="path5325-0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker25255-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path25257-6" />
     </marker>
   </defs>
   <metadata
@@ -893,7 +1204,7 @@
   <g
      id="g17412"
      inkscape:label="Grid_Polar:X5:Y5"
-     transform="matrix(0.4808987,0,0,0.4558224,244.91517,523.87436)"
+     transform="matrix(0.4808987,0,0,0.4558224,86.91517,523.87436)"
      style="stroke:#0a7575;stroke-opacity:1"
      inkscape:export-xdpi="92"
      inkscape:export-ydpi="92">
@@ -1036,7 +1347,7 @@
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1)"
-     d="m 269.51323,614.19446 45.64293,-43.1443"
+     d="m 111.51323,614.19446 45.64293,-43.1443"
      id="path17603"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1044,7 +1355,7 @@
      inkscape:export-ydpi="92" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-3)"
-     d="m 269.40195,705.92501 45.64293,-43.34673"
+     d="m 111.40195,705.92501 45.64293,-43.34673"
      id="path17603-7"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1052,7 +1363,7 @@
      inkscape:export-ydpi="92" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5)"
-     d="m 412.34504,614.05088 -45.23807,-43.1443"
+     d="m 254.34504,614.05088 -45.23807,-43.1443"
      id="path17603-5"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1060,7 +1371,7 @@
      inkscape:export-ydpi="92" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5-6)"
-     d="M 412.29768,705.08137 366.65475,662.34193"
+     d="M 254.29768,705.08137 208.65475,662.34193"
      id="path17603-5-9"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1068,14 +1379,14 @@
      inkscape:export-ydpi="92" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.98991501px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175);marker-end:url(#marker5323)"
-     d="m 463.48525,519.66593 20.75667,0.0762"
+     d="m 305.48525,519.66593 20.75667,0.0762"
      id="path23174"
      inkscape:connector-curvature="0"
      inkscape:export-xdpi="92"
      inkscape:export-ydpi="92" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9772824px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175-1);marker-end:url(#marker5323-7)"
-     d="m 490.79531,525.42848 -0.0825,18.68237"
+     d="m 332.79531,525.42848 -0.0825,18.68237"
      id="path23174-9"
      inkscape:connector-curvature="0"
      inkscape:export-xdpi="92"
@@ -1083,7 +1394,7 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="452.92526"
+     x="294.92526"
      y="512.4397"
      id="text24637"
      sodipodi:linespacing="125%"
@@ -1091,13 +1402,13 @@
      inkscape:export-ydpi="92"><tspan
        sodipodi:role="line"
        id="tspan24639"
-       x="452.92526"
+       x="294.92526"
        y="512.4397"
        style="font-size:15px">1 cm</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="493.94843"
+     x="335.94843"
      y="540.32074"
      id="text24637-3"
      sodipodi:linespacing="125%"
@@ -1105,7 +1416,944 @@
      inkscape:export-ydpi="92"><tspan
        sodipodi:role="line"
        id="tspan24639-6"
-       x="493.94843"
+       x="335.94843"
        y="540.32074"
        style="font-size:15px">1 cm</tspan></text>
+  <g
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     style="stroke:#0a7575;stroke-opacity:1"
+     transform="matrix(0.4808987,0,0,0.4558224,408.91517,523.87436)"
+     inkscape:label="Grid_Polar:X5:Y5"
+     id="g24843"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png">
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorXGridlines"
+       id="g24845">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 100,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv1"
+         id="path24847" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 200,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv2"
+         id="path24849" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 300,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv3"
+         id="path24851" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 400,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv4"
+         id="path24853" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorYGridlines"
+       id="g24855">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,100 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv1"
+         id="path24857" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,200 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv2"
+         id="path24859" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,300 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv3"
+         id="path24861" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,400 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv4"
+         id="path24863" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorXGridlines"
+       id="g24865">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 50,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv0:1"
+         id="path24867" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 150,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv1:1"
+         id="path24869" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 250,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv2:1"
+         id="path24871" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 350,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv3:1"
+         id="path24873" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 450,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv4:1"
+         id="path24875" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorYGridlines"
+       id="g24877">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,50 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv0:1"
+         id="path24879" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,150 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv1:1"
+         id="path24881" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,250 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv2:1"
+         id="path24883" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,350 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv3:1"
+         id="path24885" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,450 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv4:1"
+         id="path24887" />
+    </g>
+    <rect
+       height="500"
+       style="fill:none;stroke:#0a7575;stroke-width:3;stroke-opacity:1"
+       width="500"
+       x="0"
+       y="0"
+       inkscape:label="Border"
+       id="rect24889" />
+  </g>
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path24891"
+     d="m 480.72302,614.19446 -45.64293,-43.1443"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker24911)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path24893"
+     d="m 433.40195,705.92501 45.64293,-43.34673"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-3)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path24895"
+     d="m 529.5513,614.05088 45.23807,-43.1443"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker27322)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path24897"
+     d="M 576.29768,705.08137 530.65475,662.34193"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5-6)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     inkscape:connector-curvature="0"
+     id="path24899"
+     d="m 627.48525,519.66593 20.75667,0.0762"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.98991501px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175);marker-end:url(#marker5323)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     inkscape:connector-curvature="0"
+     id="path24901"
+     d="m 654.79531,525.42848 -0.0825,18.68237"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9772824px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175-1);marker-end:url(#marker5323-7)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png" />
+  <text
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:linespacing="125%"
+     id="text24903"
+     y="512.4397"
+     x="616.92529"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png"><tspan
+       style="font-size:15px"
+       y="512.4397"
+       x="616.92529"
+       id="tspan24905"
+       sodipodi:role="line">1 cm</tspan></text>
+  <text
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:linespacing="125%"
+     id="text24907"
+     y="540.32074"
+     x="657.94843"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02.png"><tspan
+       style="font-size:15px"
+       y="540.32074"
+       x="657.94843"
+       id="tspan24909"
+       sodipodi:role="line">1 cm</tspan></text>
+  <g
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     style="stroke:#0a7575;stroke-opacity:1"
+     transform="matrix(0.4808987,0,0,0.4558224,86.91517,789.87436)"
+     inkscape:label="Grid_Polar:X5:Y5"
+     id="g25069"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png">
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorXGridlines"
+       id="g25071">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 100,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv1"
+         id="path25073" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 200,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv2"
+         id="path25075" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 300,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv3"
+         id="path25077" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 400,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv4"
+         id="path25079" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorYGridlines"
+       id="g25081">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,100 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv1"
+         id="path25083" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,200 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv2"
+         id="path25085" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,300 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv3"
+         id="path25087" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,400 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv4"
+         id="path25089" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorXGridlines"
+       id="g25091">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 50,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv0:1"
+         id="path25093" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 150,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv1:1"
+         id="path25095" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 250,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv2:1"
+         id="path25097" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 350,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv3:1"
+         id="path25099" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 450,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv4:1"
+         id="path25101" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorYGridlines"
+       id="g25103">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,50 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv0:1"
+         id="path25105" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,150 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv1:1"
+         id="path25107" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,250 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv2:1"
+         id="path25109" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,350 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv3:1"
+         id="path25111" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,450 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv4:1"
+         id="path25113" />
+    </g>
+    <rect
+       height="500"
+       style="fill:none;stroke:#0a7575;stroke-width:3;stroke-opacity:1"
+       width="500"
+       x="0"
+       y="0"
+       inkscape:label="Border"
+       id="rect25115" />
+  </g>
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path25117"
+     d="m 111.51323,880.19446 45.64293,-43.1443"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path25119"
+     d="m 111.40195,971.92501 45.64293,-43.34673"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-3)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path25121"
+     d="m 254.34504,880.05088 -45.23807,-43.1443"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path25123"
+     d="M 254.29768,971.08137 208.65475,928.34193"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5-6)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     inkscape:connector-curvature="0"
+     id="path25125"
+     d="m 305.48525,785.66593 20.75667,0.0762"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.98991501px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175);marker-end:url(#marker5323)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     inkscape:connector-curvature="0"
+     id="path25127"
+     d="m 332.79531,791.42848 -0.0825,18.68237"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9772824px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175-1);marker-end:url(#marker5323-7)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <text
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:linespacing="125%"
+     id="text25129"
+     y="778.4397"
+     x="294.92526"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"><tspan
+       style="font-size:15px"
+       y="778.4397"
+       x="294.92526"
+       id="tspan25131"
+       sodipodi:role="line">1 cm</tspan></text>
+  <text
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:linespacing="125%"
+     id="text25133"
+     y="806.32074"
+     x="335.94843"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"><tspan
+       style="font-size:15px"
+       y="806.32074"
+       x="335.94843"
+       id="tspan25135"
+       sodipodi:role="line">1 cm</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25147)"
+     d="m 254.11565,972.15256 -45.75981,0"
+     id="path25139"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path25253"
+     d="m 111.99418,972.00349 45.75981,0"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25255)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker27416)"
+     d="m 158.87407,972.3722 0,-43.37785"
+     id="path25812"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker26114)"
+     d="m 111.99418,880.00349 45.75981,0"
+     id="path26110"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path26112"
+     d="m 158.87407,880.3722 0,-43.37785"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25814)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path26484"
+     d="m 254.39877,881.06415 -45.75981,0"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker26488)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25814)"
+     d="m 207.16533,880.3722 0,-43.37785"
+     id="path26486"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path26868"
+     d="m 207.16533,972.3722 0,-43.37785"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25814)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 124.72339,885.78531 135.04725,874.9034"
+     id="path27238"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27240"
+     d="M 128.72339,885.78531 139.04725,874.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27242"
+     d="M 224.72339,885.78531 235.04725,874.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 228.72339,885.78531 239.04725,874.9034"
+     id="path27244"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 224.72339,977.78531 235.04725,966.9034"
+     id="path27246"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27248"
+     d="M 228.72339,977.78531 239.04725,966.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27250"
+     d="M 128.72339,977.78531 139.04725,966.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 132.72339,977.78531 143.04725,966.9034"
+     id="path27252"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <g
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     id="g27254"
+     inkscape:label="Grid_Polar:X5:Y5"
+     transform="matrix(0.4808987,0,0,0.4558224,408.91517,787.87436)"
+     style="stroke:#0a7575;stroke-opacity:1"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92">
+    <g
+       id="g27256"
+       inkscape:label="MajorXGridlines"
+       style="stroke:#0a7575;stroke-opacity:1">
+      <path
+         id="path27258"
+         inkscape:label="MajorXDiv1"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 100,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27260"
+         inkscape:label="MajorXDiv2"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 200,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27262"
+         inkscape:label="MajorXDiv3"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 300,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27264"
+         inkscape:label="MajorXDiv4"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 400,0 0,500"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g27266"
+       inkscape:label="MajorYGridlines"
+       style="stroke:#0a7575;stroke-opacity:1">
+      <path
+         id="path27268"
+         inkscape:label="MajorYDiv1"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 0,100 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27270"
+         inkscape:label="MajorYDiv2"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 0,200 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27272"
+         inkscape:label="MajorYDiv3"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 0,300 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27274"
+         inkscape:label="MajorYDiv4"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         d="m 0,400 500,0"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g27276"
+       inkscape:label="MinorXGridlines"
+       style="stroke:#0a7575;stroke-opacity:1">
+      <path
+         id="path27278"
+         inkscape:label="MinorXDiv0:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 50,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27280"
+         inkscape:label="MinorXDiv1:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 150,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27282"
+         inkscape:label="MinorXDiv2:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 250,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27284"
+         inkscape:label="MinorXDiv3:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 350,0 0,500"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27286"
+         inkscape:label="MinorXDiv4:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 450,0 0,500"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g27288"
+       inkscape:label="MinorYGridlines"
+       style="stroke:#0a7575;stroke-opacity:1">
+      <path
+         id="path27290"
+         inkscape:label="MinorXYiv0:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 0,50 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27292"
+         inkscape:label="MinorXYiv1:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 0,150 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27294"
+         inkscape:label="MinorXYiv2:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 0,250 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27296"
+         inkscape:label="MinorXYiv3:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 0,350 500,0"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path27298"
+         inkscape:label="MinorXYiv4:1"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         d="m 0,450 500,0"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       id="rect27300"
+       inkscape:label="Border"
+       y="0"
+       x="0"
+       width="500"
+       style="fill:none;stroke:#0a7575;stroke-width:3;stroke-opacity:1"
+       height="500" />
+  </g>
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker24911)"
+     d="m 480.72302,878.19446 -45.64293,-43.1443"
+     id="path27302"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-3)"
+     d="m 433.40195,969.92501 45.64293,-43.34673"
+     id="path27304"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker24989)"
+     d="m 529.5513,878.05088 45.23807,-43.1443"
+     id="path27306"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-1-5-6)"
+     d="M 576.29768,969.08137 530.65475,926.34193"
+     id="path27308"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.98991501px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175);marker-end:url(#marker5323)"
+     d="m 627.48525,783.66593 20.75667,0.0762"
+     id="path27310"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9772824px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker5175-1);marker-end:url(#marker5323-7)"
+     d="m 654.79531,789.42848 -0.0825,18.68237"
+     id="path27312"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="616.92529"
+     y="776.4397"
+     id="text27314"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan27316"
+       x="616.92529"
+       y="776.4397"
+       style="font-size:15px">1 cm</tspan></text>
+  <text
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="657.94843"
+     y="804.32074"
+     id="text27318"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan27320"
+       x="657.94843"
+       y="804.32074"
+       style="font-size:15px">1 cm</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker27524)"
+     d="m 433.99418,970.00349 45.75981,0"
+     id="path27518"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27520"
+     d="m 480.87407,970.3722 0,-43.37785"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker28602)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path27522"
+     d="M 454.72339,975.78531 465.04725,964.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 450.72339,975.78531 461.04725,964.9034"
+     id="path28600"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path28702"
+     d="m 576.04522,970.00349 -45.75981,0"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker28706)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker28602)"
+     d="m 529.16533,970.3722 0,-43.37785"
+     id="path28704"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 548.72339,975.78531 559.04725,964.9034"
+     id="path29120"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path29122"
+     d="M 544.72339,975.78531 555.04725,964.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker31952)"
+     d="m 480.63101,879.29638 -45.75981,0"
+     id="path29126"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path29128"
+     d="m 433.16533,880.3722 0,-43.37785"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker31730)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 452.72339,885.78531 463.04725,874.9034"
+     id="path29130"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path29132"
+     d="M 456.72339,885.78531 467.04725,874.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker32114)"
+     d="m 529.40839,878.58928 45.75981,0"
+     id="path30030"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path30032"
+     d="m 576.87407,880.3722 0,-43.37785"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.26571298;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker31840)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 544.72339,885.78531 555.04725,874.9034"
+     id="path30034"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path30036"
+     d="M 548.72339,885.78531 559.04725,874.9034"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_02a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
 </svg>

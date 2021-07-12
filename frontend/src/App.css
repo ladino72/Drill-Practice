@@ -111,7 +111,7 @@
       grid-area: qo;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: 'o o o o o o o o o o o o' '. . . . f f f f f f f f'; } }
+      grid-template-areas: 'o o o o o o o o o o o o' '. . f f f f f f f f . .'; } }
 
 .quest-opt {
   grid-area: o;
@@ -147,7 +147,7 @@
       grid-area: qo;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: 'o o o o o o o o o o o o' '. . . . f f f f f f f f'; } }
+      grid-template-areas: 'o o o o o o o o o o o o' '. . f f f f f f f f . .'; } }
 
 .question-opt {
   grid-area: o; }
@@ -168,7 +168,7 @@
       grid-area: qa;
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-areas: 'qe qe qe qe qe qe qe qe qe qe qe qe' '. . . . qef qef qef qef qef qef qef qef'; } }
+      grid-template-areas: 'qe qe qe qe qe qe qe qe qe qe qe qe' '. . qef qef qef qef qef qef qef qef. .'; } }
 
 .question-explanation {
   grid-area: qe; }
