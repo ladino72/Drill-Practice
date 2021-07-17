@@ -11,6 +11,10 @@ const MathNav = ({ tests, setQuizId }) => {
 
   if (tests === null) alert.show("Network connection issues")
   const mathAlgebra = tests.filter(item => (item.area === "Math" && item.subject === "Algebra"));
+  const mathCalculus1 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 1"));
+  const mathCalculus2 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 2"));
+  const mathCalculus3 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 3"));
+
 
   const handleSelect = (eventKey) => { setQuizId(eventKey) };
 
@@ -27,29 +31,21 @@ const MathNav = ({ tests, setQuizId }) => {
 
       <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 1" id="nav-dropdown">
-          <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
+          {mathCalculus1.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
         </NavDropdown>
       </Nav.Item>
       <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 2" id="nav-dropdown">
-          <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
+          {mathCalculus2.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
           <NavDropdown.Divider />
           <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
         </NavDropdown>
       </Nav.Item>
       <Nav.Item className="flex-grow-1">
         <NavDropdown title="Calculus 3" id="nav-dropdown">
-          <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
+
+          {mathCalculus3.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
+
         </NavDropdown>
       </Nav.Item>
 

@@ -54,6 +54,10 @@ const HallOfFame = (props) => {
     const physModern = tests.filter(item => (item.area === "Physics" && item.subject === "Modern"));
 
     const mathAlgebra = tests.filter(item => (item.area === "Math" && item.subject === "Algebra"));
+    const mathCalculus1 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 1"));
+    const mathCalculus2 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 2"));
+    const mathCalculus3 = tests.filter(item => (item.area === "Math" && item.subject === "Calculus 3"));
+
 
 
     const getScores = useCallback((id) => {
@@ -72,7 +76,7 @@ const HallOfFame = (props) => {
         //We load a default test and this one is kinematic (Mechanics) whose id is "60294189b4d3640ce78bf545". This value was assigned 
         //by MongoDb in the "problems collection". The same is done in the statistics component.
 
-        getScores("60294189b4d3640ce78bf545")
+        getScores("60f321761530f3101e64e3a9")
     }, [getScores]);
 
     //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
@@ -126,18 +130,18 @@ const HallOfFame = (props) => {
                             </NavDropdown>
                         </Nav.Item>
                         <Nav.Item>
-                            <NavDropdown title="Calculus I" id="nav-dropdown">
-                                {physMechanics.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
+                            <NavDropdown title="Calculus 1" id="nav-dropdown">
+                                {mathCalculus1.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
                             </NavDropdown>
                         </Nav.Item>
                         <Nav.Item>
-                            <NavDropdown title="Calculus II" id="nav-dropdown">
-                                {physElectromagnetism.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
+                            <NavDropdown title="Calculus 2" id="nav-dropdown">
+                                {mathCalculus2.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
                             </NavDropdown>
                         </Nav.Item>
                         <Nav.Item>
-                            <NavDropdown title="Calculus III" id="nav-dropdown">
-                                {physModern.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
+                            <NavDropdown title="Calculus 3" id="nav-dropdown">
+                                {mathCalculus3.map(item => <NavDropdown.Item key={uuid()} eventKey={item._id} >{item.topic}</NavDropdown.Item>)}
                             </NavDropdown>
                         </Nav.Item>
                     </Nav>

@@ -6,11 +6,8 @@
     "topic":"Dynamics",
     "area":"Physics",
     "questions": [
-        {"id":1,"Q":"What is the capital of Brasil? ","A":[{"id_":1,"opt":"Brasilia","isAnswer":true},{"id_":2,"opt":"Lima","isAnswer":false},{"id_":3,"opt":"México","isAnswer":false},{"id_":4,"opt":"Carabobo","isAnswer":false}],"Points":8,"E":"This capital was established in 1876","LinkQ":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg","LinkA":"https://images.freeimages.com/images/large-previews/eaf/scatter-1582577.jpg"},
-        {"id":2,"Q":"What is the capital of Bolivia?","A":[{"id_":1,"opt":"Asunción","isAnswer":false},{"id_":2,"opt":"La Paz","isAnswer":true},{"id_":3,"opt":"La Guerra","isAnswer":false},{"id_":4,"opt":"Pereira","isAnswer":false}],"Points":9,"E":"This capital was established in 1888","LinkQ":"https://images.unsplash.com/photo-1518583396317-c4e34ac7794b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80","LinkA":"https://media.istockphoto.com/photos/light-speed-explosion-illustration-picture-id1024569566?s=612x612"},
-        {"id":3,"Q":"What is the capital of Chile?","A":[{"id_":1,"opt":"Bosa","isAnswer":false},{"id_":2,"opt":"Caracas","isAnswer":false},{"id_":3,"opt":"Santiago de Chile","isAnswer":true},{"id_":4,"opt":"Bogotá","isAnswer":false}],"Points":7,"E":"This capital was established in 1874","LinkQ":"https://media.istockphoto.com/photos/light-speed-explosion-illustration-picture-id1024569566?s=612x612","LinkA":"https://images.unsplash.com/photo-1555856539-86b6f0c66296?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=665&q=80"}
+        {"id":1,"Q":"Two bodies of mass $$m=\\,\\text{kg}$$ and $$M=2\\,\\text{kg}$$ are connected by a light inextensible string which passes through a smooth fixed pulley. If the fricction is neglected the tension of the string is:","A":[{"id_":1,"opt":"$$\\frac{1}{3}g$$","isAnswer":false},{"id_":2,"opt":"$$\\frac{1}{2}g$$","isAnswer":false},{"id_":3,"opt":"$$\\frac{2}{3}g$$","isAnswer":true},{"id_":4,"opt":"$$\\frac{1}{4}g$$","isAnswer":false}],"Points":8,"E":"The forces acting upon each body are displayed in the diagram. After applying the Newton's second law to each body we have: $$T=ma$$ and $$Mg-T=Ma$$. From these equations it follows that $$T=\\frac{mM}{m+M}g=\\frac{(2\\,\\text{kg})(3\\,\\text{kg})}{2\\,\\text{kg}+3\\,\\text{kg}}g=\\frac{2}{3}g$$.","LinkQ":"data/img/dynamics/Dynamics_01.png","LinkA":"data/img/dynamics/Dynamics_01.png"}
         
-    
         ]
     
 } 

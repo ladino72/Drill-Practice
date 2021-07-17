@@ -1,0 +1,15 @@
+{
+    "ID": 101,
+    "name": "Permutations Quiz",
+    "description":"Permutations",
+    "subject":"Algebra",
+    "topic":"Permutations",
+    "area":"Math",
+    "questions": [
+        {"id":1,"Q":"El número de palabras diferentes de 4 letras que se pueden formar con las letras A, B E y L es:","A":[{"id_":1,"opt":"$$24$$","isAnswer":true},{"id_":2,"opt":"$$32$$","isAnswer":false},{"id_":3,"opt":"$$16$$","isAnswer":false},{"id_":4,"opt":"$$12$$","isAnswer":false}],"Points":5,"E":"Tenemos 4 opciones para la primera letra, 3 opciones para la segunda letra, 2 opciones para la tercera letra y 1 opción para la cuarta letra. Por tanto, el número de palabras viene dado por $$ 4 × 3 × 2 × 1 = 4! = 24$$"},
+        {"id":2,"Q":"El valor de $$_4 \\rm P_2$$ :","A":[{"id_":1,"opt":"$$12$$","isAnswer":true},{"id_":2,"opt":"$$32$$","isAnswer":false},{"id_":3,"opt":"$$16$$","isAnswer":false},{"id_":4,"opt":"$$24$$","isAnswer":false}],"Points":5,"E":"Por definición: $$_N \\rm P_n =\\frac{N!}{(N-n)!}$$, luego $$_4 \\rm P_2=\\frac{4!}{(4-2)!}=\\frac{ 4\\times 3\\times 2\\times 1}{1\\times 2}=12$$"},
+        {"id":3,"Q":"El valor de $$_6 \\rm P_5$$:","A":[{"id_":1,"opt":"$$720$$","isAnswer":true},{"id_":2,"opt":"$$120$$","isAnswer":false},{"id_":3,"opt":"$$260$$","isAnswer":false},{"id_":4,"opt":"$$80$$","isAnswer":false}],"Points":5,"E":"Por definición: $$_N \\rm P_n=\\frac{N!}{(N-n)!}$$, luego $$_6 \\rm P_5=\\frac{6!}{(6-5)!}=\\frac{6\\times 5\\times 4\\times 3\\times 2\\times 1}{1}=720$$"},
+        {"id":4,"Q":"El valor de $$_4 \\rm P_4$$:","A":[{"id_":1,"opt":"$$24$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":5,"E":"Por definición: $$_N \\rm P_n=\\frac{N!}{(N-n)!}$$, luego $$_4 \\rm P_4=\\frac{4!}{(4-4)!}=\\frac{4\\times 3\\times 2\\times 1}{0!}=\\frac{24}{1}=24$$"}
+               
+        ]
+} 

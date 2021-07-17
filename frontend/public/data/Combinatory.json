@@ -1,0 +1,16 @@
+{
+    "ID": 102,
+    "name": "Combinatory Quiz",
+    "description":"Combinatory",
+    "subject":"Algebra",
+    "topic":"Combinatory",
+    "area":"Math",
+    "questions": [
+        {"id":1,"Q":"El valor de $$_3 \\rm C_2$$ es:","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$4$$","isAnswer":false},{"id_":4,"opt":"$$8$$","isAnswer":false}],"Points":5,"E":"Por definición: $$_N \\rm C_n=\\frac{N!}{(N-n)! n!}$$, luego $$_3 \\rm C_2=\\frac{3!}{(3-2)! 2!}=\\frac{3\\times 2\\times 1}{1\\times 1\\times 2}=3$$"},
+        {"id":2,"Q":"El valor de $$_5 \\rm C_5$$:","A":[{"id_":1,"opt":"$$1$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$5$$","isAnswer":false},{"id_":4,"opt":"$$10$$","isAnswer":false}],"Points":5,"E":"Por definición: $$_N \\rm C_n=\\frac{N!}{(N-n)! n!}$$, luego $$_5 \\rm C_5=\\frac{5!}{(5-5)! 5!}=\\frac{5\\times 4\\times 3\\times 2\\times 1}{0!\\times 5\\times 4\\times 3\\times 2\\times 1}=1$$"},
+        {"id":3,"Q":"Se requiere formar grupos de 5 en una clase de 12 estudiantes. El número de grupos diferentes que se pueden formar es:","A":[{"id_":1,"opt":"$$792$$","isAnswer":true},{"id_":2,"opt":"$$560$$","isAnswer":false},{"id_":3,"opt":"$$420$$","isAnswer":false},{"id_":4,"opt":"$$180$$","isAnswer":false},{"id_":5,"opt":"$$100$$","isAnswer":false}],"Points":5,"E":"No hay nada que indique que el orden en el que se seleccionan los miembros del grupo es importante y, por tanto, es un problema de combinación. Así, el número de grupos viene dado por $$_{12} \\rm C_5=\\frac{12!}{(12-5)! 5!}=792$$"},
+        {"id":4,"Q":"Se tienen tres puntos A, B y C no colineales en un plano, el número de lineas diferentes que se pueden trazar entre los puntos es:","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$6$$","isAnswer":false},{"id_":3,"opt":"$$5$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false},{"id_":5,"opt":"$$8$$","isAnswer":false}],"Points":5,"E":"Las lineas que se pueden trazar son: AB, AC, BA , BC, CA , CB; pero las líneas AB-BA son iguales, lo mismo sucede con las lineas AC-CA y BC-CB, luego solo resultan 3 lineas diferentes. A esta respuesta se llega al calcular $$_3 \\rm C_2=\\frac{3!}{(3-2)! 2!}=3$$"}
+
+               
+        ]
+} 
