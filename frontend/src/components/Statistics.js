@@ -65,9 +65,9 @@ const Statistics = (props) => {
     }, [alert]);
 
     useEffect(() => {
-        //We load a default test and this one is kinematic (Mechanics) whose id is "60f3783ca357fc0d2b30d3f2". This value was assigned 
+        //We load a default test and this one is kinematic (Mechanics) whose id is "60f48d2c92a8710c80fe20ca". This value was assigned 
         //by MongoDb in the "problems collection". The same is done in the hallOfFame component.
-        getStatsData("60f379bfa357fc0d2b30d3f2");
+        getStatsData("60f48d2c92a8710c80fe20ca");
     }, [getStatsData])
 
     const handleClick = (e) => {
