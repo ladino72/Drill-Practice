@@ -73,10 +73,10 @@ const HallOfFame = (props) => {
 
 
     useEffect(() => {
-        //We load a default test and this one is kinematic (Mechanics) whose id is "60f48d2c92a8710c80fe20ca". This value was assigned 
+        //We load a default test and this one is kinematic (Mechanics) whose id is "60f81547ebb7590cb79a4e37". This value was assigned 
         //by MongoDb in the "problems collection". The same is done in the statistics component.
 
-        getScores("60f48d2c92a8710c80fe20ca")
+        getScores("60f81547ebb7590cb79a4e37")
     }, [getScores]);
 
     //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
