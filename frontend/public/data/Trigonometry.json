@@ -1,0 +1,14 @@
+{
+    "ID": 3,
+    "name": "Trigonometry Quiz",
+    "description": "Identities",
+    "subject":"Algebra",
+     "topic":"Trigonometry",
+     "area":"Math",
+    "questions": [
+        {"id":1,"Q":"$$\\sin(x+y)$$ is equals to:","A":[{"id_":1,"opt":"$$\\sin(x)\\cos(y)+\\cos(x)\\sin(y)$$","isAnswer":true},{"id_":2,"opt":"$$\\sin(x)+\\sin(y)$$","isAnswer":false},{"id_":3,"opt":"$$\\sin(x)\\sin(y)+\\cos(x)\\cos(y)$$","isAnswer":false},{"id_":4,"opt":"$$\\sin(x)\\sin(y)$$","isAnswer":false}],"Points":5,"E":"$$\\sin(x+y)=\\sin(x)\\cos(y)+\\cos(x)\\sin(y)$$"},
+        {"id":2,"Q":"$$\\sin(30^{\\circ}+45^{\\circ})$$ is equals to:","A":[{"id_":1,"opt":"$$\\frac{1}{2\\sqrt{2}}(1+\\sqrt{3})$$","isAnswer":true},{"id_":2,"opt":"$$\\frac{\\sqrt{3}}{2\\sqrt{2}}$$","isAnswer":false},{"id_":3,"opt":"$$\\frac{\\sqrt{3}}{2}$$","isAnswer":false},{"id_":4,"opt":"$$\\frac{1}{2}$$","isAnswer":false}],"Points":5,"E":"Using the identity $$\\sin(x+y)=\\sin(x)\\cos(y)+\\cos(x)\\sin(y)$$ we have $$\\sin(30^{\\circ}+45^{\\circ})=\\sin(30^{\\circ})\\cos(45^{\\circ})+\\cos(30^{\\circ})\\sin(45^{\\circ})=\\frac{1}{2}\\frac{1}{\\sqrt{2}}+\\frac{\\sqrt{3}}{2}\\frac{1}{\\sqrt{2}}=\\frac{1}{2\\sqrt{2}}(1+\\sqrt{3})$$"}
+        
+        ]
+    
+} 
