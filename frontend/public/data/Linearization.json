@@ -1,0 +1,14 @@
+{
+    "ID": 200,
+    "name": "Linearization Quiz",
+    "description":"Linearization",
+    "subject":"Fundamentals",
+    "topic":"Linearization",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"Given the function $$y=10x^3+2$$. If we plot $$y$$ as a function of $$x^3$$ we obtain: ","A":[{"id_":1,"opt":"A straight line with slope  equals 10 intercepting the y-axis at $$y=2$$.","isAnswer":true},{"id_":2,"opt":"A straight line with slope  equals 3 intercepting the y-axis at $$y=2$$","isAnswer":false},{"id_":3,"opt":"A cubic curve.","isAnswer":false},{"id_":4,"opt":"A quadratic curve.","isAnswer":false}],"Points":5,"E":"If we make the change of varible $$X=x^3$$ in the equation $$y=10x^3+2$$ it becomes $$y=10X+2$$. By plotting $$y$$ as a function $$X$$ we get a straight line with slope 10 and y-intercept the point $$(0,2)$$ "}
+
+  
+        ]
+    
+} 

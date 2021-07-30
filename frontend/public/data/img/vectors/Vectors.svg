@@ -27,9 +27,9 @@
      showgrid="false"
      inkscape:current-layer="svg2"
      inkscape:document-units="px"
-     inkscape:cy="983.87928"
-     inkscape:cx="-744.31487"
-     inkscape:zoom="1.4142136"
+     inkscape:cy="-70.227805"
+     inkscape:cx="695.53952"
+     inkscape:zoom="1"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -44,6 +44,223 @@
   </sodipodi:namedview>
   <defs
      id="defs4">
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect24617"
+       is_visible="true"
+       pattern="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+       copytype="repeated"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23739"
+       is_visible="true"
+       pattern="m 893,1071.3622 67,0 0,95 -67,0"
+       copytype="repeated_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23689"
+       is_visible="true"
+       pattern="m 893,1071.3622 67,0 0,95 -67,0"
+       copytype="repeated"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23641"
+       is_visible="true"
+       pattern="m 672,1209.0625 a 83.894527,39.894527 0 0 0 -46,-6.5957 83.894527,39.894527 0 0 0 -83.89453,39.8945 83.894527,39.894527 0 0 0 83.89453,39.8946 83.894527,39.894527 0 0 0 46,-6.5918 l 0,-66.6016 z"
+       copytype="repeated_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23617"
+       is_visible="true"
+       pattern="m 672,1209.0625 a 83.894527,39.894527 0 0 0 -46,-6.5957 83.894527,39.894527 0 0 0 -83.89453,39.8945 83.894527,39.894527 0 0 0 83.89453,39.8946 83.894527,39.894527 0 0 0 46,-6.5918 l 0,-66.6016 z"
+       copytype="repeated"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect23583"
+       is_visible="true"
+       pattern="#path23593"
+       copytype="repeated"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker23059"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path23061"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker22597"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path22599"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker21021"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path21023" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path9016"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker20215"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path20217"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path9028"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker18212"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path18214"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#f20000;fill-opacity:1;fill-rule:evenodd;stroke:#f20000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker17200"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path17202"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker16578"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path16580"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#0000ed;fill-opacity:1;fill-rule:evenodd;stroke:#0000ed;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -141,7 +358,8 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
@@ -540,7 +758,8 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
@@ -1845,7 +2064,7 @@
      inkscape:connector-curvature="0"
      id="path25253"
      d="m 110.25501,993.19961 70.45785,0"
-     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.94788969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker25255)"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.94788969;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker23059)"
      inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
      inkscape:export-xdpi="92"
      inkscape:export-ydpi="92" />
@@ -4529,1392 +4748,6 @@
      font-weight="400"
      font-size="11"
      transform="matrix(0.46141258,0,0,0.46141258,262.05697,241.16445)" />
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8243"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,435.5 51.5,435.5 "
-       id="polyline8245"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,435.5 613.5,435.5 "
-       id="polyline8247"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8249"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,369.5 51.5,369.5 "
-       id="polyline8251"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,369.5 613.5,369.5 "
-       id="polyline8253"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,146.27215)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8255"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8257"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8259"
-         style="font-size:43.20990753px"> 1</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8261"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,304.5 51.5,304.5 "
-       id="polyline8263"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,304.5 613.5,304.5 "
-       id="polyline8265"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,115.72386)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8267"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8269"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 2</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8271"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,238.5 51.5,238.5 "
-       id="polyline8273"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,238.5 613.5,238.5 "
-       id="polyline8275"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,85.637918)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8277"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8279"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 3</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8281"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,173.5 51.5,173.5 "
-       id="polyline8283"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,173.5 613.5,173.5 "
-       id="polyline8285"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,55.089638)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8287"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8289"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 4</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8291"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,107.5 51.5,107.5 "
-       id="polyline8293"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,107.5 613.5,107.5 "
-       id="polyline8295"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,25.004148)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8297"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8299"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 5</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8301"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,42.5 51.5,42.5 "
-       id="polyline8303"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="618.5,42.5 613.5,42.5 "
-       id="polyline8305"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,-5.5442217)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8307"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8309"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 6</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,756.05697,-26.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8311"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,435.5 45.5,429.5 "
-       id="polyline8313"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="45.5,42.5 45.5,47.5 "
-       id="polyline8315"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,768.80259,178.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8317"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8319"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8321"
-         style="font-size:43.20990753px"> 0</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8323"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="122.5,435.5 122.5,429.5 "
-       id="polyline8325"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="122.5,42.5 122.5,47.5 "
-       id="polyline8327"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,813.97949,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8329"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8331"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8333"
-         style="font-size:43.20990753px"> 2</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8335"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="198.5,435.5 198.5,429.5 "
-       id="polyline8337"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="198.5,42.5 198.5,47.5 "
-       id="polyline8339"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,849.15666,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8341"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8343"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8345"
-         style="font-size:43.20990753px"> 4</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8347"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="274.5,435.5 274.5,429.5 "
-       id="polyline8349"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="274.5,42.5 274.5,47.5 "
-       id="polyline8351"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,884.79617,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8353"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8355"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8357"
-         style="font-size:43.20990753px"> 6</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8359"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="351.5,435.5 351.5,429.5 "
-       id="polyline8361"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="351.5,42.5 351.5,47.5 "
-       id="polyline8363"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,919.97334,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8365"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8367"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8369"
-         style="font-size:43.20990753px"> 8</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8371"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="427.5,435.5 427.5,429.5 "
-       id="polyline8373"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="427.5,42.5 427.5,47.5 "
-       id="polyline8375"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,953.76166,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8377"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8379"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 10</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8381"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="504.5,435.5 504.5,429.5 "
-       id="polyline8383"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="504.5,42.5 504.5,47.5 "
-       id="polyline8385"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,988.93837,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8387"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8389"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 12</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8391"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="580.5,435.5 580.5,429.5 "
-       id="polyline8393"
-       style="fill:none" />
-    <polyline
-       vector-effect="none"
-       points="580.5,42.5 580.5,47.5 "
-       id="polyline8395"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,1024.5783,188.83771)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8397"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8399"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"> 14</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8401"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,42.5 45.5,435.5 618.5,435.5 618.5,42.5 45.5,42.5 "
-       id="polyline8403"
-       style="fill:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0,-0.4628568,0.4628568,0,766.9998,142.06928)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8405"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8407"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none">Position x(m)</text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,822.67234,-17.142882)"
-     font-size="9"
-     font-weight="400"
-     font-style="normal"
-     id="g8413"
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1">
-    <text
-       xml:space="preserve"
-       x="0"
-       y="0"
-       font-size="9"
-       font-weight="400"
-       font-style="normal"
-       id="text8415"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"><tspan
-         id="tspan8417"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif">Position against time</tspan></text>
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8419"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#9400d3;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,435.2 45.5,435.2 51.3,425.3 57.1,415.3 62.9,405.4 68.7,395.5 74.5,385.6 80.3,375.6 86,365.7 91.8,355.8 97.6,345.9 103.4,335.9 109.2,326 115,316.1 120.8,306.2 126.6,296.2 132.4,286.3 138.2,276.4 144,266.4 149.8,256.5 155.5,246.6 161.3,236.7 167.1,226.7 172.9,216.8 178.7,206.9 184.5,197 190.3,187 196.1,177.1 201.9,167.2 207.7,157.3 213.5,147.3 219.3,137.4 225,127.5 230.8,117.5 236.6,107.6 "
-       id="polyline8421"
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8423"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#009e73;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="236.5,107.5 236.5,107.5 242.5,107.5 248.5,107.5 254.5,107.5 259.5,107.5 265.5,107.5 271.5,107.5 277.5,107.5 283.5,107.5 288.5,107.5 294.5,107.5 300.5,107.5 306.5,107.5 311.5,107.5 317.5,107.5 323.5,107.5 329.5,107.5 335.5,107.5 340.5,107.5 346.5,107.5 352.5,107.5 358.5,107.5 364.5,107.5 369.5,107.5 375.5,107.5 381.5,107.5 387.5,107.5 393.5,107.5 398.5,107.5 404.5,107.5 410.5,107.5 416.5,107.5 422.5,107.5 427.5,107.5 "
-       id="polyline8425"
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8427"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#56b4e9;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="427.8,107.6 427.8,107.6 433.6,117.5 439.4,127.5 445.1,137.4 450.9,147.3 456.7,157.3 462.5,167.2 468.3,177.1 474.1,187 479.9,197 485.7,206.9 491.5,216.8 497.3,226.7 503.1,236.7 508.9,246.6 514.6,256.5 520.4,266.4 526.2,276.4 532,286.3 537.8,296.2 543.6,306.2 549.4,316.1 555.2,326 561,335.9 566.8,345.9 572.6,355.8 578.4,365.7 584.1,375.6 589.9,385.6 595.7,395.5 601.5,405.4 607.3,415.3 613.1,425.3 618.9,435.2 "
-       id="polyline8429"
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <g
-     inkscape:export-ydpi="92"
-     inkscape:export-xdpi="92"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,-30.835552)"
-     font-size="11"
-     font-weight="400"
-     font-style="normal"
-     id="g8431"
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-    <polyline
-       vector-effect="none"
-       points="45.5,42.5 45.5,435.5 618.5,435.5 618.5,42.5 45.5,42.5 "
-       id="polyline8433"
-       style="fill:none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8435"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8437"
-       points="45.5,435.5 51.5,435.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8439"
-       points="618.5,435.5 613.5,435.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8441"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8443"
-       points="45.5,369.5 51.5,369.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8445"
-       points="618.5,369.5 613.5,369.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8447"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,392.27215)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8449"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8451"> 1</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8453"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8455"
-       points="45.5,304.5 51.5,304.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8457"
-       points="618.5,304.5 613.5,304.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8459"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,361.72386)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8461"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 2</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8463"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8465"
-       points="45.5,238.5 51.5,238.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8467"
-       points="618.5,238.5 613.5,238.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8469"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,331.63792)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8471"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 3</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8473"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8475"
-       points="45.5,173.5 51.5,173.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8477"
-       points="618.5,173.5 613.5,173.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8479"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,301.08964)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8481"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 4</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8483"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8485"
-       points="45.5,107.5 51.5,107.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8487"
-       points="618.5,107.5 613.5,107.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8489"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,271.00415)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8491"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 5</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8493"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8495"
-       points="45.5,42.5 51.5,42.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8497"
-       points="618.5,42.5 613.5,42.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8499"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,769.0169,240.45578)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8501"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 6</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8503"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,756.05697,219.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8505"
-       points="45.5,435.5 45.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8507"
-       points="45.5,42.5 45.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8509"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,768.80259,424.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8511"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8513"> 0</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8515"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8517"
-       points="122.5,435.5 122.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8519"
-       points="122.5,42.5 122.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8521"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,813.97949,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8523"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8525"> 2</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8527"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8529"
-       points="198.5,435.5 198.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8531"
-       points="198.5,42.5 198.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8533"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,849.15666,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8535"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8537"> 4</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8539"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8541"
-       points="274.5,435.5 274.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8543"
-       points="274.5,42.5 274.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8545"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,884.79617,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8547"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8549"> 6</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8551"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8553"
-       points="351.5,435.5 351.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8555"
-       points="351.5,42.5 351.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8557"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,919.97334,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8559"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-size:43.20990753px"
-         id="tspan8561"> 8</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8563"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8565"
-       points="427.5,435.5 427.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8567"
-       points="427.5,42.5 427.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8569"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,953.76166,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8571"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 10</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8573"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8575"
-       points="504.5,435.5 504.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8577"
-       points="504.5,42.5 504.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8579"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,988.93837,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8581"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 12</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8583"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8585"
-       points="580.5,435.5 580.5,429.5 "
-       vector-effect="none" />
-    <polyline
-       style="fill:none"
-       id="polyline8587"
-       points="580.5,42.5 580.5,47.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8589"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,1024.5783,434.83771)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8591"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"> 14</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8593"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8595"
-       points="45.5,42.5 45.5,435.5 618.5,435.5 618.5,42.5 45.5,42.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8597"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0,-0.4628568,0.4628568,0,766.9998,388.06928)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8599"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve">Position x(m)</text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:9px;font-family:Sans;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
-     id="g8605"
-     font-style="normal"
-     font-weight="400"
-     font-size="9"
-     transform="matrix(0.4628568,0,0,0.4628568,822.67234,228.85712)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       id="text8607"
-       font-style="normal"
-       font-weight="400"
-       font-size="9"
-       y="0"
-       x="0"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:43.20990753px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
-         id="tspan8609">Position against time</tspan></text>
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#9400d3;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="g8611"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none"
-       id="polyline8613"
-       points="45.5,435.2 45.5,435.2 51.3,425.3 57.1,415.3 62.9,405.4 68.7,395.5 74.5,385.6 80.3,375.6 86,365.7 91.8,355.8 97.6,345.9 103.4,335.9 109.2,326 115,316.1 120.8,306.2 126.6,296.2 132.4,286.3 138.2,276.4 144,266.4 149.8,256.5 155.5,246.6 161.3,236.7 167.1,226.7 172.9,216.8 178.7,206.9 184.5,197 190.3,187 196.1,177.1 201.9,167.2 207.7,157.3 213.5,147.3 219.3,137.4 225,127.5 230.8,117.5 236.6,107.6 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#009e73;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="g8615"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none"
-       id="polyline8617"
-       points="236.5,107.5 236.5,107.5 242.5,107.5 248.5,107.5 254.5,107.5 259.5,107.5 265.5,107.5 271.5,107.5 277.5,107.5 283.5,107.5 288.5,107.5 294.5,107.5 300.5,107.5 306.5,107.5 311.5,107.5 317.5,107.5 323.5,107.5 329.5,107.5 335.5,107.5 340.5,107.5 346.5,107.5 352.5,107.5 358.5,107.5 364.5,107.5 369.5,107.5 375.5,107.5 381.5,107.5 387.5,107.5 393.5,107.5 398.5,107.5 404.5,107.5 410.5,107.5 416.5,107.5 422.5,107.5 427.5,107.5 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#56b4e9;stroke-width:3.45679259;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     id="g8619"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none;stroke-width:3.45679259;stroke-miterlimit:4;stroke-dasharray:none"
-       id="polyline8621"
-       points="427.8,107.6 427.8,107.6 433.6,117.5 439.4,127.5 445.1,137.4 450.9,147.3 456.7,157.3 462.5,167.2 468.3,177.1 474.1,187 479.9,197 485.7,206.9 491.5,216.8 497.3,226.7 503.1,236.7 508.9,246.6 514.6,256.5 520.4,266.4 526.2,276.4 532,286.3 537.8,296.2 543.6,306.2 549.4,316.1 555.2,326 561,335.9 566.8,345.9 572.6,355.8 578.4,365.7 584.1,375.6 589.9,385.6 595.7,395.5 601.5,405.4 607.3,415.3 613.1,425.3 618.9,435.2 "
-       vector-effect="none" />
-  </g>
-  <g
-     style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="g8623"
-     font-style="normal"
-     font-weight="400"
-     font-size="11"
-     transform="matrix(0.4628568,0,0,0.4628568,772.05697,215.16445)"
-     inkscape:export-xdpi="92"
-     inkscape:export-ydpi="92">
-    <polyline
-       style="fill:none"
-       id="polyline8625"
-       points="45.5,42.5 45.5,435.5 618.5,435.5 618.5,42.5 45.5,42.5 "
-       vector-effect="none" />
-  </g>
   <g
      id="g4146"
      font-style="normal"
@@ -11758,4 +10591,324 @@
      font-size="11"
      style="font-style:normal;font-weight:400;font-size:11px;font-family:Ubuntu;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1"
      transform="matrix(0.42089906,0,0,0.42089901,-821.99138,-42.358842)" />
+  <g
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     style="stroke:#0a7575;stroke-opacity:1"
+     transform="matrix(0.4808987,0,0,0.4558224,105.41517,1095.3744)"
+     inkscape:label="Grid_Polar:X5:Y5"
+     id="g16476"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png">
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorXGridlines"
+       id="g16478">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 100,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv1"
+         id="path16480" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 200,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv2"
+         id="path16482" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 300,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv3"
+         id="path16484" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 400,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorXDiv4"
+         id="path16486" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MajorYGridlines"
+       id="g16488">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,100 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv1"
+         id="path16490" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,200 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv2"
+         id="path16492" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,300 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv3"
+         id="path16494" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,400 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:2;stroke-opacity:1"
+         inkscape:label="MajorYDiv4"
+         id="path16496" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorXGridlines"
+       id="g16498">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 50,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv0:1"
+         id="path16500" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 150,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv1:1"
+         id="path16502" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 250,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv2:1"
+         id="path16504" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 350,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv3:1"
+         id="path16506" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 450,0 0,500"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXDiv4:1"
+         id="path16508" />
+    </g>
+    <g
+       style="stroke:#0a7575;stroke-opacity:1"
+       inkscape:label="MinorYGridlines"
+       id="g16510">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,50 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv0:1"
+         id="path16512" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,150 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv1:1"
+         id="path16514" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,250 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv2:1"
+         id="path16516" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,350 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv3:1"
+         id="path16518" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 0,450 500,0"
+         style="fill:none;stroke:#0a7575;stroke-width:1;stroke-opacity:1"
+         inkscape:label="MinorXYiv4:1"
+         id="path16520" />
+    </g>
+    <rect
+       height="500"
+       style="fill:none;stroke:#0a7575;stroke-width:3;stroke-opacity:1"
+       width="500"
+       x="0"
+       y="0"
+       inkscape:label="Border"
+       id="rect16522" />
+  </g>
+  <path
+     inkscape:export-ydpi="92"
+     inkscape:export-xdpi="92"
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path16526"
+     d="m 153.68685,1255.2547 92.2369,-108.6474"
+     style="fill:none;fill-rule:evenodd;stroke:#f20000;stroke-width:1.98000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker18212)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path16546"
+     d="m 155.75501,1256.1996 90.40457,0"
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.98000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker16578)"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#0000ed;stroke-width:1.98000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker17200)"
+     d="m 154.05781,1254.2372 0,-109.3722"
+     id="path16548"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/proyecton-invest/Documents/Practice-RadioButtons_Super_38/backend/frontend/public/data/img/vectors/vector_01a1.png"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <ellipse
+     style="opacity:1;fill:#000000;fill-opacity:0.75294118;stroke:none;stroke-width:1.60000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="path16576"
+     cx="153.25"
+     cy="1256.3622"
+     rx="5.25"
+     ry="5"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="128.5"
+     y="1208.8622"
+     id="text19776"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan19778"
+       x="128.5"
+       y="1208.8622"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">F<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan19780">1</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="193.67038"
+     y="1281.0635"
+     id="text19776-2"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan19778-2"
+       x="193.67038"
+       y="1281.0635"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">F<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan19803">2</tspan></tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+     d="m 132,1188.3622 11,0 0,0"
+     id="path19809"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path21019"
+     d="m 195.25,1260.8622 11,0 0,0"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker21021)"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="235.67038"
+     y="1198.6122"
+     id="text19776-5"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan19778-29"
+       x="235.67038"
+       y="1198.6122"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">F=<tspan
+   style="font-size:64.99999762%;baseline-shift:sub"
+   id="tspan19780-0" /></tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker22597)"
+     d="m 239.17038,1178.1122 11,0 0,0"
+     id="path19809-2"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text23021"
+     y="1199.1122"
+     x="268.25"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+       y="1199.1122"
+       x="268.25"
+       id="tspan23023"
+       sodipodi:role="line">F<tspan
+   id="tspan23025"
+   style="font-size:64.99999762%;baseline-shift:sub">1</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path23027"
+     d="m 271.75,1178.6122 11,0 0,0"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text23035"
+     y="1199.8135"
+     x="300.17038"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+       y="1199.8135"
+       x="300.17038"
+       id="tspan23037"
+       sodipodi:role="line">F<tspan
+   id="tspan23039"
+   style="font-size:64.99999762%;baseline-shift:sub">2</tspan></tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker21021)"
+     d="m 301.75,1179.6122 11,0 0,0"
+     id="path23041"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="288.25"
+     y="1194.1122"
+     id="text23043"
+     sodipodi:linespacing="125%"
+     inkscape:export-xdpi="92"
+     inkscape:export-ydpi="92"><tspan
+       sodipodi:role="line"
+       id="tspan23045"
+       x="288.25"
+       y="1194.1122"
+       style="font-size:12.5px">+</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:17.9318924px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="142.07166"
+     y="1384.1376"
+     id="text23519"
+     sodipodi:linespacing="125%"
+     transform="scale(1.0279788,0.97278267)"><tspan
+       sodipodi:role="line"
+       id="tspan23521"
+       x="142.07166"
+       y="1384.1376">vector_03a1.png</tspan></text>
 </svg>
