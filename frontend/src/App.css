@@ -200,7 +200,7 @@ ul {
   list-style: none; }
 
 img {
-  width: 80%;
+  width: 90%;
   height: auto; }
 
 /* Utilities */
@@ -501,7 +501,7 @@ button {
     padding-left: 0.5rem;
     padding-right: 0.5rem; }
   img {
-    width: 95%; }
+    width: 99%; }
   .container {
     margin-top: 1rem; }
   .hide-sm {

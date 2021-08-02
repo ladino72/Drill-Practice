@@ -89,12 +89,12 @@ function Questions({ move }) {
                         <div className="h6 py-2 quest-body" >{pager.index + 1}. <span><InlineTex texContent={quest.Q} /></span></div>
 
                         <div className="quest-option">
-                            <div className="quest-opt" >
+                            <div className="quest-opt "  >
                                 {
                                     quest.A.map(option =>
 
                                         <div key={uuid()} >
-                                            <label className="font-weight-normal d-flex flex-row align-items-center" htmlFor={option.id}>
+                                            <label className="font-weight-normal d-flex flex-row align-items-center py-1" htmlFor={option.id}>
                                                 {/*https://react-bootstrap.netlify.app/components/input-group/#input-group-checkboxes */}
                                                 <input type="checkbox" id={option.id} checked={option.selected ? true : false} disabled={option.disabled ? true : false} onChange={() => AddandGradeQuestion(quest, option)} /> <span style={{ fontSize: "0.9rem", marginLeft: "0.25rem" }} ><InlineTex texContent={option.opt} /></span>
                                             </label>
