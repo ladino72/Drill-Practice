@@ -1,0 +1,13 @@
+{
+    "ID": 11,
+    "name": "Static Quiz",
+    "description": "Static",
+    "subject":"Mechanics",
+    "topic":"Static",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"A 60 kg worker stands 1.5 m away from one end of a uniform 4 m long scaffold of mass 80 kg. The tensions in the two vertical ropes supporting the scaffold are: ($$g=9.8\\,\\text{m/s}^2$$)","A":[{"id_":1,"opt":"55g and 85g","isAnswer":true},{"id_":2,"opt":"50 and 90g","isAnswer":false},{"id_":3,"opt":"45g and 95g","isAnswer":false},{"id_":4,"opt":"75g and 65g","isAnswer":false}],"Points":5,"E":"The forces acting on the scaffold are shown in the figure. As the system is in equilibrium it fulfills $$\\\\ \\sum \\vec{F}_i=\\vec{0} \\qquad \\sum \\vec{\\tau}_i=\\vec{0}\\\\$$ After applying these conditions we have $$\\\\  \\Big\\{ \\begin{smallmatrix}T_1+T_2-N-Mg & = & 0\\\\mgx+Mg\\frac{x+y}{2}-T_2(x+y) & = & 0\\end{smallmatrix} \\\\$$ Notice that $$N=mg$$ and the torques are evaluated with respect to point O. From these equations: $$\\\\ \\Big\\{ \\begin{smallmatrix}T_1 & = & (m+\\frac{M}{2})g-\\frac{mgx}{x+y}\\\\T_2 & = & \\frac{M}{2}g+\\frac{mgx}{x+y}\\end{smallmatrix}\\\\$$ By plugging values back into the previous expressions:$$\\\\ T_1=55g\\,,T_2=85g$$, where $$g=9.8\\,\\text{m/s}^2$$","LinkQ":"data/img/static/Static_01.png","LinkA":"data/img/static/Static_01a1.png"}
+         ]
+                
+         
+}
