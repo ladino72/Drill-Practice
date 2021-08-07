@@ -1,0 +1,17 @@
+{
+    "ID": 105,
+    "name": "Circle equation Quiz",
+    "description":"Circle equation.",
+    "subject":"Algebra",
+    "topic":"Circles",
+    "area":"Math",
+    "questions": [
+        {"id":1,"Q":"The equation of the circle 1 shown in the figure is: ","A":[{"id_":1,"opt":"$$(x-5)^2+(y+5)^2=16$$","isAnswer":true},{"id_":2,"opt":"$$(x-5)^2+(y-5)^2=16$$","isAnswer":false},{"id_":3,"opt":"$$(x+5)^2+(y+5)^2=16$$","isAnswer":false},{"id_":4,"opt":"$$(x+5)^2+(y-5)^2=16$$","isAnswer":false}],"Points":5,"E":"The equation of the circle of radius $$R$$ with center at $$(h,k)$$ is $$(x-h)+(y-k)=R^2$$. In this case $$(h,k)=(5,-5)$$ and $$R=4$$","LinkQ":"data/img/circles/Circles_01.png"},
+        {"id":2,"Q":"The equation of the circle 2 shown in the figure is: ","A":[{"id_":1,"opt":"$$(x+3)^2+(y+3)^2=9$$","isAnswer":true},{"id_":2,"opt":"$$(x-3)^2+(y-3)^2=9$$","isAnswer":false},{"id_":3,"opt":"$$(x+3)^2+(y+3)^2=9$$","isAnswer":false},{"id_":4,"opt":"$$(x+3)^2+(y-3)^2=9$$","isAnswer":false}],"Points":5,"E":"The equation of the circle of radius $$R$$ with center at $$(h,k)$$ is $$(x-h)+(y-k)=R^2$$. In this case $$(h,k)=(-3,-3)$$ and $$R=3$$","LinkQ":"data/img/circles/Circles_01.png"},
+        {"id":3,"Q":"The equation of the circle 3 shown in the figure is: ","A":[{"id_":1,"opt":"$$(x-2)^2+(y-3)^2=1$$","isAnswer":true},{"id_":2,"opt":"$$(x-2)^2+(y-3)^2=1$$","isAnswer":false},{"id_":3,"opt":"$$(x+3)^2+(y+2)^2=1$$","isAnswer":false},{"id_":4,"opt":"$$(x+3)^2+(y-2)^2=1$$","isAnswer":false}],"Points":5,"E":"The equation of the circle of radius $$R$$ with center at $$(h,k)$$ is $$(x-h)+(y-k)=R^2$$. In this case $$(h,k)=(2,3)$$ and $$R=1$$","LinkQ":"data/img/circles/Circles_01.png"},
+        {"id":4,"Q":"The equation of the circle 4 shown in the figure is: ","A":[{"id_":1,"opt":"$$(x-7)^2+(y-8)^4=4$$","isAnswer":true},{"id_":2,"opt":"$$(x-8)^2+(y-7)^2=4$$","isAnswer":false},{"id_":3,"opt":"$$(x+7)^2+(y+8)^2=4$$","isAnswer":false},{"id_":4,"opt":"$$(x+7)^2+(y-8)^2=4$$","isAnswer":false}],"Points":5,"E":"The equation of the circle of radius $$R$$ with center at $$(h,k)$$ is $$(x-h)+(y-k)=R^2$$. In this case $$(h,k)=(7,8)$$ and $$R=2$$","LinkQ":"data/img/circles/Circles_01.png"},
+        {"id":5,"Q":"The equation of the circle 5 shown in the figure is: ","A":[{"id_":1,"opt":"$$(x+3)^2+(y+3)^2=9$$","isAnswer":true},{"id_":2,"opt":"$$(x+6)^2+(y-7)^2=4$$","isAnswer":false},{"id_":3,"opt":"$$(x+6)^2+(y+7)^2=4$$","isAnswer":false},{"id_":4,"opt":"$$(x+6)^2+(y-7)^2=4$$","isAnswer":false}],"Points":5,"E":"The equation of the circle of radius $$R$$ with center at $$(h,k)$$ is $$(x-h)+(y-k)=R^2$$. In this case $$(h,k)=(-6,7)$$ and $$R=2$$","LinkQ":"data/img/circles/Circles_01.png"}
+
+        
+        ]
+} 
