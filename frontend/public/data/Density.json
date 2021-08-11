@@ -1,0 +1,15 @@
+{
+    "ID": 150,
+    "name": "Density Quiz",
+    "description":"Density",
+    "subject":"Fundamentals",
+    "topic":"Density",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"If the mass per unit area of a uniform plate is $$sigma$$, the mass of the shaded surface of the figure shown is: ","A":[{"id_":1,"opt":"$$\\sigma L^2(1-\\frac{3\\pi}{16})$$","isAnswer":true},{"id_":2,"opt":"$$\\sigma L^2(1-\\frac{3\\pi}{8})$$","isAnswer":false},{"id_":3,"opt":"$$\\sigma L^2(1-\\frac{\\pi}{4})$$","isAnswer":false},{"id_":4,"opt":"$$\\sigma L^2(1-\\frac{3\\pi}{4})$$","isAnswer":false}],"Points":5,"E":"The area of the shaded surface is $$A=L^2-\\pi\\frac{(\\frac{L}{2})^2 }{2}-2(\\pi\\frac{(\\frac{L}{4})^2 }{2})= L^2(1-\\frac{3\\pi}{16})\\\\$$ Thus, the mass of the shaded area is $$m=\\sigma A=\\sigma L^2(1-\\frac{3\\pi}{16})$$","LinkQ":"data/img/fundamentals/Fundamentals_01.png"},
+        {"id":2,"Q":"A machinist used a drill to bore a cylindrical hole of diameter $$d$$ and length $$L$$ on a piece of metal of density $$\\rho$$. The mass of the resulting part is: ","A":[{"id_":1,"opt":"$$\\rho L (L^2-\\pi \\frac{d^2}{4})$$","isAnswer":true},{"id_":2,"opt":"$$\\rho(L^3-\\pi d^3)$$","isAnswer":false},{"id_":3,"opt":"$$\\rho L (L^2-\\frac{\\pi d^2}{2})$$","isAnswer":false},{"id_":4,"opt":"$$\\rho L(L^2-\\frac{\\pi d^2}{3})$$","isAnswer":false}],"Points":5,"E":"The mass of the machined part is $$m=\\rho V$$ where $$V$$ is its volume. From the figure, $$V=L^3-\\pi (\\frac{d}{2})^2L\\\\$$ Thus, $$m=\\rho L(L^2-\\pi \\frac{d^2}{4})$$","LinkQ":"data/img/fundamentals/Fundamentals_02.png"},
+        {"id":3,"Q":"An engineer wants to find the density of a solid metal dodecahedron. In order to get it, he put the part in a graduate cylinder containing water as shown in the figure. If the mass of the solid is  $$m=17.92\\,\\text{g}$$, the density of the metal used is:","A":[{"id_":1,"opt":"$$8.96\\,\\text{g/cm}^3$$","isAnswer":true},{"id_":2,"opt":"$$7.28\\,\\text{g/cm}^3$$","isAnswer":false},{"id_":3,"opt":"$$6.28\\,\\text{g/cm}^3$$","isAnswer":false},{"id_":4,"opt":"$$2.70\\,\\text{g/cm}^3$$","isAnswer":false}],"Points":5,"E":"The density is given by $$\\rho=\\frac{m}{V}$$ where $$V=20\\,\\text{cm}^3$$ is the dodecahedron volume obtained from the graduated cylinder marks. Thus, $$\\\\ \\rho=\\frac{17.92\\,\\text{g}}{20\\,\\text{cm}^3}=8.96\\,g/cm^3$$","LinkQ":"data/img/fundamentals/Fundamentals_03.png"}
+
+        ]
+    
+} 
