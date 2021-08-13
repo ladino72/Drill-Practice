@@ -1,0 +1,15 @@
+{
+    "ID": 160,
+    "name": "Conversions Quiz",
+    "description":"Conversions",
+    "subject":"Fundamentals",
+    "topic":"Conversions",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":" The result of converting 1 km to inches is:","A":[{"id_":1,"opt":"$$39370.1\\,\\text{in}$$","isAnswer":true},{"id_":2,"opt":"$$12897.3\\,\\text{in}$$","isAnswer":false},{"id_":3,"opt":"$$25400\\,\\text{in}$$","isAnswer":false},{"id_":4,"opt":"$$5879.4\\,\\text{in}$$","isAnswer":false}],"Points":5,"E":"$$1\\,\\text{km}=1\\,\\cancel{\\color{green}\\text{km}}\\times\\frac{1000\\,\\color{blue}\\cancel{\\text{m}}}{1\\,\\color{green}\\cancel{\\text{km}}}\\times\\frac{100\\,\\color{red}\\cancel{\\text{cm}}}{1\\,\\color{blue}\\cancel{\\text{m}}}\\times\\frac{1\\,\\text{in}}{2.54\\,\\color{red}\\cancel{\\text{cm}}}=\\color{black}39370.1\\,\\text{in}$$"},
+        {"id":2,"Q":"A student averaged 36 kilometers per hour on a trip. The student’s speed in meter per second is:","A":[{"id_":1,"opt":"$$10\\,\\text{m/s}$$","isAnswer":true},{"id_":2,"opt":"$$36\\,\\text{m/s}$$","isAnswer":false},{"id_":3,"opt":"$$12\\,\\text{m/s}$$","isAnswer":false},{"id_":4,"opt":"$$72\\,\\text{m/s}$$","isAnswer":false}],"Points":5,"E":"$$36\\,\\frac{\\text{km}}{\\text{h}}=36\\,\\frac{\\color{green}\\cancel{\\text{km}}}{\\color{red}\\cancel{\\text{h}}}\\times  \\frac{1000\\,\\text{m}}{1\\,\\color{green}\\cancel{\\text{km}}}\\times\\frac{1\\,\\color{red}\\cancel{\\text{h}}}{3600\\,{\\text{s}}}=\\color{black}36\\,\\text{m/s}$$"},
+        {"id":3,"Q":"The density of water is $$1\\,\\frac{\\text{g}}{\\text{cm}^3}$$:","A":[{"id_":1,"opt":"$$1000\\,\\frac{\\text{kg}}{\\text{m}^3}$$","isAnswer":true},{"id_":2,"opt":"$$500\\,\\frac{\\text{kg}}{\\text{m}^3}$$","isAnswer":false},{"id_":3,"opt":"$$100\\,\\frac{\\text{kg}}{\\text{m}^3}$$","isAnswer":false},{"id_":4,"opt":"$$10\\,\\frac{\\text{kg}}{\\text{m}^3}$$","isAnswer":false}],"Points":5,"E":"$$1\\,\\frac{\\text{g}}{\\text{cm}^3}=1\\,\\frac{\\text{g}}{\\text{cm}^3}\\times \\frac{1\\,\\text{kg}}{1000\\,\\text{g}}\\times \\Big(\\frac{100\\,\\text{cm}}{1\\,\\text{m}}\\Big)^3=1\\,\\frac{\\color{red}\\cancel{\\text{g}}}{\\color{blue}\\cancel{\\text{cm}^3}}\\times \\frac{1\\,\\text{kg}}{1000\\,\\color{red}\\cancel{\\text{g}}}\\times \\Big(\\frac{100^3\\,\\color{blue}\\cancel{\\text{cm}^3}}{1\\,\\text{m}^3}\\Big)=1000\\,\\frac{\\text{kg}}{\\text{m}^3 }$$"}
+        
+        ]
+    
+} 
