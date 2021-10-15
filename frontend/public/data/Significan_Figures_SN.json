@@ -1,0 +1,23 @@
+{
+    "ID": 162,
+    "name": "Significant figures in scientific notatation Quiz",
+    "description":"Significant figures in scientific notatation",
+    "subject":"Fundamentals",
+    "topic":"Significant figures, P.2",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"The number of significant figures of $$1.258\\times 10^5$$ is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^5 $$ is ignored, the number of significant figures of 1.258 is 4."},
+        {"id":2,"Q":"The number of significant figures of $$1.20\\times 10^3$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^3 $$ is ignored, the number of significant figures of 1.20 is 3. In a decimal number trailing zeros count as siggnificant figures."},
+        {"id":3,"Q":"The number of significant figures of $$2.05\\times 10^4$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^4 $$ is ignored, the number of significant figures of 2.05 is 3. The zero between 2 and 5 count as a significant figure."},
+        {"id":4,"Q":"The number of significant figures of $$1.00\\times 10^3$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^3 $$ is ignored, the number of significant figures of 1.00 is 3. In a decimal number trailing zeros count as a significant figures."},
+        {"id":5,"Q":"The number of significant figures of $$2.50\\times 10^{-5}$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{-5} $$ is ignored, the number of significant figures of 2.50 is 3. In a decimal number trailing zeros count as a significant figures."},
+        {"id":6,"Q":"The number of significant figures of $$3.85\\times 10^{-3}$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{-3} $$ is ignored, the number of significant figures of 3.85 is 3. In a decimal number trailing zeros and non null digits count as a significant figures."},
+        {"id":7,"Q":"The number of significant figures of $$3.80\\times 10^{-3}$$ is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$0$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{-3} $$ is ignored, the number of significant figures of 3.80 is 3. In a decimal number trailing zeros and non null digits count as a significant figures."},
+        {"id":8,"Q":"The number of significant figures of $$3.800\\times 10^{-3}$$ is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$2$$","isAnswer":false},{"id_":4,"opt":"$$1$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{-3} $$ is ignored, the number of significant figures of 3.800 is 4. In a decimal number trailing zeros and non null digits count as a significant figures."},
+        {"id":9,"Q":"The number of significant figures of $$1.5000\\times 10^6$$ is: ","A":[{"id_":1,"opt":"$$5$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$4$$","isAnswer":false},{"id_":4,"opt":"$$2$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{6} $$ is ignored, the number of significant figures of 3.800 is 5. In a decimal number trailing zeros and non null digits count as a significant figures."},
+        {"id":10,"Q":"The number of significant figures of $$-3.550\\times 10^{-5}$$ is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$5$$","isAnswer":false},{"id_":4,"opt":"$$2$$","isAnswer":false}],"Points":5,"E":"The multiplier $$10^{-5} $$ is ignored, the number of significant figures of -3.550 is 4. In a decimal number trailing zeros and non null digits count as a significant figures."}
+
+  
+
+        ]
+} 

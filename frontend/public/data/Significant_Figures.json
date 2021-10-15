@@ -1,0 +1,37 @@
+{
+    "ID": 163,
+    "name": "Significant figures Quiz",
+    "description":"Significant figures",
+    "subject":"Fundamentals",
+    "topic":"Significant figures, P.1",
+    "area":"Physics",
+    "questions": [
+        {"id":1,"Q":"The number of significant figures of 176 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"Non-zero digits are always significant and zeros between non-zero digits are always significant."},
+        {"id":2,"Q":"The number of significant figures of 2365 is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$5$$","isAnswer":false}],"Points":5,"E":"Non-zero digits are always significant and zeros between non-zero digits are always significant."},
+        {"id":3,"Q":"The number of significant figures of 301 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":5,"E":"Non-zero digits are always significant and zeros between non-zero digits are always significant."},
+        {"id":4,"Q":"The number of significant figures of 3010 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"Trailing zeros are only significant if the number contains a decimal point."},
+        {"id":5,"Q":"The number of significant figures of 30100 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$5$$","isAnswer":false}],"Points":5,"E":"Trailing zeros are only significant if the number contains a decimal point."},
+        {"id":6,"Q":"The number of significant figures of 6000 is: ","A":[{"id_":1,"opt":"$$1$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"Trailing zeros are only significant if the number contains a decimal point."},
+        {"id":7,"Q":"The number of significant figures of 600 is: ","A":[{"id_":1,"opt":"$$1$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"Trailing zeros are only significant if the number contains a decimal point."},
+        {"id":8,"Q":"The number of significant figures of 60 is: ","A":[{"id_":1,"opt":"$$1$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"Trailing zeros are only significant if the number contains a decimal point."},
+        {"id":9,"Q":"The number of significant figures of 60. is: ","A":[{"id_":1,"opt":"$$2$$","isAnswer":true},{"id_":2,"opt":"$$1$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":5,"E":"In a decimal number, trailing zeros always are sinificant."},
+        {"id":10,"Q":"The number of significant figures of 60.0 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$0$$","isAnswer":false}],"Points":5,"E":"In a decimal number, trailing zeros always are sinificant."},
+        {"id":11,"Q":"The number of significant figures of 60.00 is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$3$$","isAnswer":false}],"Points":5,"E":"In a decimal number, trailing zeros always are sinificant."},
+        {"id":12,"Q":"The number of significant figures of 60.50 is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$3$$","isAnswer":false}],"Points":5,"E":"In a decimal number, trailing zeros always are sinificant."},
+        {"id":13,"Q":"The number of significant figures of 60.500 is: ","A":[{"id_":1,"opt":"$$5$$","isAnswer":true},{"id_":2,"opt":"$$2$$","isAnswer":false},{"id_":3,"opt":"$$1$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"In a decimal number, trailing zeros always are sinificant."},
+        {"id":14,"Q":"The number of significant figures of 0.052 is: ","A":[{"id_":1,"opt":"$$2$$","isAnswer":true},{"id_":2,"opt":"$$1$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$4$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures. "},
+        {"id":15,"Q":"The number of significant figures of 0.0520 is: ","A":[{"id_":1,"opt":"$$3$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$5$$","isAnswer":false},{"id_":4,"opt":"$$2$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures but trailing zeros do."},
+        {"id":16,"Q":"The number of significant figures of 0.05020 is: ","A":[{"id_":1,"opt":"$$4$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$5$$","isAnswer":false},{"id_":4,"opt":"$$6$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures but trailing zeros do."},
+        {"id":17,"Q":"The number of significant figures of 0.050201 is: ","A":[{"id_":1,"opt":"$$5$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$6$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures but trailing zeros do."},
+        {"id":18,"Q":"The number of significant figures of 0.050201 is: ","A":[{"id_":1,"opt":"$$5$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$6$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures but trailing zeros do."},
+        {"id":19,"Q":"The number of significant figures of 0.0050 is: ","A":[{"id_":1,"opt":"$$2$$","isAnswer":true},{"id_":2,"opt":"$$3$$","isAnswer":false},{"id_":3,"opt":"$$4$$","isAnswer":false},{"id_":4,"opt":"$$5$$","isAnswer":false}],"Points":5,"E":"In a decimal number, leading zeros are never significant figures but trailing zeros do."},
+        {"id":20,"Q":"The number of significant figures of -2.5806 is: ","A":[{"id_":1,"opt":"$$5$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$6$$","isAnswer":false}],"Points":5,"E":"In a decimal number, inbetween non zero digits zero count as a significant figure."},
+        {"id":21,"Q":"The number of significant figures of 90000 is: ","A":[{"id_":1,"opt":"$$1$$","isAnswer":true},{"id_":2,"opt":"$$4$$","isAnswer":false},{"id_":3,"opt":"$$3$$","isAnswer":false},{"id_":4,"opt":"$$5$$","isAnswer":false}],"Points":5,"E":" In an integer number, trailing zeros ($$9 \\color{red}0000\\color{black}$$) do no count as significant figures."}
+
+
+         
+
+            
+
+        ]
+} 
