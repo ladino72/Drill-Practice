@@ -66,14 +66,17 @@ function Questions({ move }) {
 
 
     }
-
+    const handlerCopy = (e) => {
+        e.preventDefault();
+        alert("Don't copy it!");
+    }
 
     //Here we use callback Hook The next site explain very clearly the reason to use it
     //https://www.youtube.com/watch?v=IL82CzlaCys
     //let questions = questions ?questions.slice(pager.index, pager.index + pager.size) : [];
 
     return (
-        <div className="questions-wrapper">
+        <div className="questions-wrapper" onCopy={handlerCopy} onCut={handlerCopy} onPaste={handlerCopy}>
 
             <div className="header header-items" >
                 <div className="header-item-1">{quiz.name}</div>
