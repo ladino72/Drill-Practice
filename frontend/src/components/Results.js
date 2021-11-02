@@ -86,9 +86,14 @@ const Results = () => {
     dispatch(QuizSubmitActionCreator("quiz"));
   }
 
+  const handlerCopy = (e) => {
+    e.preventDefault();
+
+  }
+
   return (
 
-    <div >
+    <div onCut={handlerCopy} onPaste={handlerCopy} onSelect={handlerCopy} >
 
       <div className="header header-items" >
         <div className="header-item-1">{quiz.name}</div>
@@ -99,7 +104,7 @@ const Results = () => {
       {questions.map((quest, index) => {
 
         return (
-          <div>
+          <div onCopy={handlerCopy}>
             {answer_sheet[index] !== undefined && answer_sheet[index].A !== null ?
               <div key={uuid()} className="results-wrapper border-right border-left border-success p-3 mb-2 bg-light text-dark">
 
