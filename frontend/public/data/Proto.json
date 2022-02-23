@@ -1,0 +1,23 @@
+{
+    "ID":1,
+    "name":"Kinematics Quiz",
+    "description":"Kinematics",
+    "subject":"Mechanics",
+    "topic":"Kinematics",
+    "area":"Physics",
+    "questions": [
+        {"id":1,
+        "Q":"The graph shows the position against time for a body moving along the x-axis, the speed of the body at $$t=5\\,\\text{s}$$ is:",
+        "A":[{"id_":1,"opt":"$$0\\,\\text{m/s}$$","isAnswer":true},{"id_":2,"opt":"$$3\\,\\text{m/s}$$","isAnswer":false}],
+        "Points":4,
+        "E":"The speed is given by the slope of the curve at $$t=5\\,\\text{s}$$, which is zero:",
+        "LinkQ":"data/img/kinematics/kinematic_01.png"},
+        {"id":2,
+        "Q":"The graph shows the position against time for a body moving along the x-axis, the speed of the body at $$t=8\\,\\text{s}$$ is:",
+        "A":[{"id_":1,"opt":"$$-\\frac{8}{3}\\,\\text{m/s}$$","isAnswer":true},{"id_":2,"opt":"$$5\\,\\text{m/s}$$","isAnswer":false}],
+        "Points":5,
+        "E":"The speed is given by the slope of the curve at $$t=8\\,\\text{s}$$, i.e., $$-\\frac{\\Delta x}{\\Delta t}=-\\frac{8}{3}\\,\\text{m/s}$$",
+        "LinkQ":"data/img/kinematics/kinematic_01.png",
+        "LinkA":"data/img/kinematics/kinematic_01a2.png"}
+    ]
+}
